@@ -1,0 +1,2870 @@
+virtualenv metalazy
+Loading folds
+FOLD 0
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/train0.gz
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/test0.gz
+[{'n_neighbors': [100], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 0
+METALAZY - KNN fit: 0.0042192935943603516
+METALAZY - Choose weaker fit: 393.0510106086731
+METALAZY - KNN neighbours: 1.3285140991210938
+INTERNAL TIME copy: 0.733165979385376 - 0%
+INTERNAL TIME cooc: 0.0025131702423095703 - 0%
+INTERNAL TIME weight: 0.030941486358642578 - 0%
+INTERNAL TIME pred: 87.01738619804382 - 99%
+INTERNAL TIME total: 87.78400683403015 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7333626747131348 - 0%
+INTERNAL TIME cooc: 0.002548694610595703 - 0%
+INTERNAL TIME weight: 0.0313413143157959 - 0%
+INTERNAL TIME pred: 88.73571848869324 - 99%
+INTERNAL TIME total: 89.50297117233276 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7260618209838867 - 0%
+INTERNAL TIME cooc: 0.00251007080078125 - 0%
+INTERNAL TIME weight: 0.031090259552001953 - 0%
+INTERNAL TIME pred: 90.69901657104492 - 99%
+INTERNAL TIME total: 91.45867872238159 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6869215965270996 - 0%
+INTERNAL TIME cooc: 0.002396106719970703 - 0%
+INTERNAL TIME weight: 0.029253721237182617 - 0%
+INTERNAL TIME pred: 101.84043526649475 - 99%
+INTERNAL TIME total: 102.559006690979 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7050094604492188 - 0%
+INTERNAL TIME cooc: 0.0025124549865722656 - 0%
+INTERNAL TIME weight: 0.02986621856689453 - 0%
+INTERNAL TIME pred: 110.31249070167542 - 99%
+INTERNAL TIME total: 111.0498788356781 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7076928615570068 - 0%
+INTERNAL TIME cooc: 0.0024628639221191406 - 0%
+INTERNAL TIME weight: 0.029909610748291016 - 0%
+INTERNAL TIME pred: 122.55351972579956 - 99%
+INTERNAL TIME total: 123.29358506202698 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.693964958190918 - 0%
+INTERNAL TIME cooc: 0.0023870468139648438 - 0%
+INTERNAL TIME weight: 0.029309511184692383 - 0%
+INTERNAL TIME pred: 124.33323788642883 - 99%
+INTERNAL TIME total: 125.05889940261841 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 143.31103420257568 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.003198385238647461
+METALAZY - Choose weaker fit: 403.18387246131897
+METALAZY - KNN neighbours: 1.3100166320800781
+INTERNAL TIME copy: 0.728116512298584 - 0%
+INTERNAL TIME cooc: 0.002471446990966797 - 0%
+INTERNAL TIME weight: 0.030936717987060547 - 0%
+INTERNAL TIME pred: 82.5580883026123 - 99%
+INTERNAL TIME total: 83.31961297988892 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7331249713897705 - 0%
+INTERNAL TIME cooc: 0.002490520477294922 - 0%
+INTERNAL TIME weight: 0.03128457069396973 - 0%
+INTERNAL TIME pred: 90.1914324760437 - 99%
+INTERNAL TIME total: 90.95833253860474 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7382187843322754 - 0%
+INTERNAL TIME cooc: 0.0025038719177246094 - 0%
+INTERNAL TIME weight: 0.03160738945007324 - 0%
+INTERNAL TIME pred: 95.80747079849243 - 99%
+INTERNAL TIME total: 96.5798008441925 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7016739845275879 - 0%
+INTERNAL TIME cooc: 0.0024347305297851562 - 0%
+INTERNAL TIME weight: 0.030100584030151367 - 0%
+INTERNAL TIME pred: 107.47862434387207 - 99%
+INTERNAL TIME total: 108.2128336429596 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6828114986419678 - 0%
+INTERNAL TIME cooc: 0.0024039745330810547 - 0%
+INTERNAL TIME weight: 0.029237985610961914 - 0%
+INTERNAL TIME pred: 110.2258768081665 - 99%
+INTERNAL TIME total: 110.94033026695251 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7459299564361572 - 0%
+INTERNAL TIME cooc: 0.002488851547241211 - 0%
+INTERNAL TIME weight: 0.03134727478027344 - 0%
+INTERNAL TIME pred: 110.3803780078888 - 99%
+INTERNAL TIME total: 111.16014409065247 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6876652240753174 - 0%
+INTERNAL TIME cooc: 0.002315521240234375 - 0%
+INTERNAL TIME weight: 0.02851390838623047 - 0%
+INTERNAL TIME pred: 125.78752613067627 - 99%
+INTERNAL TIME total: 126.50602078437805 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6685967445373535 - 0%
+INTERNAL TIME cooc: 0.002280712127685547 - 0%
+INTERNAL TIME weight: 0.027939796447753906 - 0%
+INTERNAL TIME pred: 135.59608030319214 - 99%
+INTERNAL TIME total: 136.29489755630493 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 137.16740798950195 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0031845569610595703
+METALAZY - Choose weaker fit: 414.22359132766724
+METALAZY - KNN neighbours: 1.3346800804138184
+INTERNAL TIME copy: 0.7358317375183105 - 0%
+INTERNAL TIME cooc: 0.002508878707885742 - 0%
+INTERNAL TIME weight: 0.03162074089050293 - 0%
+INTERNAL TIME pred: 89.71714663505554 - 99%
+INTERNAL TIME total: 90.48710799217224 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7413697242736816 - 0%
+INTERNAL TIME cooc: 0.002564668655395508 - 0%
+INTERNAL TIME weight: 0.031682491302490234 - 0%
+INTERNAL TIME pred: 90.17213082313538 - 99%
+INTERNAL TIME total: 90.94774770736694 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7291369438171387 - 0%
+INTERNAL TIME cooc: 0.002475261688232422 - 0%
+INTERNAL TIME weight: 0.031415700912475586 - 0%
+INTERNAL TIME pred: 91.70399332046509 - 99%
+INTERNAL TIME total: 92.46702122688293 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7005553245544434 - 0%
+INTERNAL TIME cooc: 0.0024025440216064453 - 0%
+INTERNAL TIME weight: 0.029830455780029297 - 0%
+INTERNAL TIME pred: 106.63352227210999 - 99%
+INTERNAL TIME total: 107.36631059646606 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7053718566894531 - 0%
+INTERNAL TIME cooc: 0.0024759769439697266 - 0%
+INTERNAL TIME weight: 0.03007817268371582 - 0%
+INTERNAL TIME pred: 107.8451759815216 - 99%
+INTERNAL TIME total: 108.58310198783875 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7006356716156006 - 0%
+INTERNAL TIME cooc: 0.0024335384368896484 - 0%
+INTERNAL TIME weight: 0.029866695404052734 - 0%
+INTERNAL TIME pred: 114.9380214214325 - 99%
+INTERNAL TIME total: 115.67095732688904 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6848001480102539 - 0%
+INTERNAL TIME cooc: 0.002367734909057617 - 0%
+INTERNAL TIME weight: 0.028652429580688477 - 0%
+INTERNAL TIME pred: 127.93690609931946 - 99%
+INTERNAL TIME total: 128.65272641181946 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.667811393737793 - 0%
+INTERNAL TIME cooc: 0.0022687911987304688 - 0%
+INTERNAL TIME weight: 0.027876853942871094 - 0%
+INTERNAL TIME pred: 143.8063714504242 - 99%
+INTERNAL TIME total: 144.5043284893036 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 145.3740110397339 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0032999515533447266
+METALAZY - Choose weaker fit: 406.5570740699768
+METALAZY - KNN neighbours: 1.3289649486541748
+INTERNAL TIME copy: 0.7659206390380859 - 0%
+INTERNAL TIME cooc: 14.611706972122192 - 13%
+INTERNAL TIME weight: 0.03242897987365723 - 0%
+INTERNAL TIME pred: 89.87827777862549 - 85%
+INTERNAL TIME total: 105.28833436965942 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7610523700714111 - 0%
+INTERNAL TIME cooc: 14.61293649673462 - 13%
+INTERNAL TIME weight: 0.032804250717163086 - 0%
+INTERNAL TIME pred: 91.83363604545593 - 85%
+INTERNAL TIME total: 107.24042916297913 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7630534172058105 - 0%
+INTERNAL TIME cooc: 14.609941244125366 - 13%
+INTERNAL TIME weight: 0.032778263092041016 - 0%
+INTERNAL TIME pred: 95.4201192855835 - 86%
+INTERNAL TIME total: 110.82589221000671 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7339761257171631 - 0%
+INTERNAL TIME cooc: 13.979598045349121 - 11%
+INTERNAL TIME weight: 0.030512094497680664 - 0%
+INTERNAL TIME pred: 106.30452179908752 - 87%
+INTERNAL TIME total: 121.04860806465149 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7440891265869141 - 0%
+INTERNAL TIME cooc: 14.230570077896118 - 10%
+INTERNAL TIME weight: 0.03085017204284668 - 0%
+INTERNAL TIME pred: 114.69437503814697 - 88%
+INTERNAL TIME total: 129.69988441467285 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7288713455200195 - 0%
+INTERNAL TIME cooc: 13.875880479812622 - 9%
+INTERNAL TIME weight: 0.029898405075073242 - 0%
+INTERNAL TIME pred: 126.06382846832275 - 89%
+INTERNAL TIME total: 140.69847869873047 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7184171676635742 - 0%
+INTERNAL TIME cooc: 13.628161191940308 - 9%
+INTERNAL TIME weight: 0.029379844665527344 - 0%
+INTERNAL TIME pred: 128.19235968589783 - 89%
+INTERNAL TIME total: 142.56831789016724 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6917786598205566 - 0%
+INTERNAL TIME cooc: 13.185452222824097 - 8%
+INTERNAL TIME weight: 0.027965784072875977 - 0%
+INTERNAL TIME pred: 145.14725708961487 - 91%
+INTERNAL TIME total: 159.0524537563324 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 159.9184489250183 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0031919479370117188
+METALAZY - Choose weaker fit: 405.63334131240845
+METALAZY - KNN neighbours: 1.3131427764892578
+INTERNAL TIME copy: 0.7652549743652344 - 0%
+INTERNAL TIME cooc: 14.511225461959839 - 14%
+INTERNAL TIME weight: 0.03311777114868164 - 0%
+INTERNAL TIME pred: 84.68423795700073 - 84%
+INTERNAL TIME total: 99.99383616447449 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7426962852478027 - 0%
+INTERNAL TIME cooc: 14.090266704559326 - 13%
+INTERNAL TIME weight: 0.03201174736022949 - 0%
+INTERNAL TIME pred: 88.97764563560486 - 85%
+INTERNAL TIME total: 103.84262037277222 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7476892471313477 - 0%
+INTERNAL TIME cooc: 14.242509126663208 - 12%
+INTERNAL TIME weight: 0.03217124938964844 - 0%
+INTERNAL TIME pred: 95.70771884918213 - 86%
+INTERNAL TIME total: 110.73008847236633 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7145459651947021 - 0%
+INTERNAL TIME cooc: 13.54602313041687 - 10%
+INTERNAL TIME weight: 0.029793500900268555 - 0%
+INTERNAL TIME pred: 115.08114194869995 - 88%
+INTERNAL TIME total: 129.3715045452118 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7842435836791992 - 0%
+INTERNAL TIME cooc: 15.04173469543457 - 11%
+INTERNAL TIME weight: 0.03252005577087402 - 0%
+INTERNAL TIME pred: 113.7113573551178 - 87%
+INTERNAL TIME total: 129.56985569000244 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7723815441131592 - 0%
+INTERNAL TIME cooc: 14.711705923080444 - 11%
+INTERNAL TIME weight: 0.0324399471282959 - 0%
+INTERNAL TIME pred: 116.0923216342926 - 88%
+INTERNAL TIME total: 131.6088490486145 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7033472061157227 - 0%
+INTERNAL TIME cooc: 13.30071759223938 - 9%
+INTERNAL TIME weight: 0.028646469116210938 - 0%
+INTERNAL TIME pred: 126.13700246810913 - 89%
+INTERNAL TIME total: 140.16971373558044 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6820235252380371 - 0%
+INTERNAL TIME cooc: 12.96759557723999 - 8%
+INTERNAL TIME weight: 0.02767658233642578 - 0%
+INTERNAL TIME pred: 137.64888620376587 - 90%
+INTERNAL TIME total: 151.32618188858032 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 152.11890816688538 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0032503604888916016
+METALAZY - Choose weaker fit: 415.7090265750885
+METALAZY - KNN neighbours: 1.331728219985962
+INTERNAL TIME copy: 0.7520692348480225 - 0%
+INTERNAL TIME cooc: 14.283860921859741 - 13%
+INTERNAL TIME weight: 0.03188157081604004 - 0%
+INTERNAL TIME pred: 90.22230386734009 - 85%
+INTERNAL TIME total: 105.29011559486389 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7571098804473877 - 0%
+INTERNAL TIME cooc: 14.478750705718994 - 13%
+INTERNAL TIME weight: 0.031966209411621094 - 0%
+INTERNAL TIME pred: 90.77116394042969 - 85%
+INTERNAL TIME total: 106.03899073600769 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7630527019500732 - 0%
+INTERNAL TIME cooc: 14.477745771408081 - 13%
+INTERNAL TIME weight: 0.03277945518493652 - 0%
+INTERNAL TIME pred: 94.39387774467468 - 86%
+INTERNAL TIME total: 109.66745567321777 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.741288423538208 - 0%
+INTERNAL TIME cooc: 14.1719388961792 - 11%
+INTERNAL TIME weight: 0.031037330627441406 - 0%
+INTERNAL TIME pred: 112.41812944412231 - 88%
+INTERNAL TIME total: 127.36239409446716 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7820713520050049 - 0%
+INTERNAL TIME cooc: 14.970099210739136 - 11%
+INTERNAL TIME weight: 0.032015323638916016 - 0%
+INTERNAL TIME pred: 115.12604451179504 - 87%
+INTERNAL TIME total: 130.9102303981781 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7283122539520264 - 0%
+INTERNAL TIME cooc: 13.820253133773804 - 10%
+INTERNAL TIME weight: 0.0299379825592041 - 0%
+INTERNAL TIME pred: 117.81162142753601 - 88%
+INTERNAL TIME total: 132.39012479782104 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7226734161376953 - 0%
+INTERNAL TIME cooc: 13.740097045898438 - 9%
+INTERNAL TIME weight: 0.02897047996520996 - 0%
+INTERNAL TIME pred: 132.03639388084412 - 90%
+INTERNAL TIME total: 146.52813482284546 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 157.9133620262146 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0052661895751953125
+METALAZY - Choose weaker fit: 417.5373749732971
+GENERAL - Total grid time: 3759.739780664444
+GENERAL - Best score was 0.8368751543046319 with 
+ MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+GENERAL - Best param was {'n_neighbors': 100, 'number_of_cooccurrences': 10, 'weight_function': 'None'}
+
+METALAZY - KNN fit: 0.005110263824462891
+METALAZY - Choose weaker fit: 401.5109324455261
+Total fit time: 401.5160768032074
+METALAZY - KNN neighbours: 1.5628609657287598
+INTERNAL TIME copy: 0.5647573471069336 - 0%
+INTERNAL TIME cooc: 10.653486967086792 - 14%
+INTERNAL TIME weight: 0.02394556999206543 - 0%
+INTERNAL TIME pred: 61.439082860946655 - 84%
+INTERNAL TIME total: 72.68127274513245 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5582334995269775 - 0%
+INTERNAL TIME cooc: 10.51254916191101 - 14%
+INTERNAL TIME weight: 0.024214506149291992 - 0%
+INTERNAL TIME pred: 61.61674165725708 - 84%
+INTERNAL TIME total: 72.71173882484436 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5605359077453613 - 0%
+INTERNAL TIME cooc: 10.704183101654053 - 13%
+INTERNAL TIME weight: 0.024140357971191406 - 0%
+INTERNAL TIME pred: 66.6529450416565 - 85%
+INTERNAL TIME total: 77.9418044090271 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5349805355072021 - 0%
+INTERNAL TIME cooc: 10.12358546257019 - 12%
+INTERNAL TIME weight: 0.02236199378967285 - 0%
+INTERNAL TIME pred: 71.63446998596191 - 87%
+INTERNAL TIME total: 82.31539797782898 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5400588512420654 - 0%
+INTERNAL TIME cooc: 10.169394493103027 - 11%
+INTERNAL TIME weight: 0.022794485092163086 - 0%
+INTERNAL TIME pred: 74.8919358253479 - 87%
+INTERNAL TIME total: 85.62418365478516 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.531224250793457 - 0%
+INTERNAL TIME cooc: 9.993282079696655 - 10%
+INTERNAL TIME weight: 0.02205514907836914 - 0%
+INTERNAL TIME pred: 82.39784908294678 - 88%
+INTERNAL TIME total: 92.94441056251526 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5225200653076172 - 0%
+INTERNAL TIME cooc: 9.831449508666992 - 9%
+INTERNAL TIME weight: 0.02100849151611328 - 0%
+INTERNAL TIME pred: 88.54180836677551 - 89%
+INTERNAL TIME total: 98.91678643226624 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5170238018035889 - 0%
+INTERNAL TIME cooc: 9.847029685974121 - 9%
+INTERNAL TIME weight: 0.02056741714477539 - 0%
+INTERNAL TIME pred: 96.4344847202301 - 90%
+INTERNAL TIME total: 106.81910562515259 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 107.80861520767212 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+Total pred time: 109.37245607376099
+MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+Macro: 0.8699617493588001
+Micro: 0.8728476821192053
+      macro     micro  ...                                           best_clf fold
+0  0.869962  0.872848  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    0
+
+[1 rows x 5 columns]
+          fit        pred
+0  401.516077  109.372456
+FOLD 1
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/train1.gz
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/test1.gz
+[{'n_neighbors': [100], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 1
+METALAZY - KNN fit: 0.002192974090576172
+METALAZY - Choose weaker fit: 404.99566411972046
+METALAZY - KNN neighbours: 1.3575787544250488
+INTERNAL TIME copy: 0.7378075122833252 - 0%
+INTERNAL TIME cooc: 0.0025141239166259766 - 0%
+INTERNAL TIME weight: 0.031674861907958984 - 0%
+INTERNAL TIME pred: 87.60608673095703 - 99%
+INTERNAL TIME total: 88.37808322906494 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7494378089904785 - 0%
+INTERNAL TIME cooc: 0.002533435821533203 - 0%
+INTERNAL TIME weight: 0.031844377517700195 - 0%
+INTERNAL TIME pred: 89.56858348846436 - 99%
+INTERNAL TIME total: 90.35239911079407 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7387948036193848 - 0%
+INTERNAL TIME cooc: 0.002527952194213867 - 0%
+INTERNAL TIME weight: 0.031668663024902344 - 0%
+INTERNAL TIME pred: 92.47059679031372 - 99%
+INTERNAL TIME total: 93.24358820915222 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6931874752044678 - 0%
+INTERNAL TIME cooc: 0.0024673938751220703 - 0%
+INTERNAL TIME weight: 0.029814958572387695 - 0%
+INTERNAL TIME pred: 102.66560578346252 - 99%
+INTERNAL TIME total: 103.3910756111145 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7053201198577881 - 0%
+INTERNAL TIME cooc: 0.002462148666381836 - 0%
+INTERNAL TIME weight: 0.030176639556884766 - 0%
+INTERNAL TIME pred: 106.4189772605896 - 99%
+INTERNAL TIME total: 107.15693616867065 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7118372917175293 - 0%
+INTERNAL TIME cooc: 0.002452850341796875 - 0%
+INTERNAL TIME weight: 0.02993917465209961 - 0%
+INTERNAL TIME pred: 118.20314884185791 - 99%
+INTERNAL TIME total: 118.94737815856934 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6738669872283936 - 0%
+INTERNAL TIME cooc: 0.002279043197631836 - 0%
+INTERNAL TIME weight: 0.028242111206054688 - 0%
+INTERNAL TIME pred: 142.02322578430176 - 99%
+INTERNAL TIME total: 142.72761392593384 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 143.5519895553589 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0039217472076416016
+METALAZY - Choose weaker fit: 407.0666618347168
+METALAZY - KNN neighbours: 1.3679945468902588
+INTERNAL TIME copy: 0.7402410507202148 - 0%
+INTERNAL TIME cooc: 0.002469778060913086 - 0%
+INTERNAL TIME weight: 0.030933141708374023 - 0%
+INTERNAL TIME pred: 85.01599335670471 - 99%
+INTERNAL TIME total: 85.78963732719421 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7415645122528076 - 0%
+INTERNAL TIME cooc: 0.0024704933166503906 - 0%
+INTERNAL TIME weight: 0.0314173698425293 - 0%
+INTERNAL TIME pred: 91.19188690185547 - 99%
+INTERNAL TIME total: 91.96733927726746 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7429077625274658 - 0%
+INTERNAL TIME cooc: 0.002557516098022461 - 0%
+INTERNAL TIME weight: 0.031444549560546875 - 0%
+INTERNAL TIME pred: 92.92902040481567 - 99%
+INTERNAL TIME total: 93.70593023300171 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7188491821289062 - 0%
+INTERNAL TIME cooc: 0.002464771270751953 - 0%
+INTERNAL TIME weight: 0.03028559684753418 - 0%
+INTERNAL TIME pred: 109.4409499168396 - 99%
+INTERNAL TIME total: 110.19254946708679 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7606778144836426 - 0%
+INTERNAL TIME cooc: 0.002535104751586914 - 0%
+INTERNAL TIME weight: 0.031622886657714844 - 0%
+INTERNAL TIME pred: 113.07038807868958 - 99%
+INTERNAL TIME total: 113.86522388458252 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6939208507537842 - 0%
+INTERNAL TIME cooc: 0.0024111270904541016 - 0%
+INTERNAL TIME weight: 0.02936410903930664 - 0%
+INTERNAL TIME pred: 116.18428206443787 - 99%
+INTERNAL TIME total: 116.90997815132141 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6969296932220459 - 0%
+INTERNAL TIME cooc: 0.0023653507232666016 - 0%
+INTERNAL TIME weight: 0.028886795043945312 - 0%
+INTERNAL TIME pred: 131.00906229019165 - 99%
+INTERNAL TIME total: 131.7372441291809 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6729893684387207 - 0%
+INTERNAL TIME cooc: 0.002330303192138672 - 0%
+INTERNAL TIME weight: 0.028000593185424805 - 0%
+INTERNAL TIME pred: 137.25091409683228 - 99%
+INTERNAL TIME total: 137.95423436164856 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 138.78312849998474 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.003995180130004883
+METALAZY - Choose weaker fit: 401.6482689380646
+METALAZY - KNN neighbours: 1.3904588222503662
+INTERNAL TIME copy: 0.7335829734802246 - 0%
+INTERNAL TIME cooc: 0.0024788379669189453 - 0%
+INTERNAL TIME weight: 0.031502723693847656 - 0%
+INTERNAL TIME pred: 89.6798403263092 - 99%
+INTERNAL TIME total: 90.4474048614502 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7325468063354492 - 0%
+INTERNAL TIME cooc: 0.0025243759155273438 - 0%
+INTERNAL TIME weight: 0.03151583671569824 - 0%
+INTERNAL TIME pred: 90.65108108520508 - 99%
+INTERNAL TIME total: 91.41766810417175 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7403445243835449 - 0%
+INTERNAL TIME cooc: 0.0024843215942382812 - 0%
+INTERNAL TIME weight: 0.03168821334838867 - 0%
+INTERNAL TIME pred: 91.12774991989136 - 99%
+INTERNAL TIME total: 91.90226697921753 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7070283889770508 - 0%
+INTERNAL TIME cooc: 0.002397298812866211 - 0%
+INTERNAL TIME weight: 0.030224084854125977 - 0%
+INTERNAL TIME pred: 105.09861063957214 - 99%
+INTERNAL TIME total: 105.83826041221619 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7073798179626465 - 0%
+INTERNAL TIME cooc: 0.002412557601928711 - 0%
+INTERNAL TIME weight: 0.03013896942138672 - 0%
+INTERNAL TIME pred: 110.77543830871582 - 99%
+INTERNAL TIME total: 111.51536965370178 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7394583225250244 - 0%
+INTERNAL TIME cooc: 0.002491474151611328 - 0%
+INTERNAL TIME weight: 0.03123021125793457 - 0%
+INTERNAL TIME pred: 111.89996910095215 - 99%
+INTERNAL TIME total: 112.67314910888672 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6880972385406494 - 0%
+INTERNAL TIME cooc: 0.0023069381713867188 - 0%
+INTERNAL TIME weight: 0.028897762298583984 - 0%
+INTERNAL TIME pred: 127.14340543746948 - 99%
+INTERNAL TIME total: 127.8627073764801 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 140.13938546180725 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.003861665725708008
+METALAZY - Choose weaker fit: 404.1448907852173
+METALAZY - KNN neighbours: 1.3523857593536377
+INTERNAL TIME copy: 0.7523000240325928 - 0%
+INTERNAL TIME cooc: 14.244071006774902 - 13%
+INTERNAL TIME weight: 0.032964229583740234 - 0%
+INTERNAL TIME pred: 88.04631042480469 - 85%
+INTERNAL TIME total: 103.07564568519592 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7599704265594482 - 0%
+INTERNAL TIME cooc: 14.331876277923584 - 13%
+INTERNAL TIME weight: 0.03325152397155762 - 0%
+INTERNAL TIME pred: 89.84572839736938 - 85%
+INTERNAL TIME total: 104.97082662582397 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7449808120727539 - 0%
+INTERNAL TIME cooc: 14.234879493713379 - 13%
+INTERNAL TIME weight: 0.032628774642944336 - 0%
+INTERNAL TIME pred: 92.58750224113464 - 86%
+INTERNAL TIME total: 107.59999132156372 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7299904823303223 - 0%
+INTERNAL TIME cooc: 13.855602502822876 - 11%
+INTERNAL TIME weight: 0.030930757522583008 - 0%
+INTERNAL TIME pred: 105.27999377250671 - 87%
+INTERNAL TIME total: 119.8965175151825 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7404158115386963 - 0%
+INTERNAL TIME cooc: 14.074040651321411 - 11%
+INTERNAL TIME weight: 0.03129124641418457 - 0%
+INTERNAL TIME pred: 112.75886464118958 - 88%
+INTERNAL TIME total: 127.60461235046387 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7124550342559814 - 0%
+INTERNAL TIME cooc: 13.504215240478516 - 10%
+INTERNAL TIME weight: 0.029941082000732422 - 0%
+INTERNAL TIME pred: 117.112464427948 - 89%
+INTERNAL TIME total: 131.35907578468323 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7119138240814209 - 0%
+INTERNAL TIME cooc: 13.403616428375244 - 9%
+INTERNAL TIME weight: 0.02911520004272461 - 0%
+INTERNAL TIME pred: 123.50562500953674 - 89%
+INTERNAL TIME total: 137.65027046203613 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6829490661621094 - 0%
+INTERNAL TIME cooc: 12.931364297866821 - 8%
+INTERNAL TIME weight: 0.027551889419555664 - 0%
+INTERNAL TIME pred: 141.7877321243286 - 91%
+INTERNAL TIME total: 155.4295973777771 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 156.28039574623108 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.003942251205444336
+METALAZY - Choose weaker fit: 407.39312839508057
+METALAZY - KNN neighbours: 1.3692166805267334
+INTERNAL TIME copy: 0.7502100467681885 - 0%
+INTERNAL TIME cooc: 14.099387407302856 - 14%
+INTERNAL TIME weight: 0.03292274475097656 - 0%
+INTERNAL TIME pred: 85.38136267662048 - 85%
+INTERNAL TIME total: 100.2638828754425 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7455484867095947 - 0%
+INTERNAL TIME cooc: 14.20634150505066 - 13%
+INTERNAL TIME weight: 0.03301596641540527 - 0%
+INTERNAL TIME pred: 91.1735029220581 - 85%
+INTERNAL TIME total: 106.15840888023376 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7533090114593506 - 0%
+INTERNAL TIME cooc: 14.271448373794556 - 13%
+INTERNAL TIME weight: 0.032529354095458984 - 0%
+INTERNAL TIME pred: 92.92598843574524 - 86%
+INTERNAL TIME total: 107.9832751750946 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7343108654022217 - 0%
+INTERNAL TIME cooc: 13.913163185119629 - 11%
+INTERNAL TIME weight: 0.031113386154174805 - 0%
+INTERNAL TIME pred: 110.20115256309509 - 88%
+INTERNAL TIME total: 124.87973999977112 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7647440433502197 - 0%
+INTERNAL TIME cooc: 14.593417167663574 - 11%
+INTERNAL TIME weight: 0.03202939033508301 - 0%
+INTERNAL TIME pred: 113.10362339019775 - 88%
+INTERNAL TIME total: 128.49381399154663 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7051794528961182 - 0%
+INTERNAL TIME cooc: 13.336272954940796 - 10%
+INTERNAL TIME weight: 0.029504060745239258 - 0%
+INTERNAL TIME pred: 116.99599146842957 - 89%
+INTERNAL TIME total: 131.06694793701172 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6896507740020752 - 0%
+INTERNAL TIME cooc: 13.04639720916748 - 9%
+INTERNAL TIME weight: 0.028289794921875 - 0%
+INTERNAL TIME pred: 127.14684200286865 - 90%
+INTERNAL TIME total: 140.91117978096008 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7008435726165771 - 0%
+INTERNAL TIME cooc: 13.29705810546875 - 8%
+INTERNAL TIME weight: 0.02819204330444336 - 0%
+INTERNAL TIME pred: 142.51825165748596 - 91%
+INTERNAL TIME total: 156.54434537887573 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 157.42397356033325 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.00397491455078125
+METALAZY - Choose weaker fit: 402.86943888664246
+METALAZY - KNN neighbours: 1.39145827293396
+INTERNAL TIME copy: 0.7467303276062012 - 0%
+INTERNAL TIME cooc: 14.186771392822266 - 13%
+INTERNAL TIME weight: 0.03228878974914551 - 0%
+INTERNAL TIME pred: 91.61882710456848 - 85%
+INTERNAL TIME total: 106.5846176147461 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7547421455383301 - 0%
+INTERNAL TIME cooc: 14.267197847366333 - 13%
+INTERNAL TIME weight: 0.03271603584289551 - 0%
+INTERNAL TIME pred: 92.40335750579834 - 85%
+INTERNAL TIME total: 107.4580135345459 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7662396430969238 - 0%
+INTERNAL TIME cooc: 14.708715438842773 - 13%
+INTERNAL TIME weight: 0.03307175636291504 - 0%
+INTERNAL TIME pred: 92.8654932975769 - 85%
+INTERNAL TIME total: 108.37352013587952 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7354774475097656 - 0%
+INTERNAL TIME cooc: 14.008963108062744 - 11%
+INTERNAL TIME weight: 0.030966997146606445 - 0%
+INTERNAL TIME pred: 109.49586367607117 - 88%
+INTERNAL TIME total: 124.27127122879028 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7672884464263916 - 0%
+INTERNAL TIME cooc: 14.681679964065552 - 11%
+INTERNAL TIME weight: 0.03216123580932617 - 0%
+INTERNAL TIME pred: 110.57982993125916 - 87%
+INTERNAL TIME total: 126.06095957756042 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7411587238311768 - 0%
+INTERNAL TIME cooc: 14.066055297851562 - 10%
+INTERNAL TIME weight: 0.030862808227539062 - 0%
+INTERNAL TIME pred: 117.37435531616211 - 88%
+INTERNAL TIME total: 132.2124321460724 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6910362243652344 - 0%
+INTERNAL TIME cooc: 12.972831726074219 - 9%
+INTERNAL TIME weight: 0.028078317642211914 - 0%
+INTERNAL TIME pred: 126.19026398658752 - 90%
+INTERNAL TIME total: 139.8822102546692 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6720154285430908 - 0%
+INTERNAL TIME cooc: 12.668896675109863 - 8%
+INTERNAL TIME weight: 0.027072429656982422 - 0%
+INTERNAL TIME pred: 140.8994061946869 - 91%
+INTERNAL TIME total: 154.26739072799683 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 155.1219527721405 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0056302547454833984
+METALAZY - Choose weaker fit: 408.8505244255066
+GENERAL - Total grid time: 3736.5932047367096
+GENERAL - Best score was 0.8321960446627814 with 
+ MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+GENERAL - Best param was {'n_neighbors': 100, 'number_of_cooccurrences': 10, 'weight_function': 'None'}
+
+METALAZY - KNN fit: 0.00525975227355957
+METALAZY - Choose weaker fit: 392.8006753921509
+Total fit time: 392.805969953537
+METALAZY - KNN neighbours: 1.4552443027496338
+INTERNAL TIME copy: 0.5562243461608887 - 0%
+INTERNAL TIME cooc: 10.388817548751831 - 14%
+INTERNAL TIME weight: 0.024140357971191406 - 0%
+INTERNAL TIME pred: 60.46695613861084 - 84%
+INTERNAL TIME total: 71.43613839149475 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5581495761871338 - 0%
+INTERNAL TIME cooc: 10.597320556640625 - 14%
+INTERNAL TIME weight: 0.024351835250854492 - 0%
+INTERNAL TIME pred: 60.526445150375366 - 84%
+INTERNAL TIME total: 71.70626711845398 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5557641983032227 - 0%
+INTERNAL TIME cooc: 10.418363094329834 - 14%
+INTERNAL TIME weight: 0.024638891220092773 - 0%
+INTERNAL TIME pred: 63.41434097290039 - 85%
+INTERNAL TIME total: 74.41310715675354 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5317308902740479 - 0%
+INTERNAL TIME cooc: 9.940606594085693 - 11%
+INTERNAL TIME weight: 0.022310972213745117 - 0%
+INTERNAL TIME pred: 73.26225805282593 - 87%
+INTERNAL TIME total: 83.75690650939941 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5359768867492676 - 0%
+INTERNAL TIME cooc: 10.02639102935791 - 11%
+INTERNAL TIME weight: 0.02260279655456543 - 0%
+INTERNAL TIME pred: 74.55102276802063 - 87%
+INTERNAL TIME total: 85.13599348068237 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5452663898468018 - 0%
+INTERNAL TIME cooc: 10.318257570266724 - 11%
+INTERNAL TIME weight: 0.022460460662841797 - 0%
+INTERNAL TIME pred: 81.47652101516724 - 88%
+INTERNAL TIME total: 92.3625054359436 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5120968818664551 - 0%
+INTERNAL TIME cooc: 9.642592191696167 - 9%
+INTERNAL TIME weight: 0.02072882652282715 - 0%
+INTERNAL TIME pred: 87.61739492416382 - 89%
+INTERNAL TIME total: 97.79281282424927 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5245509147644043 - 0%
+INTERNAL TIME cooc: 9.886269569396973 - 9%
+INTERNAL TIME weight: 0.020908355712890625 - 0%
+INTERNAL TIME pred: 93.55431866645813 - 89%
+INTERNAL TIME total: 103.9860475063324 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 104.9045057296753 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+Total pred time: 106.36073541641235
+MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+Macro: 0.8703663497155644
+Micro: 0.8735754041876491
+      macro     micro  ...                                           best_clf fold
+0  0.869962  0.872848  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    0
+1  0.870366  0.873575  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    1
+
+[2 rows x 5 columns]
+          fit        pred
+0  401.516077  109.372456
+1  392.805970  106.360735
+FOLD 2
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/train2.gz
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/test2.gz
+[{'n_neighbors': [100], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 2
+METALAZY - KNN fit: 0.0021448135375976562
+METALAZY - Choose weaker fit: 405.6151213645935
+METALAZY - KNN neighbours: 1.4128057956695557
+INTERNAL TIME copy: 0.7420995235443115 - 0%
+INTERNAL TIME cooc: 0.0024907588958740234 - 0%
+INTERNAL TIME weight: 0.03169703483581543 - 0%
+INTERNAL TIME pred: 84.44566035270691 - 99%
+INTERNAL TIME total: 85.22194766998291 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7284350395202637 - 0%
+INTERNAL TIME cooc: 0.0024514198303222656 - 0%
+INTERNAL TIME weight: 0.03101515769958496 - 0%
+INTERNAL TIME pred: 85.43023729324341 - 99%
+INTERNAL TIME total: 86.19213891029358 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7324974536895752 - 0%
+INTERNAL TIME cooc: 0.0024683475494384766 - 0%
+INTERNAL TIME weight: 0.03142261505126953 - 0%
+INTERNAL TIME pred: 87.43332266807556 - 99%
+INTERNAL TIME total: 88.19971108436584 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6944615840911865 - 0%
+INTERNAL TIME cooc: 0.0023603439331054688 - 0%
+INTERNAL TIME weight: 0.02956533432006836 - 0%
+INTERNAL TIME pred: 99.32693099975586 - 99%
+INTERNAL TIME total: 100.05331826210022 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7111399173736572 - 0%
+INTERNAL TIME cooc: 0.002422809600830078 - 0%
+INTERNAL TIME weight: 0.03029465675354004 - 0%
+INTERNAL TIME pred: 99.34024500846863 - 99%
+INTERNAL TIME total: 100.08410239219666 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6931617259979248 - 0%
+INTERNAL TIME cooc: 0.0023908615112304688 - 0%
+INTERNAL TIME weight: 0.02932453155517578 - 0%
+INTERNAL TIME pred: 117.33192825317383 - 99%
+INTERNAL TIME total: 118.05680537223816 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6880397796630859 - 0%
+INTERNAL TIME cooc: 0.0023512840270996094 - 0%
+INTERNAL TIME weight: 0.029099702835083008 - 0%
+INTERNAL TIME pred: 118.77091908454895 - 99%
+INTERNAL TIME total: 119.49040985107422 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 136.28748607635498 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0023908615112304688
+METALAZY - Choose weaker fit: 396.97129368782043
+METALAZY - KNN neighbours: 1.3347582817077637
+INTERNAL TIME copy: 0.7394185066223145 - 0%
+INTERNAL TIME cooc: 0.0024924278259277344 - 0%
+INTERNAL TIME weight: 0.031238555908203125 - 0%
+INTERNAL TIME pred: 81.77416801452637 - 99%
+INTERNAL TIME total: 82.54731750488281 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.729438066482544 - 0%
+INTERNAL TIME cooc: 0.0025119781494140625 - 0%
+INTERNAL TIME weight: 0.03123927116394043 - 0%
+INTERNAL TIME pred: 86.17769455909729 - 99%
+INTERNAL TIME total: 86.94088387489319 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7321841716766357 - 0%
+INTERNAL TIME cooc: 0.002509593963623047 - 0%
+INTERNAL TIME weight: 0.0313572883605957 - 0%
+INTERNAL TIME pred: 87.89006042480469 - 99%
+INTERNAL TIME total: 88.65611147880554 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7108838558197021 - 0%
+INTERNAL TIME cooc: 0.002444028854370117 - 0%
+INTERNAL TIME weight: 0.030402183532714844 - 0%
+INTERNAL TIME pred: 98.07436203956604 - 99%
+INTERNAL TIME total: 98.81809210777283 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7008812427520752 - 0%
+INTERNAL TIME cooc: 0.002456188201904297 - 0%
+INTERNAL TIME weight: 0.029782772064208984 - 0%
+INTERNAL TIME pred: 102.829176902771 - 99%
+INTERNAL TIME total: 103.56229710578918 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7015423774719238 - 0%
+INTERNAL TIME cooc: 0.0023882389068603516 - 0%
+INTERNAL TIME weight: 0.029527664184570312 - 0%
+INTERNAL TIME pred: 117.051762342453 - 99%
+INTERNAL TIME total: 117.78522062301636 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6739418506622314 - 0%
+INTERNAL TIME cooc: 0.0022902488708496094 - 0%
+INTERNAL TIME weight: 0.028199434280395508 - 0%
+INTERNAL TIME pred: 123.07565212249756 - 99%
+INTERNAL TIME total: 123.78008365631104 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6660077571868896 - 0%
+INTERNAL TIME cooc: 0.0023245811462402344 - 0%
+INTERNAL TIME weight: 0.027957916259765625 - 0%
+INTERNAL TIME pred: 126.4026231765747 - 99%
+INTERNAL TIME total: 127.0989134311676 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 127.91293382644653 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0024509429931640625
+METALAZY - Choose weaker fit: 398.90070509910583
+METALAZY - KNN neighbours: 1.4059441089630127
+INTERNAL TIME copy: 0.7369136810302734 - 0%
+INTERNAL TIME cooc: 0.002549886703491211 - 0%
+INTERNAL TIME weight: 0.03130078315734863 - 0%
+INTERNAL TIME pred: 85.45066690444946 - 99%
+INTERNAL TIME total: 86.22143125534058 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7383203506469727 - 0%
+INTERNAL TIME cooc: 0.0025472640991210938 - 0%
+INTERNAL TIME weight: 0.03129243850708008 - 0%
+INTERNAL TIME pred: 88.88509726524353 - 99%
+INTERNAL TIME total: 89.6572573184967 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7324256896972656 - 0%
+INTERNAL TIME cooc: 0.0025482177734375 - 0%
+INTERNAL TIME weight: 0.03119516372680664 - 0%
+INTERNAL TIME pred: 89.80720329284668 - 99%
+INTERNAL TIME total: 90.57337236404419 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7414052486419678 - 0%
+INTERNAL TIME cooc: 0.0026149749755859375 - 0%
+INTERNAL TIME weight: 0.031307220458984375 - 0%
+INTERNAL TIME pred: 103.43172073364258 - 99%
+INTERNAL TIME total: 104.20704817771912 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7454044818878174 - 0%
+INTERNAL TIME cooc: 0.0026018619537353516 - 0%
+INTERNAL TIME weight: 0.03131842613220215 - 0%
+INTERNAL TIME pred: 106.05514168739319 - 99%
+INTERNAL TIME total: 106.83446645736694 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6895599365234375 - 0%
+INTERNAL TIME cooc: 0.0024712085723876953 - 0%
+INTERNAL TIME weight: 0.029535293579101562 - 0%
+INTERNAL TIME pred: 111.65425562858582 - 99%
+INTERNAL TIME total: 112.37582206726074 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6721367835998535 - 0%
+INTERNAL TIME cooc: 0.0023679733276367188 - 0%
+INTERNAL TIME weight: 0.028282880783081055 - 0%
+INTERNAL TIME pred: 119.68459916114807 - 99%
+INTERNAL TIME total: 120.38738679885864 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6626324653625488 - 0%
+INTERNAL TIME cooc: 0.0023407936096191406 - 0%
+INTERNAL TIME weight: 0.027980566024780273 - 0%
+INTERNAL TIME pred: 131.38143873214722 - 99%
+INTERNAL TIME total: 132.07439255714417 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 132.9672315120697 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.003036022186279297
+METALAZY - Choose weaker fit: 404.82119846343994
+METALAZY - KNN neighbours: 1.4114456176757812
+INTERNAL TIME copy: 0.7597267627716064 - 0%
+INTERNAL TIME cooc: 14.3858482837677 - 14%
+INTERNAL TIME weight: 0.0326845645904541 - 0%
+INTERNAL TIME pred: 85.52549910545349 - 84%
+INTERNAL TIME total: 100.70375871658325 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7511308193206787 - 0%
+INTERNAL TIME cooc: 14.290881633758545 - 14%
+INTERNAL TIME weight: 0.031992197036743164 - 0%
+INTERNAL TIME pred: 86.88423728942871 - 85%
+INTERNAL TIME total: 101.95824193954468 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.751838207244873 - 0%
+INTERNAL TIME cooc: 14.275586605072021 - 13%
+INTERNAL TIME weight: 0.032414913177490234 - 0%
+INTERNAL TIME pred: 89.08998394012451 - 85%
+INTERNAL TIME total: 104.1498236656189 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7204678058624268 - 0%
+INTERNAL TIME cooc: 13.557101726531982 - 11%
+INTERNAL TIME weight: 0.030283689498901367 - 0%
+INTERNAL TIME pred: 100.9157178401947 - 87%
+INTERNAL TIME total: 115.22357106208801 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7344205379486084 - 0%
+INTERNAL TIME cooc: 14.019190549850464 - 12%
+INTERNAL TIME weight: 0.030989408493041992 - 0%
+INTERNAL TIME pred: 102.0044572353363 - 87%
+INTERNAL TIME total: 116.78905773162842 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7101004123687744 - 0%
+INTERNAL TIME cooc: 13.444573879241943 - 9%
+INTERNAL TIME weight: 0.02893352508544922 - 0%
+INTERNAL TIME pred: 120.48725962638855 - 89%
+INTERNAL TIME total: 134.67086744308472 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7215664386749268 - 0%
+INTERNAL TIME cooc: 13.641685962677002 - 10%
+INTERNAL TIME weight: 0.029547691345214844 - 0%
+INTERNAL TIME pred: 122.01984310150146 - 89%
+INTERNAL TIME total: 136.4126431941986 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6844034194946289 - 0%
+INTERNAL TIME cooc: 13.002910375595093 - 8%
+INTERNAL TIME weight: 0.027692079544067383 - 0%
+INTERNAL TIME pred: 132.78227543830872 - 90%
+INTERNAL TIME total: 146.4972813129425 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 147.30835938453674 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0024137496948242188
+METALAZY - Choose weaker fit: 398.7582018375397
+METALAZY - KNN neighbours: 1.3366153240203857
+INTERNAL TIME copy: 0.752295732498169 - 0%
+INTERNAL TIME cooc: 14.251007795333862 - 14%
+INTERNAL TIME weight: 0.032479047775268555 - 0%
+INTERNAL TIME pred: 82.06557989120483 - 84%
+INTERNAL TIME total: 97.10136246681213 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7464871406555176 - 0%
+INTERNAL TIME cooc: 14.166560888290405 - 13%
+INTERNAL TIME weight: 0.03225088119506836 - 0%
+INTERNAL TIME pred: 87.17478632926941 - 85%
+INTERNAL TIME total: 102.1200852394104 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7493579387664795 - 0%
+INTERNAL TIME cooc: 14.245994567871094 - 13%
+INTERNAL TIME weight: 0.03204536437988281 - 0%
+INTERNAL TIME pred: 88.99895167350769 - 85%
+INTERNAL TIME total: 104.02634954452515 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.728466272354126 - 0%
+INTERNAL TIME cooc: 13.852527618408203 - 11%
+INTERNAL TIME weight: 0.030358314514160156 - 0%
+INTERNAL TIME pred: 104.99014687538147 - 87%
+INTERNAL TIME total: 119.60149908065796 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7601995468139648 - 0%
+INTERNAL TIME cooc: 14.357767105102539 - 11%
+INTERNAL TIME weight: 0.031829833984375 - 0%
+INTERNAL TIME pred: 105.86747074127197 - 87%
+INTERNAL TIME total: 121.01726722717285 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7063958644866943 - 0%
+INTERNAL TIME cooc: 13.371537685394287 - 10%
+INTERNAL TIME weight: 0.02939581871032715 - 0%
+INTERNAL TIME pred: 114.48761892318726 - 89%
+INTERNAL TIME total: 128.59494829177856 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6844480037689209 - 0%
+INTERNAL TIME cooc: 12.919249057769775 - 9%
+INTERNAL TIME weight: 0.02805185317993164 - 0%
+INTERNAL TIME pred: 122.30813670158386 - 89%
+INTERNAL TIME total: 135.9398856163025 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7072408199310303 - 0%
+INTERNAL TIME cooc: 13.560676097869873 - 9%
+INTERNAL TIME weight: 0.028651714324951172 - 0%
+INTERNAL TIME pred: 133.2039978504181 - 90%
+INTERNAL TIME total: 147.50056648254395 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 148.35177898406982 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0024826526641845703
+METALAZY - Choose weaker fit: 398.8887493610382
+METALAZY - KNN neighbours: 1.4091591835021973
+INTERNAL TIME copy: 0.7546944618225098 - 0%
+INTERNAL TIME cooc: 14.391782283782959 - 14%
+INTERNAL TIME weight: 0.03243613243103027 - 0%
+INTERNAL TIME pred: 86.30852580070496 - 85%
+INTERNAL TIME total: 101.48743867874146 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7465066909790039 - 0%
+INTERNAL TIME cooc: 14.114104509353638 - 13%
+INTERNAL TIME weight: 0.03210592269897461 - 0%
+INTERNAL TIME pred: 88.96007442474365 - 85%
+INTERNAL TIME total: 103.85279154777527 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7503752708435059 - 0%
+INTERNAL TIME cooc: 14.241242408752441 - 13%
+INTERNAL TIME weight: 0.032154083251953125 - 0%
+INTERNAL TIME pred: 90.45611190795898 - 85%
+INTERNAL TIME total: 105.47988367080688 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7343907356262207 - 0%
+INTERNAL TIME cooc: 13.96942949295044 - 11%
+INTERNAL TIME weight: 0.030791282653808594 - 0%
+INTERNAL TIME pred: 103.58565974235535 - 87%
+INTERNAL TIME total: 118.32027125358582 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7562940120697021 - 0%
+INTERNAL TIME cooc: 14.36778211593628 - 11%
+INTERNAL TIME weight: 0.03209280967712402 - 0%
+INTERNAL TIME pred: 105.14442014694214 - 87%
+INTERNAL TIME total: 120.30058908462524 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7170157432556152 - 0%
+INTERNAL TIME cooc: 13.552937507629395 - 10%
+INTERNAL TIME weight: 0.029980182647705078 - 0%
+INTERNAL TIME pred: 115.17393827438354 - 88%
+INTERNAL TIME total: 129.47387170791626 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.696983814239502 - 0%
+INTERNAL TIME cooc: 13.235769510269165 - 8%
+INTERNAL TIME weight: 0.027906417846679688 - 0%
+INTERNAL TIME pred: 137.12322115898132 - 90%
+INTERNAL TIME total: 151.08388090133667 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 151.94334816932678 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.003602266311645508
+/home/claudiovaliense/projetos/metalazy2/metalazy/sample_environment/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+METALAZY - Choose weaker fit: 402.85170793533325
+GENERAL - Total grid time: 3659.9678132534027
+GENERAL - Best score was 0.8331710982311777 with 
+ MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+GENERAL - Best param was {'n_neighbors': 100, 'number_of_cooccurrences': 10, 'weight_function': 'None'}
+
+METALAZY - KNN fit: 0.0033578872680664062
+METALAZY - Choose weaker fit: 390.4452362060547
+Total fit time: 390.44862842559814
+METALAZY - KNN neighbours: 1.5468342304229736
+INTERNAL TIME copy: 0.5636112689971924 - 0%
+INTERNAL TIME cooc: 10.61378288269043 - 14%
+INTERNAL TIME weight: 0.02502751350402832 - 0%
+INTERNAL TIME pred: 61.20840644836426 - 84%
+INTERNAL TIME total: 72.41082811355591 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5611717700958252 - 0%
+INTERNAL TIME cooc: 10.626455545425415 - 14%
+INTERNAL TIME weight: 0.02463221549987793 - 0%
+INTERNAL TIME pred: 62.391193151474 - 84%
+INTERNAL TIME total: 73.60345268249512 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5554804801940918 - 0%
+INTERNAL TIME cooc: 10.54407286643982 - 14%
+INTERNAL TIME weight: 0.024427175521850586 - 0%
+INTERNAL TIME pred: 63.97830152511597 - 85%
+INTERNAL TIME total: 75.10228204727173 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5365300178527832 - 0%
+INTERNAL TIME cooc: 10.15703821182251 - 12%
+INTERNAL TIME weight: 0.023128747940063477 - 0%
+INTERNAL TIME pred: 72.23710536956787 - 87%
+INTERNAL TIME total: 82.95380234718323 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5305943489074707 - 0%
+INTERNAL TIME cooc: 10.026638746261597 - 11%
+INTERNAL TIME weight: 0.02262592315673828 - 0%
+INTERNAL TIME pred: 75.53340864181519 - 87%
+INTERNAL TIME total: 86.11326766014099 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.537642240524292 - 0%
+INTERNAL TIME cooc: 10.083086729049683 - 10%
+INTERNAL TIME weight: 0.02248382568359375 - 0%
+INTERNAL TIME pred: 85.33165836334229 - 88%
+INTERNAL TIME total: 95.97487115859985 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5188555717468262 - 0%
+INTERNAL TIME cooc: 9.704325675964355 - 9%
+INTERNAL TIME weight: 0.02124333381652832 - 0%
+INTERNAL TIME pred: 87.157151222229 - 89%
+INTERNAL TIME total: 97.40157580375671 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5297389030456543 - 0%
+INTERNAL TIME cooc: 9.953224420547485 - 9%
+INTERNAL TIME weight: 0.021334171295166016 - 0%
+INTERNAL TIME pred: 92.09356880187988 - 89%
+INTERNAL TIME total: 102.59786629676819 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 103.60058951377869 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+Total pred time: 105.14846134185791
+MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+Macro: 0.8733168899406643
+Micro: 0.8761273209549072
+      macro     micro  ...                                           best_clf fold
+0  0.869962  0.872848  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    0
+1  0.870366  0.873575  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    1
+2  0.873317  0.876127  ...  SVC(C=4.0, cache_size=200, class_weight=None, ...    2
+
+[3 rows x 5 columns]
+          fit        pred
+0  401.516077  109.372456
+1  392.805970  106.360735
+2  390.448628  105.148461
+FOLD 3
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/train3.gz
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/test3.gz
+[{'n_neighbors': [100], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 3
+METALAZY - KNN fit: 0.0035276412963867188
+METALAZY - Choose weaker fit: 406.8336777687073
+METALAZY - KNN neighbours: 1.3063035011291504
+INTERNAL TIME copy: 0.832470178604126 - 0%
+INTERNAL TIME cooc: 0.0025200843811035156 - 0%
+INTERNAL TIME weight: 0.03246331214904785 - 0%
+INTERNAL TIME pred: 93.30406284332275 - 99%
+INTERNAL TIME total: 94.17151641845703 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7473039627075195 - 0%
+INTERNAL TIME cooc: 0.002507925033569336 - 0%
+INTERNAL TIME weight: 0.03225541114807129 - 0%
+INTERNAL TIME pred: 93.80198693275452 - 99%
+INTERNAL TIME total: 94.58405423164368 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.8233826160430908 - 0%
+INTERNAL TIME cooc: 0.002966642379760742 - 0%
+INTERNAL TIME weight: 0.03644204139709473 - 0%
+INTERNAL TIME pred: 96.59276175498962 - 99%
+INTERNAL TIME total: 97.45555305480957 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7737669944763184 - 0%
+INTERNAL TIME cooc: 0.0025374889373779297 - 0%
+INTERNAL TIME weight: 0.032891035079956055 - 0%
+INTERNAL TIME pred: 112.08424663543701 - 99%
+INTERNAL TIME total: 112.89344215393066 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7833387851715088 - 0%
+INTERNAL TIME cooc: 0.002561807632446289 - 0%
+INTERNAL TIME weight: 0.034211158752441406 - 0%
+INTERNAL TIME pred: 119.68213629722595 - 99%
+INTERNAL TIME total: 120.50224804878235 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7846875190734863 - 0%
+INTERNAL TIME cooc: 0.0026803016662597656 - 0%
+INTERNAL TIME weight: 0.03454184532165527 - 0%
+INTERNAL TIME pred: 127.84928727149963 - 99%
+INTERNAL TIME total: 128.67119693756104 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7941505908966064 - 0%
+INTERNAL TIME cooc: 0.0025887489318847656 - 0%
+INTERNAL TIME weight: 0.032831668853759766 - 0%
+INTERNAL TIME pred: 132.09111881256104 - 99%
+INTERNAL TIME total: 132.9206898212433 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7367968559265137 - 0%
+INTERNAL TIME cooc: 0.002583026885986328 - 0%
+INTERNAL TIME weight: 0.03185391426086426 - 0%
+INTERNAL TIME pred: 152.48009729385376 - 99%
+INTERNAL TIME total: 153.25133109092712 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 154.11759519577026 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0045588016510009766
+METALAZY - Choose weaker fit: 437.0624141693115
+METALAZY - KNN neighbours: 1.3790440559387207
+INTERNAL TIME copy: 0.7729408740997314 - 0%
+INTERNAL TIME cooc: 0.0025632381439208984 - 0%
+INTERNAL TIME weight: 0.032457590103149414 - 0%
+INTERNAL TIME pred: 86.42572832107544 - 99%
+INTERNAL TIME total: 87.23369002342224 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7803816795349121 - 0%
+INTERNAL TIME cooc: 0.002580404281616211 - 0%
+INTERNAL TIME weight: 0.03272819519042969 - 0%
+INTERNAL TIME pred: 92.95826864242554 - 99%
+INTERNAL TIME total: 93.7739589214325 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7801532745361328 - 0%
+INTERNAL TIME cooc: 0.002712249755859375 - 0%
+INTERNAL TIME weight: 0.03765082359313965 - 0%
+INTERNAL TIME pred: 93.70576047897339 - 99%
+INTERNAL TIME total: 94.52627682685852 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7342522144317627 - 0%
+INTERNAL TIME cooc: 0.002563953399658203 - 0%
+INTERNAL TIME weight: 0.03193378448486328 - 0%
+INTERNAL TIME pred: 111.10182762145996 - 99%
+INTERNAL TIME total: 111.87057757377625 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7578582763671875 - 0%
+INTERNAL TIME cooc: 0.0025756359100341797 - 0%
+INTERNAL TIME weight: 0.031966209411621094 - 0%
+INTERNAL TIME pred: 111.63834547996521 - 99%
+INTERNAL TIME total: 112.43074560165405 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7438416481018066 - 0%
+INTERNAL TIME cooc: 0.002516031265258789 - 0%
+INTERNAL TIME weight: 0.03173041343688965 - 0%
+INTERNAL TIME pred: 125.7790915966034 - 99%
+INTERNAL TIME total: 126.55717968940735 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7159814834594727 - 0%
+INTERNAL TIME cooc: 0.0024878978729248047 - 0%
+INTERNAL TIME weight: 0.030612945556640625 - 0%
+INTERNAL TIME pred: 126.75610327720642 - 99%
+INTERNAL TIME total: 127.50518560409546 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.728299617767334 - 0%
+INTERNAL TIME cooc: 0.0024416446685791016 - 0%
+INTERNAL TIME weight: 0.03052973747253418 - 0%
+INTERNAL TIME pred: 143.36841702461243 - 99%
+INTERNAL TIME total: 144.12968802452087 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 144.95642948150635 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.00396728515625
+METALAZY - Choose weaker fit: 439.9151360988617
+METALAZY - KNN neighbours: 1.3442447185516357
+INTERNAL TIME copy: 0.7620704174041748 - 0%
+INTERNAL TIME cooc: 0.0026428699493408203 - 0%
+INTERNAL TIME weight: 0.03332400321960449 - 0%
+INTERNAL TIME pred: 92.68519854545593 - 99%
+INTERNAL TIME total: 93.48323583602905 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7637064456939697 - 0%
+INTERNAL TIME cooc: 0.0026090145111083984 - 0%
+INTERNAL TIME weight: 0.03268861770629883 - 0%
+INTERNAL TIME pred: 95.85172605514526 - 99%
+INTERNAL TIME total: 96.65073013305664 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.8121700286865234 - 0%
+INTERNAL TIME cooc: 0.0026526451110839844 - 0%
+INTERNAL TIME weight: 0.03350710868835449 - 0%
+INTERNAL TIME pred: 96.2091293334961 - 99%
+INTERNAL TIME total: 97.05745911598206 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7926962375640869 - 0%
+INTERNAL TIME cooc: 0.0027921199798583984 - 0%
+INTERNAL TIME weight: 0.036032676696777344 - 0%
+INTERNAL TIME pred: 113.94371032714844 - 99%
+INTERNAL TIME total: 114.77523136138916 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7619962692260742 - 0%
+INTERNAL TIME cooc: 0.0025892257690429688 - 0%
+INTERNAL TIME weight: 0.03512740135192871 - 0%
+INTERNAL TIME pred: 114.68095517158508 - 99%
+INTERNAL TIME total: 115.48066806793213 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7441318035125732 - 0%
+INTERNAL TIME cooc: 0.0025582313537597656 - 0%
+INTERNAL TIME weight: 0.03171396255493164 - 0%
+INTERNAL TIME pred: 121.52139449119568 - 99%
+INTERNAL TIME total: 122.29979848861694 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7130255699157715 - 0%
+INTERNAL TIME cooc: 0.0025260448455810547 - 0%
+INTERNAL TIME weight: 0.029660940170288086 - 0%
+INTERNAL TIME pred: 149.48706650733948 - 99%
+INTERNAL TIME total: 150.23227906227112 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 151.08307218551636 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.003453969955444336
+METALAZY - Choose weaker fit: 415.88193678855896
+METALAZY - KNN neighbours: 1.3198418617248535
+INTERNAL TIME copy: 0.7682547569274902 - 0%
+INTERNAL TIME cooc: 14.650032997131348 - 13%
+INTERNAL TIME weight: 0.03355669975280762 - 0%
+INTERNAL TIME pred: 92.43419599533081 - 85%
+INTERNAL TIME total: 107.88604044914246 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7642858028411865 - 0%
+INTERNAL TIME cooc: 14.47329330444336 - 13%
+INTERNAL TIME weight: 0.033846378326416016 - 0%
+INTERNAL TIME pred: 93.1505138874054 - 85%
+INTERNAL TIME total: 108.42193937301636 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7872598171234131 - 0%
+INTERNAL TIME cooc: 15.051284551620483 - 13%
+INTERNAL TIME weight: 0.034310102462768555 - 0%
+INTERNAL TIME pred: 93.18458795547485 - 85%
+INTERNAL TIME total: 109.05744242668152 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7962327003479004 - 0%
+INTERNAL TIME cooc: 15.292277574539185 - 11%
+INTERNAL TIME weight: 0.03425097465515137 - 0%
+INTERNAL TIME pred: 114.06718921661377 - 87%
+INTERNAL TIME total: 130.189950466156 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7776684761047363 - 0%
+INTERNAL TIME cooc: 15.033834218978882 - 11%
+INTERNAL TIME weight: 0.033329010009765625 - 0%
+INTERNAL TIME pred: 119.69123578071594 - 88%
+INTERNAL TIME total: 135.53606748580933 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7290890216827393 - 0%
+INTERNAL TIME cooc: 13.813211917877197 - 10%
+INTERNAL TIME weight: 0.0309298038482666 - 0%
+INTERNAL TIME pred: 121.98839163780212 - 89%
+INTERNAL TIME total: 136.56162238121033 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7428560256958008 - 0%
+INTERNAL TIME cooc: 13.981500387191772 - 10%
+INTERNAL TIME weight: 0.03149151802062988 - 0%
+INTERNAL TIME pred: 125.00211691856384 - 89%
+INTERNAL TIME total: 139.75796484947205 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6995739936828613 - 0%
+INTERNAL TIME cooc: 13.214977264404297 - 8%
+INTERNAL TIME weight: 0.028438568115234375 - 0%
+INTERNAL TIME pred: 145.2353231906891 - 91%
+INTERNAL TIME total: 159.17831301689148 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 160.04456663131714 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0035533905029296875
+METALAZY - Choose weaker fit: 414.7522141933441
+METALAZY - KNN neighbours: 1.5827147960662842
+INTERNAL TIME copy: 0.8909192085266113 - 0%
+INTERNAL TIME cooc: 16.94621777534485 - 14%
+INTERNAL TIME weight: 0.035962820053100586 - 0%
+INTERNAL TIME pred: 95.89095711708069 - 84%
+INTERNAL TIME total: 113.76405692100525 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.8566970825195312 - 0%
+INTERNAL TIME cooc: 16.49419641494751 - 14%
+INTERNAL TIME weight: 0.036374807357788086 - 0%
+INTERNAL TIME pred: 99.51690864562988 - 85%
+INTERNAL TIME total: 116.90417695045471 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.8472371101379395 - 0%
+INTERNAL TIME cooc: 16.239047050476074 - 13%
+INTERNAL TIME weight: 0.0351560115814209 - 0%
+INTERNAL TIME pred: 99.9890718460083 - 85%
+INTERNAL TIME total: 117.11051201820374 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.8365299701690674 - 0%
+INTERNAL TIME cooc: 16.401743412017822 - 11%
+INTERNAL TIME weight: 0.035269975662231445 - 0%
+INTERNAL TIME pred: 122.67258477210999 - 87%
+INTERNAL TIME total: 139.9461281299591 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.8429410457611084 - 0%
+INTERNAL TIME cooc: 16.360954999923706 - 11%
+INTERNAL TIME weight: 0.046923160552978516 - 0%
+INTERNAL TIME pred: 124.71061658859253 - 87%
+INTERNAL TIME total: 141.96143579483032 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7713732719421387 - 0%
+INTERNAL TIME cooc: 15.232417583465576 - 10%
+INTERNAL TIME weight: 0.03148245811462402 - 0%
+INTERNAL TIME pred: 129.5578179359436 - 88%
+INTERNAL TIME total: 145.59309124946594 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7771463394165039 - 0%
+INTERNAL TIME cooc: 14.637648105621338 - 9%
+INTERNAL TIME weight: 0.030367374420166016 - 0%
+INTERNAL TIME pred: 133.4266951084137 - 89%
+INTERNAL TIME total: 148.8718569278717 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 165.66079020500183 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.003510713577270508
+METALAZY - Choose weaker fit: 428.25059485435486
+METALAZY - KNN neighbours: 1.4567797183990479
+INTERNAL TIME copy: 0.8050053119659424 - 0%
+INTERNAL TIME cooc: 15.668474912643433 - 14%
+INTERNAL TIME weight: 0.034116506576538086 - 0%
+INTERNAL TIME pred: 93.75656247138977 - 85%
+INTERNAL TIME total: 110.26415920257568 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7768166065216064 - 0%
+INTERNAL TIME cooc: 15.121152400970459 - 13%
+INTERNAL TIME weight: 0.03415393829345703 - 0%
+INTERNAL TIME pred: 96.70542788505554 - 85%
+INTERNAL TIME total: 112.63755083084106 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7922565937042236 - 0%
+INTERNAL TIME cooc: 15.405966758728027 - 13%
+INTERNAL TIME weight: 0.034087419509887695 - 0%
+INTERNAL TIME pred: 97.16439509391785 - 85%
+INTERNAL TIME total: 113.39670586585999 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.8066747188568115 - 0%
+INTERNAL TIME cooc: 15.774266242980957 - 11%
+INTERNAL TIME weight: 0.03370499610900879 - 0%
+INTERNAL TIME pred: 117.7977602481842 - 87%
+INTERNAL TIME total: 134.41240620613098 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7970707416534424 - 0%
+INTERNAL TIME cooc: 15.518510103225708 - 11%
+INTERNAL TIME weight: 0.03357338905334473 - 0%
+INTERNAL TIME pred: 120.03704643249512 - 88%
+INTERNAL TIME total: 136.3862006664276 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7627725601196289 - 0%
+INTERNAL TIME cooc: 14.597444295883179 - 10%
+INTERNAL TIME weight: 0.031835317611694336 - 0%
+INTERNAL TIME pred: 121.64461874961853 - 88%
+INTERNAL TIME total: 137.03667092323303 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7470452785491943 - 0%
+INTERNAL TIME cooc: 13.860038995742798 - 9%
+INTERNAL TIME weight: 0.029687881469726562 - 0%
+INTERNAL TIME pred: 129.79028224945068 - 89%
+INTERNAL TIME total: 144.4270544052124 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7141337394714355 - 0%
+INTERNAL TIME cooc: 13.671470642089844 - 8%
+INTERNAL TIME weight: 0.029680728912353516 - 0%
+INTERNAL TIME pred: 146.27699494361877 - 91%
+INTERNAL TIME total: 160.6922800540924 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 161.6543915271759 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.005519390106201172
+METALAZY - Choose weaker fit: 405.8053820133209
+GENERAL - Total grid time: 3894.506111383438
+GENERAL - Best score was 0.8345610583381706 with 
+ MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+GENERAL - Best param was {'n_neighbors': 100, 'number_of_cooccurrences': 10, 'weight_function': 'None'}
+
+METALAZY - KNN fit: 0.005875110626220703
+METALAZY - Choose weaker fit: 408.0352199077606
+Total fit time: 408.0411479473114
+METALAZY - KNN neighbours: 1.4775197505950928
+INTERNAL TIME copy: 0.5736396312713623 - 0%
+INTERNAL TIME cooc: 11.468513488769531 - 15%
+INTERNAL TIME weight: 0.025223731994628906 - 0%
+INTERNAL TIME pred: 63.94613456726074 - 84%
+INTERNAL TIME total: 76.01351141929626 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5804057121276855 - 0%
+INTERNAL TIME cooc: 11.639431476593018 - 14%
+INTERNAL TIME weight: 0.030189990997314453 - 0%
+INTERNAL TIME pred: 67.2219831943512 - 84%
+INTERNAL TIME total: 79.47201037406921 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6721510887145996 - 0%
+INTERNAL TIME cooc: 11.649929285049438 - 13%
+INTERNAL TIME weight: 0.027062177658081055 - 0%
+INTERNAL TIME pred: 72.13064789772034 - 85%
+INTERNAL TIME total: 84.47979044914246 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5746605396270752 - 0%
+INTERNAL TIME cooc: 11.040320873260498 - 11%
+INTERNAL TIME weight: 0.024521350860595703 - 0%
+INTERNAL TIME pred: 82.33539605140686 - 87%
+INTERNAL TIME total: 93.97489881515503 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6056864261627197 - 0%
+INTERNAL TIME cooc: 11.389045715332031 - 11%
+INTERNAL TIME weight: 0.02502584457397461 - 0%
+INTERNAL TIME pred: 84.44989562034607 - 87%
+INTERNAL TIME total: 96.4696536064148 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.58132004737854 - 0%
+INTERNAL TIME cooc: 11.06975507736206 - 11%
+INTERNAL TIME weight: 0.025403738021850586 - 0%
+INTERNAL TIME pred: 87.66908669471741 - 88%
+INTERNAL TIME total: 99.34556555747986 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5640807151794434 - 0%
+INTERNAL TIME cooc: 10.496630907058716 - 9%
+INTERNAL TIME weight: 0.022238969802856445 - 0%
+INTERNAL TIME pred: 97.21676468849182 - 89%
+INTERNAL TIME total: 108.29971528053284 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 109.27111268043518 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+Total pred time: 110.74963355064392
+MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+Macro: 0.8589122588980735
+Micro: 0.8632501327668612
+      macro     micro  ...                                           best_clf fold
+0  0.869962  0.872848  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    0
+1  0.870366  0.873575  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    1
+2  0.873317  0.876127  ...  SVC(C=4.0, cache_size=200, class_weight=None, ...    2
+3  0.858912  0.863250  ...  SVC(C=4.0, cache_size=200, class_weight=None, ...    3
+
+[4 rows x 5 columns]
+          fit        pred
+0  401.516077  109.372456
+1  392.805970  106.360735
+2  390.448628  105.148461
+3  408.041148  110.749634
+FOLD 4
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/train4.gz
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/test4.gz
+[{'n_neighbors': [100], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 4
+METALAZY - KNN fit: 0.0021948814392089844
+METALAZY - Choose weaker fit: 425.8357939720154
+METALAZY - KNN neighbours: 1.3998546600341797
+INTERNAL TIME copy: 0.8446862697601318 - 0%
+INTERNAL TIME cooc: 0.002772092819213867 - 0%
+INTERNAL TIME weight: 0.037317752838134766 - 0%
+INTERNAL TIME pred: 94.77199339866638 - 99%
+INTERNAL TIME total: 95.65676951408386 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.9142341613769531 - 0%
+INTERNAL TIME cooc: 0.0027456283569335938 - 0%
+INTERNAL TIME weight: 0.034111738204956055 - 0%
+INTERNAL TIME pred: 95.52557706832886 - 99%
+INTERNAL TIME total: 96.4766685962677 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.8069641590118408 - 0%
+INTERNAL TIME cooc: 0.0026688575744628906 - 0%
+INTERNAL TIME weight: 0.03409695625305176 - 0%
+INTERNAL TIME pred: 96.97854423522949 - 99%
+INTERNAL TIME total: 97.82227420806885 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.8045682907104492 - 0%
+INTERNAL TIME cooc: 0.002614736557006836 - 0%
+INTERNAL TIME weight: 0.0366213321685791 - 0%
+INTERNAL TIME pred: 116.20091032981873 - 99%
+INTERNAL TIME total: 117.04471468925476 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.8537547588348389 - 0%
+INTERNAL TIME cooc: 0.0027353763580322266 - 0%
+INTERNAL TIME weight: 0.04325056076049805 - 0%
+INTERNAL TIME pred: 118.14067840576172 - 99%
+INTERNAL TIME total: 119.04041910171509 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7681436538696289 - 0%
+INTERNAL TIME cooc: 0.002565622329711914 - 0%
+INTERNAL TIME weight: 0.032190799713134766 - 0%
+INTERNAL TIME pred: 130.24638152122498 - 99%
+INTERNAL TIME total: 131.04928159713745 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.8268945217132568 - 0%
+INTERNAL TIME cooc: 0.0026102066040039062 - 0%
+INTERNAL TIME weight: 0.03327369689941406 - 0%
+INTERNAL TIME pred: 131.4332184791565 - 99%
+INTERNAL TIME total: 132.29599690437317 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 151.14992928504944 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0029757022857666016
+METALAZY - Choose weaker fit: 432.5616557598114
+METALAZY - KNN neighbours: 1.3704380989074707
+INTERNAL TIME copy: 0.762944221496582 - 0%
+INTERNAL TIME cooc: 0.0025818347930908203 - 0%
+INTERNAL TIME weight: 0.03200531005859375 - 0%
+INTERNAL TIME pred: 86.01129579544067 - 99%
+INTERNAL TIME total: 86.80882716178894 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7551484107971191 - 0%
+INTERNAL TIME cooc: 0.0027801990509033203 - 0%
+INTERNAL TIME weight: 0.032152414321899414 - 0%
+INTERNAL TIME pred: 90.16815376281738 - 99%
+INTERNAL TIME total: 90.9582347869873 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7767107486724854 - 0%
+INTERNAL TIME cooc: 0.002591371536254883 - 0%
+INTERNAL TIME weight: 0.03194403648376465 - 0%
+INTERNAL TIME pred: 94.70032000541687 - 99%
+INTERNAL TIME total: 95.51156616210938 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7656290531158447 - 0%
+INTERNAL TIME cooc: 0.0025336742401123047 - 0%
+INTERNAL TIME weight: 0.031327009201049805 - 0%
+INTERNAL TIME pred: 107.8301362991333 - 99%
+INTERNAL TIME total: 108.62962603569031 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7897200584411621 - 0%
+INTERNAL TIME cooc: 0.0026092529296875 - 0%
+INTERNAL TIME weight: 0.031830549240112305 - 0%
+INTERNAL TIME pred: 110.65226697921753 - 99%
+INTERNAL TIME total: 111.47642683982849 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7349023818969727 - 0%
+INTERNAL TIME cooc: 0.0025200843811035156 - 0%
+INTERNAL TIME weight: 0.030138254165649414 - 0%
+INTERNAL TIME pred: 113.8635082244873 - 99%
+INTERNAL TIME total: 114.63106894493103 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7140171527862549 - 0%
+INTERNAL TIME cooc: 0.002473115921020508 - 0%
+INTERNAL TIME weight: 0.029833316802978516 - 0%
+INTERNAL TIME pred: 125.61812949180603 - 99%
+INTERNAL TIME total: 126.36445307731628 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7426092624664307 - 0%
+INTERNAL TIME cooc: 0.002422809600830078 - 0%
+INTERNAL TIME weight: 0.029246807098388672 - 0%
+INTERNAL TIME pred: 135.60967755317688 - 99%
+INTERNAL TIME total: 136.38395643234253 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 137.25661277770996 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.002916574478149414
+METALAZY - Choose weaker fit: 406.01944303512573
+METALAZY - KNN neighbours: 1.3538882732391357
+INTERNAL TIME copy: 0.7458429336547852 - 0%
+INTERNAL TIME cooc: 0.0025348663330078125 - 0%
+INTERNAL TIME weight: 0.03193354606628418 - 0%
+INTERNAL TIME pred: 88.25006484985352 - 99%
+INTERNAL TIME total: 89.03037619590759 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7494640350341797 - 0%
+INTERNAL TIME cooc: 0.0025680065155029297 - 0%
+INTERNAL TIME weight: 0.03237652778625488 - 0%
+INTERNAL TIME pred: 89.19979548454285 - 99%
+INTERNAL TIME total: 89.98420405387878 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7368967533111572 - 0%
+INTERNAL TIME cooc: 0.0025157928466796875 - 0%
+INTERNAL TIME weight: 0.03167390823364258 - 0%
+INTERNAL TIME pred: 89.09072351455688 - 99%
+INTERNAL TIME total: 89.86180996894836 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7167096138000488 - 0%
+INTERNAL TIME cooc: 0.002485513687133789 - 0%
+INTERNAL TIME weight: 0.030725479125976562 - 0%
+INTERNAL TIME pred: 101.13854050636292 - 99%
+INTERNAL TIME total: 101.88846111297607 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7143282890319824 - 0%
+INTERNAL TIME cooc: 0.0024645328521728516 - 0%
+INTERNAL TIME weight: 0.03046250343322754 - 0%
+INTERNAL TIME pred: 101.41297554969788 - 99%
+INTERNAL TIME total: 102.16023087501526 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.7014610767364502 - 0%
+INTERNAL TIME cooc: 0.002438783645629883 - 0%
+INTERNAL TIME weight: 0.030008792877197266 - 0%
+INTERNAL TIME pred: 111.80222249031067 - 99%
+INTERNAL TIME total: 112.53613114356995 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 0.6842265129089355 - 0%
+INTERNAL TIME cooc: 0.002362966537475586 - 0%
+INTERNAL TIME weight: 0.02917337417602539 - 0%
+INTERNAL TIME pred: 138.26992106437683 - 99%
+INTERNAL TIME total: 138.98568391799927 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+/home/claudiovaliense/projetos/metalazy2/metalazy/sample_environment/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+METALAZY - pred paralel: 139.79796981811523 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0029268264770507812
+METALAZY - Choose weaker fit: 413.68768310546875
+METALAZY - KNN neighbours: 1.3824925422668457
+INTERNAL TIME copy: 0.7647974491119385 - 0%
+INTERNAL TIME cooc: 14.548434495925903 - 14%
+INTERNAL TIME weight: 0.034056663513183594 - 0%
+INTERNAL TIME pred: 87.65354490280151 - 85%
+INTERNAL TIME total: 103.00083351135254 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7600748538970947 - 0%
+INTERNAL TIME cooc: 14.438668966293335 - 13%
+INTERNAL TIME weight: 0.03344011306762695 - 0%
+INTERNAL TIME pred: 88.7541868686676 - 85%
+INTERNAL TIME total: 103.98637080192566 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7558894157409668 - 0%
+INTERNAL TIME cooc: 14.403812408447266 - 13%
+INTERNAL TIME weight: 0.033240318298339844 - 0%
+INTERNAL TIME pred: 91.03381013870239 - 85%
+INTERNAL TIME total: 106.22675228118896 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7312278747558594 - 0%
+INTERNAL TIME cooc: 13.877764701843262 - 11%
+INTERNAL TIME weight: 0.03124547004699707 - 0%
+INTERNAL TIME pred: 106.10417318344116 - 87%
+INTERNAL TIME total: 120.74441123008728 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7739772796630859 - 0%
+INTERNAL TIME cooc: 14.411618709564209 - 11%
+INTERNAL TIME weight: 0.03249812126159668 - 0%
+INTERNAL TIME pred: 110.03687882423401 - 87%
+INTERNAL TIME total: 125.2549729347229 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7227239608764648 - 0%
+INTERNAL TIME cooc: 13.33098292350769 - 10%
+INTERNAL TIME weight: 0.030716896057128906 - 0%
+INTERNAL TIME pred: 118.86188387870789 - 89%
+INTERNAL TIME total: 132.94630765914917 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7105214595794678 - 0%
+INTERNAL TIME cooc: 13.344907999038696 - 9%
+INTERNAL TIME weight: 0.029556989669799805 - 0%
+INTERNAL TIME pred: 121.16800141334534 - 89%
+INTERNAL TIME total: 135.2529878616333 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 156.05503487586975 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0029969215393066406
+METALAZY - Choose weaker fit: 411.99382400512695
+METALAZY - KNN neighbours: 1.3742384910583496
+INTERNAL TIME copy: 0.853996992111206 - 0%
+INTERNAL TIME cooc: 15.92799997329712 - 14%
+INTERNAL TIME weight: 0.03481411933898926 - 0%
+INTERNAL TIME pred: 92.52832579612732 - 84%
+INTERNAL TIME total: 109.34513688087463 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7889373302459717 - 0%
+INTERNAL TIME cooc: 15.351985692977905 - 13%
+INTERNAL TIME weight: 0.034810781478881836 - 0%
+INTERNAL TIME pred: 95.71084094047546 - 85%
+INTERNAL TIME total: 111.88657474517822 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7930655479431152 - 0%
+INTERNAL TIME cooc: 15.402326822280884 - 13%
+INTERNAL TIME weight: 0.03963947296142578 - 0%
+INTERNAL TIME pred: 99.17632293701172 - 85%
+INTERNAL TIME total: 115.41135478019714 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7555603981018066 - 0%
+INTERNAL TIME cooc: 14.878114700317383 - 11%
+INTERNAL TIME weight: 0.03288674354553223 - 0%
+INTERNAL TIME pred: 112.36877393722534 - 87%
+INTERNAL TIME total: 128.03533577919006 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7935659885406494 - 0%
+INTERNAL TIME cooc: 14.811346769332886 - 11%
+INTERNAL TIME weight: 0.03908967971801758 - 0%
+INTERNAL TIME pred: 113.58458304405212 - 87%
+INTERNAL TIME total: 129.22858548164368 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.8124172687530518 - 0%
+INTERNAL TIME cooc: 15.04594111442566 - 10%
+INTERNAL TIME weight: 0.0321965217590332 - 0%
+INTERNAL TIME pred: 126.27098417282104 - 88%
+INTERNAL TIME total: 142.1615390777588 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7751836776733398 - 0%
+INTERNAL TIME cooc: 14.606038570404053 - 9%
+INTERNAL TIME weight: 0.031542301177978516 - 0%
+INTERNAL TIME pred: 133.2379288673401 - 89%
+INTERNAL TIME total: 148.65069341659546 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7325522899627686 - 0%
+INTERNAL TIME cooc: 13.996461153030396 - 8%
+INTERNAL TIME weight: 0.029593944549560547 - 0%
+INTERNAL TIME pred: 143.6328580379486 - 90%
+INTERNAL TIME total: 158.39146542549133 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 159.18546342849731 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0029489994049072266
+METALAZY - Choose weaker fit: 418.6836278438568
+METALAZY - KNN neighbours: 1.3754773139953613
+INTERNAL TIME copy: 0.7642319202423096 - 0%
+INTERNAL TIME cooc: 14.591984748840332 - 13%
+INTERNAL TIME weight: 0.034691572189331055 - 0%
+INTERNAL TIME pred: 91.46652507781982 - 85%
+INTERNAL TIME total: 106.8574333190918 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.8148353099822998 - 0%
+INTERNAL TIME cooc: 15.22020673751831 - 14%
+INTERNAL TIME weight: 0.03733682632446289 - 0%
+INTERNAL TIME pred: 91.3781521320343 - 85%
+INTERNAL TIME total: 107.45053100585938 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7901101112365723 - 0%
+INTERNAL TIME cooc: 15.03884220123291 - 13%
+INTERNAL TIME weight: 0.03469705581665039 - 0%
+INTERNAL TIME pred: 92.27260088920593 - 85%
+INTERNAL TIME total: 108.13625025749207 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7585639953613281 - 0%
+INTERNAL TIME cooc: 14.356716871261597 - 11%
+INTERNAL TIME weight: 0.03325986862182617 - 0%
+INTERNAL TIME pred: 105.40552091598511 - 87%
+INTERNAL TIME total: 120.55406165122986 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7687110900878906 - 0%
+INTERNAL TIME cooc: 14.656771421432495 - 11%
+INTERNAL TIME weight: 0.033594608306884766 - 0%
+INTERNAL TIME pred: 107.45015406608582 - 87%
+INTERNAL TIME total: 122.90923118591309 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7452011108398438 - 0%
+INTERNAL TIME cooc: 14.172083616256714 - 10%
+INTERNAL TIME weight: 0.03254508972167969 - 0%
+INTERNAL TIME pred: 119.27469301223755 - 88%
+INTERNAL TIME total: 134.2245228290558 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7363715171813965 - 0%
+INTERNAL TIME cooc: 13.736993789672852 - 9%
+INTERNAL TIME weight: 0.030945301055908203 - 0%
+INTERNAL TIME pred: 125.85605764389038 - 89%
+INTERNAL TIME total: 140.36036825180054 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.7054369449615479 - 0%
+INTERNAL TIME cooc: 13.213363647460938 - 8%
+INTERNAL TIME weight: 0.029760360717773438 - 0%
+INTERNAL TIME pred: 140.32436680793762 - 90%
+INTERNAL TIME total: 154.27292776107788 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+/home/claudiovaliense/projetos/metalazy2/metalazy/sample_environment/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+METALAZY - pred paralel: 155.14641284942627 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0056416988372802734
+/home/claudiovaliense/projetos/metalazy2/metalazy/sample_environment/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/claudiovaliense/projetos/metalazy2/metalazy/sample_environment/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+METALAZY - Choose weaker fit: 408.8070502281189
+GENERAL - Total grid time: 3824.5279819965363
+GENERAL - Best score was 0.8349357116954935 with 
+ MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+GENERAL - Best param was {'n_neighbors': 100, 'number_of_cooccurrences': 10, 'weight_function': 'None'}
+
+METALAZY - KNN fit: 0.0035991668701171875
+METALAZY - Choose weaker fit: 407.6028962135315
+Total fit time: 407.60653138160706
+METALAZY - KNN neighbours: 1.5374746322631836
+INTERNAL TIME copy: 0.5846688747406006 - 0%
+INTERNAL TIME cooc: 10.790432453155518 - 14%
+INTERNAL TIME weight: 0.025461673736572266 - 0%
+INTERNAL TIME pred: 62.49904179573059 - 84%
+INTERNAL TIME total: 73.89960479736328 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5681824684143066 - 0%
+INTERNAL TIME cooc: 10.964192867279053 - 14%
+INTERNAL TIME weight: 0.025632143020629883 - 0%
+INTERNAL TIME pred: 63.419631481170654 - 84%
+INTERNAL TIME total: 74.97763895988464 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5909621715545654 - 0%
+INTERNAL TIME cooc: 11.083216667175293 - 14%
+INTERNAL TIME weight: 0.025913715362548828 - 0%
+INTERNAL TIME pred: 66.98889589309692 - 85%
+INTERNAL TIME total: 78.68898844718933 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5809423923492432 - 0%
+INTERNAL TIME cooc: 11.031392335891724 - 12%
+INTERNAL TIME weight: 0.027696847915649414 - 0%
+INTERNAL TIME pred: 77.0617311000824 - 86%
+INTERNAL TIME total: 88.70176267623901 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5807676315307617 - 0%
+INTERNAL TIME cooc: 11.030291080474854 - 11%
+INTERNAL TIME weight: 0.025826215744018555 - 0%
+INTERNAL TIME pred: 81.78791761398315 - 87%
+INTERNAL TIME total: 93.42480254173279 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5422253608703613 - 0%
+INTERNAL TIME cooc: 10.257275819778442 - 10%
+INTERNAL TIME weight: 0.02348184585571289 - 0%
+INTERNAL TIME pred: 84.22430396080017 - 88%
+INTERNAL TIME total: 95.04728698730469 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5446872711181641 - 0%
+INTERNAL TIME cooc: 9.977918148040771 - 9%
+INTERNAL TIME weight: 0.022690296173095703 - 0%
+INTERNAL TIME pred: 90.63818907737732 - 89%
+INTERNAL TIME total: 101.18348479270935 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5461297035217285 - 0%
+INTERNAL TIME cooc: 10.330844640731812 - 9%
+INTERNAL TIME weight: 0.02300119400024414 - 0%
+INTERNAL TIME pred: 96.52276992797852 - 89%
+INTERNAL TIME total: 107.4227454662323 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 108.40620565414429 - SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+Total pred time: 109.94476056098938
+MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+Macro: 0.8575979174296391
+Micro: 0.8593833067517278
+      macro     micro  ...                                           best_clf fold
+0  0.869962  0.872848  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    0
+1  0.870366  0.873575  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    1
+2  0.873317  0.876127  ...  SVC(C=4.0, cache_size=200, class_weight=None, ...    2
+3  0.858912  0.863250  ...  SVC(C=4.0, cache_size=200, class_weight=None, ...    3
+4  0.857598  0.859383  ...  SVC(C=4.0, cache_size=200, class_weight=None, ...    4
+
+[5 rows x 5 columns]
+          fit        pred
+0  401.516077  109.372456
+1  392.805970  106.360735
+2  390.448628  105.148461
+3  408.041148  110.749634
+4  407.606531  109.944761
+[{'macro': 0.8699617493588001, 'micro': 0.8728476821192053, 'config': "MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,\n                   number_of_cooccurrences=10, oversample=False,\n                   random_state=42, select_features=False,\n                   specific_classifier=None, weight_function='None')", 'best_clf': "SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,\n    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',\n    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,\n    verbose=False)", 'fold': '0'}, {'macro': 0.8703663497155644, 'micro': 0.8735754041876491, 'config': "MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,\n                   number_of_cooccurrences=10, oversample=False,\n                   random_state=42, select_features=False,\n                   specific_classifier=None, weight_function='None')", 'best_clf': "SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,\n    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',\n    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,\n    verbose=False)", 'fold': '1'}, {'macro': 0.8733168899406643, 'micro': 0.8761273209549072, 'config': "MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,\n                   number_of_cooccurrences=10, oversample=False,\n                   random_state=42, select_features=False,\n                   specific_classifier=None, weight_function='None')", 'best_clf': "SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,\n    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',\n    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,\n    verbose=False)", 'fold': '2'}, {'macro': 0.8589122588980735, 'micro': 0.8632501327668612, 'config': "MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,\n                   number_of_cooccurrences=10, oversample=False,\n                   random_state=42, select_features=False,\n                   specific_classifier=None, weight_function='None')", 'best_clf': "SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,\n    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',\n    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,\n    verbose=False)", 'fold': '3'}, {'macro': 0.8575979174296391, 'micro': 0.8593833067517278, 'config': "MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,\n                   number_of_cooccurrences=10, oversample=False,\n                   random_state=42, select_features=False,\n                   specific_classifier=None, weight_function='None')", 'best_clf': "SVC(C=4.0, cache_size=200, class_weight=None, coef0=0.0,\n    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',\n    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,\n    verbose=False)", 'fold': '4'}]
+Total time: 21424.58765053749
+      macro     micro  ...                                           best_clf fold
+0  0.869962  0.872848  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    0
+1  0.870366  0.873575  ...  SVC(C=16.0, cache_size=200, class_weight=None,...    1
+2  0.873317  0.876127  ...  SVC(C=4.0, cache_size=200, class_weight=None, ...    2
+3  0.858912  0.863250  ...  SVC(C=4.0, cache_size=200, class_weight=None, ...    3
+4  0.857598  0.859383  ...  SVC(C=4.0, cache_size=200, class_weight=None, ...    4
+
+[5 rows x 5 columns]
+          fit        pred
+0  401.516077  109.372456
+1  392.805970  106.360735
+2  390.448628  105.148461
+3  408.041148  110.749634
+4  407.606531  109.944761
