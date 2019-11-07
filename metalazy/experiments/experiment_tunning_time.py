@@ -10,6 +10,7 @@ import argparse
 import time
 import os
 import random
+from sklearn import svm
 
 
 def warn(*args, **kwargs):
@@ -40,7 +41,9 @@ def predict(clf, X_test, time_dic):
 
 
 def choose_tunning_parameters(specific, weight, coccurrence):
-    tuned_parameters = [{'n_neighbors': [100,200,350]}]
+    #tuned_parameters = [{'n_neighbors': [100,200,350]}]
+    tuned_parameters = [{'n_neighbors': [80,90,100]}]  # stanford dataset
+
 
     #classifiers = ['logistic', 'nb', 'extrarf', 'svm']
     classifiers = ['svm']
@@ -50,7 +53,7 @@ def choose_tunning_parameters(specific, weight, coccurrence):
         #tuned_parameters[0].update({'weight_function': ['cosine', 'inverse']})
         tuned_parameters[0].update({'weight_function': ['None']})
     #if specific == 1:
-    #   tuned_parameters[0].update({'specific_classifier': classifiers})
+     #   tuned_parameters[0].update({'specific_classifier': classifiers})
     #else:
     #   tuned_parameters[0].update({'specific_classifier': random.sample(classifiers, 1)})
 
@@ -66,11 +69,13 @@ def main():
     parser.add_argument('-g', help='Size of the sample to the hyperparameter search - Default-5000')
 
     args = parser.parse_args()
-    #args.p = "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold"
+    args.p = "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold"
     #args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
-    args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+    #args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
 
     args.o = "results/"
+
+
 
     output_path = args.o
     if not os.path.exists(output_path):
@@ -101,13 +106,27 @@ def main():
         X_train, y_train, X_test, y_test = dataset_reader.get_next_fold()
 
         # Create the classifier
+        n_jobs=1
         clf = MetaLazyClassifier(select_features=False,
                                  n_jobs=n_jobs,
                                  grid_size=grid_size)
 
+
         tuned_parameters = choose_tunning_parameters(specific=1, weight=1,coccurrence=1)
 
+
+        print(clf.get_params().keys())
+
         print(tuned_parameters)
+
+        # best param svm
+        '''tuned_parameters_svm = [{'C': 2.0 ** np.arange(-5, 15, 2)}]
+        grid_svm = GridSearchCV(svm.SVC(), tuned_parameters_svm, cv=3, scoring='f1_macro')
+        grid_svm.fit(X_train, y_train)
+        best_param_svm = grid_svm.best_params_
+
+        clf.set_classifier_param_weaker('svm', 1, best_param_svm)'''
+
 
         # first we find the best configuration in general
         print('GRID SEARCH FOR FOLD {}'.format(fold))

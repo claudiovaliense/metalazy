@@ -25,8 +25,21 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
         'nb': {'alpha': 10},
         'extrarf': {'class_weight': 'balanced', 'criterion': 'gini', 'max_features': 'sqrt', 'n_estimators': 200},
         'logistic': {'penalty': 'l2', 'class_weight': 'balanced', 'solver': 'liblinear', 'C': 10},
-        'svm': {'C': 2.0 ** np.arange(0, 15, 2), 'gamma': ['scale'], 'probability': True}
+        'svm': {'kernel': 'linear', 'C': 2.0 ** np.arange(-5, 15, 2), 'verbose': False, 'probability': True,
+         'degree': 3, 'shrinking': True,
+         'decision_function_shape': None, 'random_state': None,
+         'tol': 0.001, 'cache_size': 25000, 'coef0': 0.0, 'gamma': 'auto',
+         'class_weight': None, 'random_state': 42},
+        'svm' : {'kernel': 'linear', 'C': 1, 'verbose': False, 'probability': True,
+                          'degree': 3, 'shrinking': True,
+                          'decision_function_shape': None, 'random_state': None,
+                          'tol': 0.001, 'cache_size': 25000, 'coef0': 0.0, 'gamma': 'auto',
+                          'class_weight': None, 'random_state': 42}
+        #'svm': {'C': [1], 'gamma': ['scale'], 'probability': True, 'kernel' : 'linear'}
     }
+
+    # 'svm': {'C': 2.0 ** np.arange(0, 15, 2), 'gamma': ['scale'], 'probability': True}
+    #'svm': {'C': 2.0 ** np.arange(0, 15, 2), 'gamma': ['scale'], 'probability': True, 'kernel': 'linear'}
 
     # Classifiers to test for each dataset
     #possible_weakers = ['nb', 'logistic', 'extrarf']
@@ -37,8 +50,10 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
 
     # The grid params for each weaker classifier
     weaker_grid_params = {
+        'svm': [{'C': 2.0 ** np.arange(-5, 15, 2), 'gamma': ['scale']}]
+    }
 
-        # 'extrarf': [{'criterion': ['gini'], 'max_features': ['sqrt'],
+    """    # 'extrarf': [{'criterion': ['gini'], 'max_features': ['sqrt'],
         #              'n_estimators': [200]}],
         # 'nb': {'alpha': [1]},
         # 'logistic': [{'penalty': ['l2'], 'class_weight': ['balanced'],
@@ -53,8 +68,10 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
                      #  'class_weight': ['balanced', None],
                      #  'multi_class': ['ovr', 'multinomial']}
                      ],
-        'svm': {'C': 2.0 ** np.arange(0, 15, 2),  'gamma': ['scale']}
-    }
+
+    }"""
+
+    #'svm': {'C': 2.0 ** np.arange(0, 15, 2),  'gamma': ['scale']}
 
     def __init__(self, specific_classifier=None, n_jobs=-1, n_neighbors=200, metric='cosine',
                  grid_size=1000, weight_function='inverse', number_of_cooccurrences=10, select_features=False,
@@ -120,6 +137,42 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
             raise Exception('The specific_classifier {} is not valid, use rf, nb, extrarf or logistic'.format(
                 self.specific_classifier))
 
+        print('aquiqqiquiuiuqwiuqiquiuq')
+        clf.set_params(**self.weaker_default_params[name])
+
+        return clf
+
+    def set_classifier_param_weaker(self, name, specif_jobs=1, param_weaker=dict()):
+        '''
+        Create the classifier based on the specific_classifier parameter
+        Possible values = ['rf', 'nb', 'extrarf', ''logistic]
+        '''
+
+        clf = None
+
+        if name == 'rf':
+            # print('rf')
+            clf = RandomForestClassifier(random_state=self.random_state, n_jobs=specif_jobs)
+        elif name == 'nb':
+            # print('nb')
+            clf = MultinomialNB()
+        elif name == 'extrarf':
+            # print('extrarf')
+            clf = ExtraTreesClassifier(random_state=self.random_state, n_jobs=specif_jobs)
+        elif name == 'logistic':
+            # print('logistic')
+            clf = LogisticRegression(random_state=self.random_state, n_jobs=specif_jobs)
+        elif name == 'svm':
+            clf = svm.SVC()
+            clf.__init__({'kernel': 'linear', 'C': 1, 'verbose': False, 'probability': True,
+                          'degree': 3, 'shrinking': True,
+                          'decision_function_shape': None, 'random_state': None,
+                          'tol': 0.001, 'cache_size': 25000, 'coef0': 0.0, 'gamma': 'auto',
+                          'class_weight': None, 'random_state': 42})
+        else:
+            raise Exception('The specific_classifier {} is not valid, use rf, nb, extrarf or logistic'.format(
+                self.specific_classifier))
+
         clf.set_params(**self.weaker_default_params[name])
 
         return clf
@@ -140,8 +193,10 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
         :param score:
         :return:
         '''
+        print('saiodasuoidasuoiduqwiouioweuoiqwuo')
         weaker = self.set_classifier(name=clf_name)
         tuned_parameters = self.weaker_grid_params[clf_name]
+
 
         if clf_name == 'extrarf':
             weaker.n_jobs = self.n_jobs
@@ -151,11 +206,13 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
             weaker.n_jobs = 1
 
         start_grid = time.time()
+        print('tunner weaker: ', tuned_parameters)
         grid = GridSearchCV(weaker, tuned_parameters, cv=3, scoring=score, n_jobs=grid_jobs)
         grid.fit(X, y)
         end = time.time()
         # print('{} Total grid time: {}'.format(clf_name, (end - start_grid)))
-        # print('Best score was {} with \n {}'.format(grid.best_score_, grid.best_estimator_))
+        print('Best score was {} with \n {}'.format(grid.best_score_, grid.best_estimator_))
+        print('best param: ', grid.best_params_)
 
         return grid.best_score_, grid.best_estimator_
 
