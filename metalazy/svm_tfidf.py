@@ -4,7 +4,11 @@ from sklearn import metrics
 from sklearn.metrics import precision_recall_fscore_support as score
 from sklearn.metrics import f1_score
 from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import cross_val_score
 import numpy
+from BayesianOptimization import BayesianOptimization
+
+
 
 dir_train = [
     "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/train0",
@@ -30,17 +34,22 @@ for index_file in range(5):
                     'class_weight': None, 'random_state': 42})
 
     x_train, y_train, x_test, y_test = load_svmlight_files([open(dir_train[index_file], 'rb'), open(dir_test[index_file], 'rb')])
+    
+    C = numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1) 
+    tuned_parameters_svm = [{'C':C}]
+    bayer = BayesianOptimization(model_svm, x_train, y_train)
+    print('Best param: ', bayer.fit(tuned_parameters_svm))
+
 
     # best param svm
-    tuned_parameters_svm = [{'C': 2.0 ** numpy.arange(-5, 15, 2)}]
-    grid_svm = GridSearchCV(model_svm, tuned_parameters_svm, cv=3, scoring='f1_macro')
+    '''grid_svm = GridSearchCV(model_svm, tuned_parameters_svm,  cv=3, scoring='f1_macro')
     grid_svm.fit(x_train, y_train)
     best_param_svm = grid_svm.best_params_
-    y_pred = grid_svm.predict(x_test)
+    #print('best param: ', best_param_svm)
+    y_pred = grid_svm.predict(x_test)'''        
 
-
-    #model_svm.fit(x_train, y_train) # sem best param and cro
-    #y_pred = model_svm.predict(x_test) # sem best param
+    model_svm.fit(x_train, y_train) # sem best param and cro
+    y_pred = model_svm.predict(x_test) # sem best param
     f1_macro.append(f1_score(y_test, y_pred, average='macro'))
     f1_micro.append(f1_score(y_test, y_pred, average='micro'))
 
@@ -53,11 +62,11 @@ for index in range(5):
     sum_f1_macro += (f1_macro[index]-media_f1_macro)**(2)
     sum_f1_micro += (f1_micro[index] - media_f1_micro) ** (2)
 
-
+print(f1_macro)
 print('Média Macro F1: ', media_f1_macro)
-print("Desvio padrão Macro F1: ", sum_f1_macro/5)
+print("Desvio padrão Macro F1: ", (sum_f1_macro/5)**(1/2))
 print('Média Micro F1:  ', media_f1_micro)
-print("Desvio padrão Micro F1: ", sum_f1_micro/5)
+print("Desvio padrão Micro F1: ", (sum_f1_micro/5)**(1/2))
 
 '''
 print('Accuracy: ', metrics.accuracy_score(y_test, y_pred))
