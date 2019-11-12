@@ -7,9 +7,11 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import cross_val_score
 import numpy
 from BayesianOptimization import BayesianOptimization
+import timeit  # Measure time
+from hyperopt import hp
 
 
-
+ini = timeit.default_timer()
 dir_train = [
     "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/train0",
     "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/train1",
@@ -35,18 +37,29 @@ for index_file in range(5):
 
     x_train, y_train, x_test, y_test = load_svmlight_files([open(dir_train[index_file], 'rb'), open(dir_test[index_file], 'rb')])
     
-    C = numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1) 
-    tuned_parameters_svm = [{'C':C}]
+    C = numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1)
+    #C = 2.0 ** numpy.arange(-5, 15, 2)
+    tuned_parameters_svm = [{'C': C}]
+
+    # BayesianOptimization
+    kernels = ["linear"]
+    hyperparameters = {
+        "C": hp.uniform("C", 0, 20),
+        "kernel": hp.choice("kernel", kernels)
+    }
     bayer = BayesianOptimization(model_svm, x_train, y_train)
-    print('Best param: ', bayer.fit(tuned_parameters_svm))
+    #print('Best param: ', bayer.fit(hyperparameters))
+    best_param_bayesian = bayer.fit(hyperparameters)
+    #----------
 
+    model_svm.set_params(**best_param_bayesian)
 
-    # best param svm
+    # best param svm grid
     '''grid_svm = GridSearchCV(model_svm, tuned_parameters_svm,  cv=3, scoring='f1_macro')
     grid_svm.fit(x_train, y_train)
-    best_param_svm = grid_svm.best_params_
+    best_param_svm = grid_svm.best_params_            
     #print('best param: ', best_param_svm)
-    y_pred = grid_svm.predict(x_test)'''        
+    y_pred = grid_svm.predict(x_test)'''
 
     model_svm.fit(x_train, y_train) # sem best param and cro
     y_pred = model_svm.predict(x_test) # sem best param
@@ -76,3 +89,4 @@ print('recall: {}'.format(recall))
 print('fscore: {}'.format(fscore))
 print('support: {}'.format(support))
 '''
+print("Time End: %f" % (timeit.default_timer() - ini))
