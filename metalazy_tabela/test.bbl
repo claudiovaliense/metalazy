@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{Qiao:2017:FCK:3096749.3096828}
+D.~Qiao, J.~Zhang, Q.~Wei, and G.~Chen, ``Finding competitive keywords from
+  query logs to enhance search engine advertising,'' {\em Inf. Manage.},
+  vol.~54, pp.~531--543, June 2017.
+
+\bibitem{Blei:2003:LDA:944919.944937}
+D.~M. Blei, A.~Y. Ng, and M.~I. Jordan, ``Latent dirichlet allocation,'' {\em
+  J. Mach. Learn. Res.}, vol.~3, pp.~993--1022, Mar. 2003.
+
+\bibitem{robbins1951stochastic}
+H.~Robbins and S.~Monro, ``A stochastic approximation method,'' {\em The annals
+  of mathematical statistics}, pp.~400--407, 1951.
+
+\end{thebibliography}

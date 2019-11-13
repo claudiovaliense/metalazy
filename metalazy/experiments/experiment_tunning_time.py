@@ -41,8 +41,8 @@ def predict(clf, X_test, time_dic):
 
 
 def choose_tunning_parameters(specific, weight, coccurrence):
-    #tuned_parameters = [{'n_neighbors': [100,200,350]}]
-    tuned_parameters = [{'n_neighbors': [80,90,100]}]  # stanford dataset
+    tuned_parameters = [{'n_neighbors': [100,200,350]}]
+    #tuned_parameters = [{'n_neighbors': [100]}]  # stanford dataset
 
 
     #classifiers = ['logistic', 'nb', 'extrarf', 'svm']
@@ -69,8 +69,8 @@ def main():
     parser.add_argument('-g', help='Size of the sample to the hyperparameter search - Default-5000')
 
     args = parser.parse_args()
-    args.p = "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold"
-    #args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+    #args.p = "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold"
+    args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
 
     args.o = "results/"

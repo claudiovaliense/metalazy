@@ -11,25 +11,30 @@ import timeit  # Measure time
 from hyperopt import hp
 
 
+import sys
+sys.path.append("../../doutorado") # Import directory
+import claudio_funcoes as cv  # Functions utils author
+
+
 ini = timeit.default_timer()
 dir_train = [
-    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/train0",
-    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/train1",
-    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/train2",
-    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/train3",
-    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/train4"]
+    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/train/train0",
+    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/train/train1",
+    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/train/train2",
+    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/train/train3",
+    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/train/train4"]
 
-dir_test = ["/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/test0",
-            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/test1",
-            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/test2",
-            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/test3",
-            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/test4"]
+dir_test = ["/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/test/test0",
+            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/test/test1",
+            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/test/test2",
+            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/test/test3",
+            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/test/test4"]
 
 f1_micro=[]
 f1_macro=[]
 for index_file in range(5):
     model_svm = svm.SVC()
-    model_svm.__init__(**{'kernel': 'linear', 'C': 1, 'verbose': False, 'probability': False,
+    model_svm.__init__(**{'kernel': 'rbf', 'C': 1, 'verbose': False, 'probability': False,
                     'degree': 3, 'shrinking': True,
                     'decision_function_shape': None, 'random_state': None,
                     'tol': 0.001, 'cache_size': 25000, 'coef0': 0.0, 'gamma': 'auto',
@@ -44,7 +49,7 @@ for index_file in range(5):
     # BayesianOptimization-------
     '''kernels = ["linear"]
     hyperparameters = {
-        "C": hp.uniform("C", 1, 20)#,
+        "C": hp.uniform("C", 1, 20) #,
         #"kernel": hp.choice("kernel", kernels)
     }
     bayer = BayesianOptimization(model_svm, x_train, y_train)    
@@ -52,9 +57,7 @@ for index_file in range(5):
     print('Best param: ', best_param_bayesian)
     model_svm.set_params(**best_param_bayesian)
     model_svm.fit(x_train, y_train)
-    y_pred = model_svm.predict(x_test)
-    '''
-    
+    y_pred = model_svm.predict(x_test)'''
     #----------
 
     
@@ -78,11 +81,14 @@ for index in range(5):
     sum_f1_macro += (f1_macro[index]-media_f1_macro)**(2)
     sum_f1_micro += (f1_micro[index] - media_f1_micro) ** (2)
 
-print(f1_macro)
+print("F1 macro por fold: ", f1_macro)
+print("F1 micro por fold: ", f1_micro)
 print('Média Macro F1: ', media_f1_macro)
 print("Desvio padrão Macro F1: ", (sum_f1_macro/5)**(1/2))
 print('Média Micro F1:  ', media_f1_micro)
 print("Desvio padrão Micro F1: ", (sum_f1_micro/5)**(1/2))
+
+
 
 '''
 print('Accuracy: ', metrics.accuracy_score(y_test, y_pred))

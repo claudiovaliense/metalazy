@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}  
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{verbatim}
+
+
+\begin{document}
+	
+	\begin{table}[t]
+		\small
+		\centering	
+		%\vspace{0.5cm}	
+		\begin{tabular}{l c c c}	
+			\toprule
+			\textbf{Methods} & \textbf{Macro F1} & \textbf{Micro F1} & \textbf{Time (s)} \\
+			\midrule    
+			Metalazy artigo & 83.81 (7.52) & 83.86 (7.51) & \\
+			SVM Kernel linear & 79.01 (5.14) & 79.09 (5.12) & \textbf{1.17}\\
+			SVM Kernel rbf &  79.84 (5.37) & 79.94 (5.38) & 1.31\\
+			Metalazy com SVM linear & 80.71 (0.55)  & 80.49 (0.26) & 56.65 \\	
+			Metalazy com SVM rbf & 80.71 (0.55) & 80.77 (0.51) & 57.41\\	
+			\bottomrule 
+		\end{tabular}
+		\caption{Results for dataset \textbf{Stanford Tweets}.}
+		\label{tab:dataset_Stanford}
+	\end{table}
+
+		
+	\begin{table}[t]
+		\small
+		\centering	
+		%\vspace{0.5cm}	
+		\begin{tabular}{l c c c}	
+			\toprule
+			\textbf{Methods} & \textbf{Macro F1} & \textbf{Micro F1} & \textbf{Time (s)} \\
+			\midrule    
+			Metalazy artigo & 83.81 (7.52) & 83.86 (7.51) & \\
+			SVM Kernel linear & 79.01 (5.14) & 79.09 (5.12) & \textbf{1.17}\\
+			SVM Kernel rbf &  79.84 (5.37) & 79.94 (5.38) & 1.31\\
+			Metalazy com SVM linear & 80.71 (0.55)  & 80.49 (0.26) & 56.65 \\	
+			Metalazy com SVM rbf & 80.71 (0.55) & 80.77 (0.51) & 57.41\\	
+			\bottomrule 
+		\end{tabular}
+		\caption{Results for dataset \textbf{Reut}.}
+		\label{tab:dataset_reut}
+	\end{table}
+	
+	
+	
+
+
+
+\begin{comment}
+\begin{table}[t]
+	\small
+	\centering	
+	%\vspace{0.5cm}	
+	\begin{tabular}{c c c}	
+		\toprule
+		\textbf{Methods} & & \textbf{STANFORD\_TWEETS}\\
+		\midrule    
+		\multirow{2}{*}{METALAZY}& macro F1  \\ &micro F1 \\	
+		\bottomrule 
+	\end{tabular}
+	\caption{The cardinality of $P$ and $F$ for different cities.}
+	\label{tab:dataset}
+\end{table}
+\end{comment}
+
+
+
+\begin{comment}
+\begin{table}[t]
+	\small
+	\centering	
+	%\vspace{0.5cm}	
+	\begin{tabular}{l c c}	
+		\toprule
+		\textbf{} & pred:Positive & pred:Negative \\
+		\midrule    
+		Positive & 29 & 6\\
+		Negative & 4 & 32 \\
+		\bottomrule 
+	\end{tabular}
+	\caption{Confusion matrix svm kernel rbf.}
+	\label{tab:dataset_Stanford}
+\end{table}
+\end{comment}
+
+
+\bibliography{lib}
+\bibliographystyle{ieeetr}
+
+\end{document}

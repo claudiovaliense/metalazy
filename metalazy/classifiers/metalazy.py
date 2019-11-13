@@ -2,6 +2,7 @@ import random
 import numpy as np
 from scipy import sparse
 import time
+import numpy
 import os
 
 from sklearn.base import clone
@@ -50,7 +51,7 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
 
     # The grid params for each weaker classifier
     weaker_grid_params = {
-        'svm': [{'C': 2.0 ** np.arange(-5, 15, 2), 'gamma': ['scale']}]
+        'svm': [{'C': numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1)}]
     }
 
     """    # 'extrarf': [{'criterion': ['gini'], 'max_features': ['sqrt'],
@@ -128,7 +129,7 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
             clf = LogisticRegression(random_state=self.random_state, n_jobs=specif_jobs)
         elif name == 'svm':
             clf = svm.SVC()
-            clf.__init__({'kernel': 'linear', 'C': 1, 'verbose': False, 'probability': True,
+            clf.__init__({'kernel': 'rbf', 'C': 1, 'verbose': False, 'probability': True,
                           'degree': 3, 'shrinking': True,
                           'decision_function_shape': None, 'random_state': None,
                           'tol': 0.001, 'cache_size': 25000, 'coef0': 0.0, 'gamma': 'auto',
