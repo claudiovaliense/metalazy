@@ -41,28 +41,31 @@ for index_file in range(5):
     #C = 2.0 ** numpy.arange(-5, 15, 2)
     tuned_parameters_svm = [{'C': C}]
 
-    # BayesianOptimization
-    kernels = ["linear"]
+    # BayesianOptimization-------
+    '''kernels = ["linear"]
     hyperparameters = {
-        "C": hp.uniform("C", 0, 20),
-        "kernel": hp.choice("kernel", kernels)
+        "C": hp.uniform("C", 1, 20)#,
+        #"kernel": hp.choice("kernel", kernels)
     }
-    bayer = BayesianOptimization(model_svm, x_train, y_train)
-    #print('Best param: ', bayer.fit(hyperparameters))
+    bayer = BayesianOptimization(model_svm, x_train, y_train)    
     best_param_bayesian = bayer.fit(hyperparameters)
+    print('Best param: ', best_param_bayesian)
+    model_svm.set_params(**best_param_bayesian)
+    model_svm.fit(x_train, y_train)
+    y_pred = model_svm.predict(x_test)
+    '''
+    
     #----------
 
-    model_svm.set_params(**best_param_bayesian)
-
-    # best param svm grid
-    '''grid_svm = GridSearchCV(model_svm, tuned_parameters_svm,  cv=3, scoring='f1_macro')
+    
+    # best param svm grid---
+    grid_svm = GridSearchCV(model_svm, tuned_parameters_svm,  cv=3, scoring='f1_macro')
     grid_svm.fit(x_train, y_train)
     best_param_svm = grid_svm.best_params_            
-    #print('best param: ', best_param_svm)
-    y_pred = grid_svm.predict(x_test)'''
-
-    model_svm.fit(x_train, y_train) # sem best param and cro
-    y_pred = model_svm.predict(x_test) # sem best param
+    print('best param: ', best_param_svm)
+    y_pred = grid_svm.predict(x_test)
+    #---------
+    
     f1_macro.append(f1_score(y_test, y_pred, average='macro'))
     f1_micro.append(f1_score(y_test, y_pred, average='micro'))
 
