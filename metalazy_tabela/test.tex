@@ -4,11 +4,56 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{verbatim}
+\usepackage[ruled, vlined, linesnumbered]{algorithm2e}
+\usepackage[hidelinks]{hyperref}
+
 
 
 \begin{document}
+	\section{Algorithm}
 	
-	\begin{table}[t]
+	\begin{algorithm}[ht]	
+		\caption{SVM Baseline}
+		\label{alg:Baseline}
+		
+		\KwIn{Files (Files train and test), tp (Tunned params), cv (k-Folds Cross Validation), metric (Metric), df (Default paramns LBD)}			
+		%Y\_global = list() \;
+		\ForAll{fold $\in$ Files}{
+			x\_train, y\_train, x\_test, y\_test = fold\;
+			model = GridSearch(svn.SVC(df), tp, cv, metric)\;
+			model.fit(x\_train, y\_train)\;
+			y\_pred = model.predict(x\_test)\;
+			%Y\_global[index]=y\_pred\;
+			f1\_macro.add(f1\_score(y\_test, y\_pred, ``f1\_macro''))\;
+			f1\_micro.add(f1\_score(y\_test, y\_pred, ``f1\_micro''))\;		
+		}							
+		\Return mean(f1\_macro), sd(f1\_macro), mean(f1\_micro), sd(f1\_micro);
+	\end{algorithm}
+
+	O algoritmo SVM tem complexidade O(n\_samples$^3$ x n\_features)\footnote{\url{https://scikit-learn.org/stable/modules/svm.html\#complexity}}. Utilizando o \textit{TFIDF} do dataset foi possível obter a informação de samples (linhas) e features (colunas), a Tabela \ref{tab:dataset} apresenta o impacto da entrada no algoritmo SVM. Essas informações foram obtidas do fold 0, neste caso será necessário calcular o valor para os demais folds (4).
+	
+	\begin{table}[ht]
+		\small
+		\centering	
+		%\vspace{0.5cm}	
+		\begin{tabular}{l c c c}	
+			\toprule
+			\textbf{Dataset} & \textbf{Samples} & \textbf{Features} & \textbf{SVM} \\
+			\midrule    				
+			Stanford Tweets & 286 & 1333 & 31183743448 \\ 
+			20NG & 15071 & 98230 & 3,362562409 x $10^{17}$\\
+			ACM & 19914 & 48919 & 3,86799071 x $10^{17}$\\
+			\bottomrule 
+		\end{tabular}
+		\caption{Results for dataset \textbf{Stanford Tweets}.}
+		\label{tab:dataset}
+	\end{table}	
+	
+	
+	
+	\section{Experiments}
+	
+	\begin{table}[ht]
 		\small
 		\centering	
 		%\vspace{0.5cm}	
@@ -36,19 +81,18 @@
 			\toprule
 			\textbf{Methods} & \textbf{Macro F1} & \textbf{Micro F1} & \textbf{Time (s)} \\
 			\midrule    
-			Metalazy artigo & 83.81 (7.52) & 83.86 (7.51) & \\
-			SVM Kernel linear & 79.01 (5.14) & 79.09 (5.12) & \textbf{1.17}\\
-			SVM Kernel rbf &  79.84 (5.37) & 79.94 (5.38) & 1.31\\
-			Metalazy com SVM linear & 80.71 (0.55)  & 80.49 (0.26) & 56.65 \\	
-			Metalazy com SVM rbf & 80.71 (0.55) & 80.77 (0.51) & 57.41\\	
+			Metalazy artigo &  () &  () & \\
+			SVM Kernel linear &  () &  () & \\
+			SVM Kernel rbf &   () &  () & \\
+			Metalazy com SVM linear &  ()  &  () &  \\	
+			Metalazy com SVM rbf &  () & () & \\	
 			\bottomrule 
 		\end{tabular}
 		\caption{Results for dataset \textbf{Reut}.}
 		\label{tab:dataset_reut}
 	\end{table}
 	
-	
-	
+
 
 
 
@@ -89,8 +133,8 @@
 \end{table}
 \end{comment}
 
-
-\bibliography{lib}
-\bibliographystyle{ieeetr}
+%\newpage
+%\bibliography{lib}
+%\bibliographystyle{ieeetr}
 
 \end{document}

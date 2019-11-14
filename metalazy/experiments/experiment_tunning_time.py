@@ -106,7 +106,7 @@ def main():
         X_train, y_train, X_test, y_test = dataset_reader.get_next_fold()
 
         # Create the classifier
-        n_jobs=1
+        n_jobs=-1
         clf = MetaLazyClassifier(select_features=False,
                                  n_jobs=n_jobs,
                                  grid_size=grid_size)
