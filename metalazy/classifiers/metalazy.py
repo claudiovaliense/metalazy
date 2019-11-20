@@ -38,19 +38,19 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
     #'svm': {'C': 2.0 ** np.arange(0, 15, 2), 'gamma': ['scale'], 'probability': True, 'kernel': 'linear'}
 
     # Classifiers to test for each dataset
-    #possible_weakers = ['nb', 'logistic', 'extrarf']
+    possible_weakers = ['nb', 'logistic', 'extrarf','svm']
     # possible_weakers = ['nb']
     #possible_weakers = ['svm', 'extrarf']
-    possible_weakers = ['rf']
+    #possible_weakers = ['rf']
 
 
     # The grid params for each weaker classifier
     weaker_grid_params = {        
         'svm': [{'C': numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1)}]
-        ,'rf': [{'n_estimators': [200]}]
-    }
+        ,'rf': [{'n_estimators': [200]}],
+    #}
 
-    """    # 'extrarf': [{'criterion': ['gini'], 'max_features': ['sqrt'],
+        # 'extrarf': [{'criterion': ['gini'], 'max_features': ['sqrt'],
         #              'n_estimators': [200]}],
         # 'nb': {'alpha': [1]},
         # 'logistic': [{'penalty': ['l2'], 'class_weight': ['balanced'],
@@ -66,7 +66,7 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
                      #  'multi_class': ['ovr', 'multinomial']}
                      ],
 
-    }"""
+    }
 
     #'svm': {'C': 2.0 ** np.arange(0, 15, 2),  'gamma': ['scale']}
 
@@ -108,7 +108,7 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
         Create the classifier based on the specific_classifier parameter
         Possible values = ['rf', 'nb', 'extrarf', ''logistic]
         '''
-
+        specif_jobs=-1
         clf = None
 
         if name == 'rf':
@@ -165,6 +165,7 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
             grid_jobs = self.n_jobs
             weaker.n_jobs = 1
 
+        grid_jobs=-1 #claudio
         start_grid = time.time()
         print('tunner weaker: ', tuned_parameters)
         grid = GridSearchCV(weaker, tuned_parameters, cv=3, scoring=score, n_jobs=grid_jobs)

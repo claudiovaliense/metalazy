@@ -52,12 +52,13 @@ def predict_prob(clf, X_test):
 
 def choose_tunning_parameters(specific, weight, coccurrence):
     #tuned_parameters = [{'n_neighbors': [100,200,350]}]
-    tuned_parameters = [{'n_neighbors': [350]}]
+    #tuned_parameters = [{'n_neighbors': [350]}]
+    tuned_parameters = [{'n_neighbors': [50]}] #sample fabiano
     #tuned_parameters = [{'n_neighbors': [100]}]  # stanford dataset
 
 
-    #classifiers = ['logistic', 'nb', 'extrarf', 'svm']
-    classifiers = ['extrarf']
+    classifiers = ['logistic', 'nb', 'extrarf', 'svm']
+    #classifiers = ['extrarf']
     #classifiers = ['svm']
     if coccurrence == 1:
         tuned_parameters[0].update({'number_of_cooccurrences': [0,10]})
@@ -85,7 +86,7 @@ def main():
     
     #args.p = "/home/claudiovaliense/dataset/stanford_tweets/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
-    args.p = "/home/claudiovaliense/projetos/attribs/metalazy"
+    args.p = "../../dataset/metalazy_sample"
     #args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "/home/claudiovaliense/dataset/acm/representations/5-folds/TFIDF_removed_stopwords_mindf1"
 
@@ -147,7 +148,7 @@ def main():
         # first we find the best configuration in general
         print('GRID SEARCH FOR FOLD {}'.format(fold))
         start_grid = time.time()
-        grid = GridSearchCV(clf, tuned_parameters, cv=3, scoring='f1_macro', n_jobs=1)
+        grid = GridSearchCV(clf, tuned_parameters, cv=3, scoring='f1_macro', n_jobs=-1)
         grid.fit(X_train, y_train)
         end = time.time()
         print('GENERAL - Total grid time: {}'.format((end - start_grid)))
@@ -166,7 +167,7 @@ def main():
 
         # Fabiano save y_prob
         y_pred_prob = predict_prob(grid.best_estimator_, X_test)
-        file_yprob = "/home/claudiovaliense/projetos/attribs/metalazy/test0_metalazy_y_prob"
+        file_yprob = "../../dataset/test0_metalazy_y_prob"
         with open(file_yprob, 'w', newline='') as csv_write:
             rows_out = csv.writer(csv_write)
             for y_doc in y_pred_prob:                             
