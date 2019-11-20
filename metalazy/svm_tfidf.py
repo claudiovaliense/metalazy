@@ -15,21 +15,23 @@ import sys
 sys.path.append("../../doutorado") # Import directory
 import claudio_funcoes as cv  # Functions utils author
 
+name_dataset="stanford_tweets"
+
 
 ini = timeit.default_timer()
-dir_train = [
-    "/home/claudiovaliense/dataset/acm/representations/5-folds/TFIDF_removed_stopwords_mindf1/train0",
-    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/train/train0",
-    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/train/train1",
-    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/train/train2",
-    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/train/train3",
-    "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/train/train4"]
+dir_train = [    
+    "/home/claudiovaliense/dataset/" + name_dataset +"/representations/5-folds/TFIDF_removed_stopwords_mindf1/extract/train/train0",
+    "/home/claudiovaliense/dataset/" + name_dataset +"/representations/5-folds/TFIDF_removed_stopwords_mindf1/extract/train/train1",
+    "/home/claudiovaliense/dataset/" + name_dataset +"/representations/5-folds/TFIDF_removed_stopwords_mindf1/extract/train/train2",
+    "/home/claudiovaliense/dataset/" + name_dataset +"/representations/5-folds/TFIDF_removed_stopwords_mindf1/extract/train/train3",
+    "/home/claudiovaliense/dataset/" + name_dataset +"/representations/5-folds/TFIDF_removed_stopwords_mindf1/extract/train/train4"]
 
-dir_test = ["/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/test/test0",
-            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/test/test1",
-            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/test/test2",
-            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/test/test3",
-            "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold/extract/test/test4"]
+dir_test = [
+    "/home/claudiovaliense/dataset/" + name_dataset +"/representations/5-folds/TFIDF_removed_stopwords_mindf1/extract/test/test0",
+    "/home/claudiovaliense/dataset/" + name_dataset +"/representations/5-folds/TFIDF_removed_stopwords_mindf1/extract/test/test1",
+    "/home/claudiovaliense/dataset/" + name_dataset +"/representations/5-folds/TFIDF_removed_stopwords_mindf1/extract/test/test2",
+    "/home/claudiovaliense/dataset/" + name_dataset +"/representations/5-folds/TFIDF_removed_stopwords_mindf1/extract/test/test3",
+    "/home/claudiovaliense/dataset/" + name_dataset +"/representations/5-folds/TFIDF_removed_stopwords_mindf1/extract/test/test4"]
 
 f1_micro=[]
 f1_macro=[]
@@ -42,9 +44,9 @@ for index_file in range(5):
                     'class_weight': None, 'random_state': 42})
 
     x_train, y_train, x_test, y_test = load_svmlight_files([open(dir_train[index_file], 'rb'), open(dir_test[index_file], 'rb')])
-    print('Shape', x_train.shape)
+    #print('Shape', x_train.shape)
     #print(x_train)
-    exit()
+    #exit()
     
     C = numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1)
     #C = 2.0 ** numpy.arange(-5, 15, 2)

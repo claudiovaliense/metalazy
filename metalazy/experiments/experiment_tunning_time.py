@@ -85,7 +85,7 @@ def main():
     
     #args.p = "/home/claudiovaliense/dataset/stanford_tweets/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
-    args.p = "/home/claudiovaliense/projetos/attribs/matalazy_fabiano"
+    args.p = "/home/claudiovaliense/projetos/attribs/metalazy"
     #args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "/home/claudiovaliense/dataset/acm/representations/5-folds/TFIDF_removed_stopwords_mindf1"
 
@@ -166,11 +166,11 @@ def main():
 
         # Fabiano save y_prob
         y_pred_prob = predict_prob(grid.best_estimator_, X_test)
-        file_yprob = "/home/claudiovaliense/projetos/attribs/matalazy_fabiano/test0_metalazy_y_prob"
+        file_yprob = "/home/claudiovaliense/projetos/attribs/metalazy/test0_metalazy_y_prob"
         with open(file_yprob, 'w', newline='') as csv_write:
             rows_out = csv.writer(csv_write)
-            for y_doc in y_pred_prob:
-                rows_out.writerow([y_doc])
+            for y_doc in y_pred_prob:                             
+                rows_out.writerow([y_doc[1]])
 
 
         print(str(grid.best_estimator_))
