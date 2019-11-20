@@ -1,3 +1,8 @@
+import sys
+sys.path.append("../../")
+import claudio_funcoes as cv
+
+
 from metalazy.utils.dataset_reader import DatasetReader
 from metalazy.classifiers.metalazy import MetaLazyClassifier
 from sklearn.metrics import classification_report
@@ -6,11 +11,13 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import f1_score
 import pandas as pd
 import numpy as np
+np.random.seed(seed=42) # claudio, no fold0 o resultado estava alterando a cada execucao
 import argparse
 import time
 import os
 import random
 from sklearn import svm
+import csv  # Manipular csv
 
 
 def warn(*args, **kwargs):
@@ -39,19 +46,25 @@ def predict(clf, X_test, time_dic):
 
     return y_pred
 
+def predict_prob(clf, X_test):
+    y_pred_prob = clf.predict_proba(X_test)
+    return y_pred_prob
 
 def choose_tunning_parameters(specific, weight, coccurrence):
-    tuned_parameters = [{'n_neighbors': [100,200,350]}]
+    #tuned_parameters = [{'n_neighbors': [100,200,350]}]
+    tuned_parameters = [{'n_neighbors': [350]}]
     #tuned_parameters = [{'n_neighbors': [100]}]  # stanford dataset
 
 
     #classifiers = ['logistic', 'nb', 'extrarf', 'svm']
-    classifiers = ['svm']
+    classifiers = ['extrarf']
+    #classifiers = ['svm']
     if coccurrence == 1:
         tuned_parameters[0].update({'number_of_cooccurrences': [0,10]})
     if weight == 1:
         #tuned_parameters[0].update({'weight_function': ['cosine', 'inverse']})
         tuned_parameters[0].update({'weight_function': ['None']})
+    # se descomentar nao testa o gridsearch no classificador fraco
     #if specific == 1:
      #   tuned_parameters[0].update({'specific_classifier': classifiers})
     #else:
@@ -69,9 +82,12 @@ def main():
     parser.add_argument('-g', help='Size of the sample to the hyperparameter search - Default-5000')
 
     args = parser.parse_args()
-    #args.p = "/home/claudiovaliense/projetos/metalazy2/metalazy/metalazy/example/data/stanford_tweets_tfIdf_5fold"
-    args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+    
+    #args.p = "/home/claudiovaliense/dataset/stanford_tweets/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+    #args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+    args.p = "/home/claudiovaliense/projetos/attribs/matalazy_fabiano"
     #args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+    #args.p = "/home/claudiovaliense/dataset/acm/representations/5-folds/TFIDF_removed_stopwords_mindf1"
 
     args.o = "results/"
 
@@ -148,6 +164,15 @@ def main():
         # Predict
         y_pred = predict(grid.best_estimator_, X_test, time_dic)
 
+        # Fabiano save y_prob
+        y_pred_prob = predict_prob(grid.best_estimator_, X_test)
+        file_yprob = "/home/claudiovaliense/projetos/attribs/matalazy_fabiano/test0_metalazy_y_prob"
+        with open(file_yprob, 'w', newline='') as csv_write:
+            rows_out = csv.writer(csv_write)
+            for y_doc in y_pred_prob:
+                rows_out.writerow([y_doc])
+
+
         print(str(grid.best_estimator_))
         print(str(grid.best_estimator_.weaker))
         # Save the result
@@ -188,3 +213,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print('Macro F1: ' + str(cv.average_csv_column('results/result_tunning_time.csv', 0)) +" (" +str(cv.standard_deviation_column('results/result_tunning_time.csv', 0) )+')')
+    print('Micro F1: ' + str(cv.average_csv_column('results/result_tunning_time.csv', 1)) +" (" +str(cv.standard_deviation_column('results/result_tunning_time.csv', 1) )+')')  
+    

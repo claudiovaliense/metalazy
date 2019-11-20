@@ -1,0 +1,888 @@
+0.32891878413467435
+0.20356115503761993
+Loading folds
+FOLD 0
+/home/claudiovaliense/projetos/attribs/matalazy_fabiano/train0_metalazy_scaler
+/home/claudiovaliense/projetos/attribs/matalazy_fabiano/test_metalazy_scaler
+dict_keys(['grid_size', 'metric', 'n_jobs', 'n_neighbors', 'number_of_cooccurrences', 'oversample', 'random_state', 'select_features', 'specific_classifier', 'weight_function'])
+[{'n_neighbors': [100, 200, 350], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 0
+METALAZY - KNN fit: 0.01482391357421875
+tunner weaker:  [{'n_estimators': [200]}]
+Best score was 0.8169987798980748 with 
+ RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+best param:  {'n_estimators': 200}
+METALAZY - Choose weaker fit: 6.814506530761719
+METALAZY - KNN neighbours: 993.3896894454956
+INTERNAL TIME copy: 27.156938076019287 - 0%
+INTERNAL TIME cooc: 0.07490777969360352 - 0%
+INTERNAL TIME weight: 1.084460973739624 - 0%
+INTERNAL TIME pred: 4337.80485701561 - 99%
+INTERNAL TIME total: 4366.121163845062 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.205615997314453 - 0%
+INTERNAL TIME cooc: 0.07510662078857422 - 0%
+INTERNAL TIME weight: 1.0868895053863525 - 0%
+INTERNAL TIME pred: 4345.2573437690735 - 99%
+INTERNAL TIME total: 4373.624955892563 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.201056241989136 - 0%
+INTERNAL TIME cooc: 0.07474708557128906 - 0%
+INTERNAL TIME weight: 1.1051998138427734 - 0%
+INTERNAL TIME pred: 4347.487963676453 - 99%
+INTERNAL TIME total: 4375.868966817856 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.243157386779785 - 0%
+INTERNAL TIME cooc: 0.07459735870361328 - 0%
+INTERNAL TIME weight: 1.1258957386016846 - 0%
+INTERNAL TIME pred: 4352.421546220779 - 99%
+INTERNAL TIME total: 4380.8651967048645 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.169265031814575 - 0%
+INTERNAL TIME cooc: 0.07413530349731445 - 0%
+INTERNAL TIME weight: 1.1106019020080566 - 0%
+INTERNAL TIME pred: 4354.310762882233 - 99%
+INTERNAL TIME total: 4382.664765119553 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.266401529312134 - 0%
+INTERNAL TIME cooc: 0.07572603225708008 - 0%
+INTERNAL TIME weight: 1.094071626663208 - 0%
+INTERNAL TIME pred: 4352.886402130127 - 99%
+INTERNAL TIME total: 4381.322601318359 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.26385736465454 - 0%
+INTERNAL TIME cooc: 0.07563233375549316 - 0%
+INTERNAL TIME weight: 1.1439721584320068 - 0%
+INTERNAL TIME pred: 4354.751372098923 - 99%
+INTERNAL TIME total: 4383.234833955765 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+METALAZY - pred paralel: 4390.567708730698 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+METALAZY - KNN fit: 0.013181209564208984
+tunner weaker:  [{'n_estimators': [200]}]
+Best score was 0.8211445270094883 with 
+ RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+best param:  {'n_estimators': 200}
+METALAZY - Choose weaker fit: 6.701282024383545
+METALAZY - KNN neighbours: 1015.3359112739563
+INTERNAL TIME copy: 27.074485063552856 - 0%
+INTERNAL TIME cooc: 0.07581305503845215 - 0%
+INTERNAL TIME weight: 1.1042118072509766 - 0%
+INTERNAL TIME pred: 4274.650819540024 - 99%
+INTERNAL TIME total: 4302.905329465866 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 26.934559106826782 - 0%
+INTERNAL TIME cooc: 0.07480359077453613 - 0%
+INTERNAL TIME weight: 1.1047816276550293 - 0%
+INTERNAL TIME pred: 4279.622706413269 - 99%
+INTERNAL TIME total: 4307.736850738525 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.076188564300537 - 0%
+INTERNAL TIME cooc: 0.07529020309448242 - 0%
+INTERNAL TIME weight: 1.1361877918243408 - 0%
+INTERNAL TIME pred: 4291.2602689266205 - 99%
+INTERNAL TIME total: 4319.54793548584 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 26.926958560943604 - 0%
+INTERNAL TIME cooc: 0.0748598575592041 - 0%
+INTERNAL TIME weight: 1.0800247192382812 - 0%
+INTERNAL TIME pred: 4289.375503063202 - 99%
+INTERNAL TIME total: 4317.457346200943 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.045090436935425 - 0%
+INTERNAL TIME cooc: 0.07570219039916992 - 0%
+INTERNAL TIME weight: 1.1233913898468018 - 0%
+INTERNAL TIME pred: 4295.516178369522 - 99%
+INTERNAL TIME total: 4323.7603623867035 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.026660680770874 - 0%
+INTERNAL TIME cooc: 0.07557225227355957 - 0%
+INTERNAL TIME weight: 1.122807502746582 - 0%
+INTERNAL TIME pred: 4295.628423213959 - 99%
+INTERNAL TIME total: 4323.85346364975 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 26.973018407821655 - 0%
+INTERNAL TIME cooc: 0.07506203651428223 - 0%
+INTERNAL TIME weight: 1.1323094367980957 - 0%
+INTERNAL TIME pred: 4299.209215164185 - 99%
+INTERNAL TIME total: 4327.389605045319 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+METALAZY - pred paralel: 4332.827388763428 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+METALAZY - KNN fit: 0.013707876205444336
+tunner weaker:  [{'n_estimators': [200]}]
+Best score was 0.8063352423050661 with 
+ RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+best param:  {'n_estimators': 200}
+METALAZY - Choose weaker fit: 6.809725761413574
+METALAZY - KNN neighbours: 1031.6068353652954
+INTERNAL TIME copy: 26.909411668777466 - 0%
+INTERNAL TIME cooc: 0.07244586944580078 - 0%
+INTERNAL TIME weight: 1.1333680152893066 - 0%
+INTERNAL TIME pred: 4270.13728427887 - 99%
+INTERNAL TIME total: 4298.252509832382 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.02395486831665 - 0%
+INTERNAL TIME cooc: 0.07210540771484375 - 0%
+INTERNAL TIME weight: 1.0736606121063232 - 0%
+INTERNAL TIME pred: 4276.111552238464 - 99%
+INTERNAL TIME total: 4304.281273126602 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 26.960734128952026 - 0%
+INTERNAL TIME cooc: 0.0724341869354248 - 0%
+INTERNAL TIME weight: 1.0730416774749756 - 0%
+INTERNAL TIME pred: 4282.424600124359 - 99%
+INTERNAL TIME total: 4310.530810117722 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 26.929835081100464 - 0%
+INTERNAL TIME cooc: 0.07233572006225586 - 0%
+INTERNAL TIME weight: 1.1296501159667969 - 0%
+INTERNAL TIME pred: 4282.791339159012 - 99%
+INTERNAL TIME total: 4310.923160076141 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 26.938498497009277 - 0%
+INTERNAL TIME cooc: 0.07223200798034668 - 0%
+INTERNAL TIME weight: 1.1188158988952637 - 0%
+INTERNAL TIME pred: 4288.375101804733 - 99%
+INTERNAL TIME total: 4316.504648208618 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 26.966158151626587 - 0%
+INTERNAL TIME cooc: 0.07385993003845215 - 0%
+INTERNAL TIME weight: 1.1341354846954346 - 0%
+INTERNAL TIME pred: 4286.062698364258 - 99%
+INTERNAL TIME total: 4314.236851930618 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 26.98001718521118 - 0%
+INTERNAL TIME cooc: 0.07380127906799316 - 0%
+INTERNAL TIME weight: 1.1378583908081055 - 0%
+INTERNAL TIME pred: 4292.21942782402 - 99%
+INTERNAL TIME total: 4320.411104679108 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+METALAZY - pred paralel: 4326.2062401771545 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+METALAZY - KNN fit: 0.013834714889526367
+tunner weaker:  [{'n_estimators': [200]}]
+Best score was 0.8169987798980748 with 
+ RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+best param:  {'n_estimators': 200}
+METALAZY - Choose weaker fit: 6.6930975914001465
+METALAZY - KNN neighbours: 993.1505653858185
+INTERNAL TIME copy: 26.913888931274414 - 0%
+INTERNAL TIME cooc: 195.14293789863586 - 4%
+INTERNAL TIME weight: 0.7441174983978271 - 0%
+INTERNAL TIME pred: 4321.1300048828125 - 95%
+INTERNAL TIME total: 4543.930949211121 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.929635524749756 - 0%
+INTERNAL TIME cooc: 196.03874444961548 - 4%
+INTERNAL TIME weight: 0.7479870319366455 - 0%
+INTERNAL TIME pred: 4326.257053613663 - 95%
+INTERNAL TIME total: 4549.973420619965 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.925994873046875 - 0%
+INTERNAL TIME cooc: 195.48572087287903 - 4%
+INTERNAL TIME weight: 0.7469089031219482 - 0%
+INTERNAL TIME pred: 4325.339518785477 - 95%
+INTERNAL TIME total: 4548.4981434345245 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.935754776000977 - 0%
+INTERNAL TIME cooc: 195.67458701133728 - 4%
+INTERNAL TIME weight: 0.7424712181091309 - 0%
+INTERNAL TIME pred: 4328.6087074279785 - 95%
+INTERNAL TIME total: 4551.961520433426 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.865918159484863 - 0%
+INTERNAL TIME cooc: 194.65871500968933 - 4%
+INTERNAL TIME weight: 0.736644983291626 - 0%
+INTERNAL TIME pred: 4331.360884904861 - 95%
+INTERNAL TIME total: 4553.622163057327 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.90305757522583 - 0%
+INTERNAL TIME cooc: 196.02545809745789 - 4%
+INTERNAL TIME weight: 0.7490606307983398 - 0%
+INTERNAL TIME pred: 4336.773090600967 - 95%
+INTERNAL TIME total: 4560.4506669044495 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.821920156478882 - 0%
+INTERNAL TIME cooc: 193.75813388824463 - 4%
+INTERNAL TIME weight: 0.7381811141967773 - 0%
+INTERNAL TIME pred: 4337.985785484314 - 95%
+INTERNAL TIME total: 4559.304020643234 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+METALAZY - pred paralel: 4565.218354225159 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+METALAZY - KNN fit: 0.013659238815307617
+tunner weaker:  [{'n_estimators': [200]}]
+Best score was 0.8211445270094883 with 
+ RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+best param:  {'n_estimators': 200}
+METALAZY - Choose weaker fit: 6.695934772491455
+METALAZY - KNN neighbours: 1018.3528683185577
+INTERNAL TIME copy: 26.872711181640625 - 0%
+INTERNAL TIME cooc: 195.7859423160553 - 4%
+INTERNAL TIME weight: 0.7442348003387451 - 0%
+INTERNAL TIME pred: 4287.430069923401 - 95%
+INTERNAL TIME total: 4510.832958221436 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.78685688972473 - 0%
+INTERNAL TIME cooc: 194.31502866744995 - 4%
+INTERNAL TIME weight: 0.7369747161865234 - 0%
+INTERNAL TIME pred: 4294.73971414566 - 95%
+INTERNAL TIME total: 4516.578574419022 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.699452877044678 - 0%
+INTERNAL TIME cooc: 193.78046989440918 - 4%
+INTERNAL TIME weight: 0.7319140434265137 - 0%
+INTERNAL TIME pred: 4300.84193110466 - 95%
+INTERNAL TIME total: 4522.05376791954 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.832788705825806 - 0%
+INTERNAL TIME cooc: 195.13046884536743 - 4%
+INTERNAL TIME weight: 0.7438263893127441 - 0%
+INTERNAL TIME pred: 4301.483336925507 - 95%
+INTERNAL TIME total: 4524.190420866013 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.860222339630127 - 0%
+INTERNAL TIME cooc: 195.6377375125885 - 4%
+INTERNAL TIME weight: 0.7477803230285645 - 0%
+INTERNAL TIME pred: 4300.708682775497 - 95%
+INTERNAL TIME total: 4523.954422950745 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.782822847366333 - 0%
+INTERNAL TIME cooc: 195.16559290885925 - 4%
+INTERNAL TIME weight: 0.7490088939666748 - 0%
+INTERNAL TIME pred: 4305.848394870758 - 95%
+INTERNAL TIME total: 4528.54581952095 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.76885676383972 - 0%
+INTERNAL TIME cooc: 194.43870544433594 - 4%
+INTERNAL TIME weight: 0.7484872341156006 - 0%
+INTERNAL TIME pred: 4310.463729143143 - 95%
+INTERNAL TIME total: 4532.419778585434 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+METALAZY - pred paralel: 4540.850139141083 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+METALAZY - KNN fit: 0.011028766632080078
+tunner weaker:  [{'n_estimators': [200]}]
+Best score was 0.8063352423050661 with 
+ RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+best param:  {'n_estimators': 200}
+METALAZY - Choose weaker fit: 6.808631658554077
+METALAZY - KNN neighbours: 1033.6647555828094
+INTERNAL TIME copy: 26.778753995895386 - 0%
+INTERNAL TIME cooc: 194.10930109024048 - 4%
+INTERNAL TIME weight: 0.7612960338592529 - 0%
+INTERNAL TIME pred: 4294.050999403 - 95%
+INTERNAL TIME total: 4515.700350522995 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+INTERNAL TIME copy: 26.928775310516357 - 0%
+INTERNAL TIME cooc: 194.0847465991974 - 4%
+INTERNAL TIME weight: 0.7474391460418701 - 0%
+INTERNAL TIME pred: 4299.218299865723 - 95%
+INTERNAL TIME total: 4520.979260921478 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 10
+
+METALAZY - pred paralel: 4544.777219295502 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+METALAZY - KNN fit: 0.013767480850219727
+tunner weaker:  [{'n_estimators': [200]}]
+Best score was 0.8169987798980748 with 
+ RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+best param:  {'n_estimators': 200}
+METALAZY - Choose weaker fit: 6.675700664520264
+METALAZY - KNN neighbours: 993.832573890686
+INTERNAL TIME copy: 27.137789964675903 - 0%
+INTERNAL TIME cooc: 0.07676577568054199 - 0%
+INTERNAL TIME weight: 1.1967768669128418 - 0%
+INTERNAL TIME pred: 4829.537099838257 - 99%
+INTERNAL TIME total: 4857.948432445526 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.25372886657715 - 0%
+INTERNAL TIME cooc: 0.07492470741271973 - 0%
+INTERNAL TIME weight: 1.208895206451416 - 0%
+INTERNAL TIME pred: 4849.698354721069 - 99%
+INTERNAL TIME total: 4878.235903501511 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.29306960105896 - 0%
+INTERNAL TIME cooc: 0.07474398612976074 - 0%
+INTERNAL TIME weight: 1.2038578987121582 - 0%
+INTERNAL TIME pred: 4854.963113307953 - 99%
+INTERNAL TIME total: 4883.534784793854 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.362140893936157 - 0%
+INTERNAL TIME cooc: 0.07597923278808594 - 0%
+INTERNAL TIME weight: 1.2030260562896729 - 0%
+INTERNAL TIME pred: 4858.617543458939 - 99%
+INTERNAL TIME total: 4887.2586896419525 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.239224195480347 - 0%
+INTERNAL TIME cooc: 0.0751035213470459 - 0%
+INTERNAL TIME weight: 1.2004120349884033 - 0%
+INTERNAL TIME pred: 4862.39831495285 - 99%
+INTERNAL TIME total: 4890.913054704666 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.219655752182007 - 0%
+INTERNAL TIME cooc: 0.07499122619628906 - 0%
+INTERNAL TIME weight: 1.1975769996643066 - 0%
+INTERNAL TIME pred: 4854.480401992798 - 99%
+INTERNAL TIME total: 4882.97262597084 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+METALAZY - pred paralel: 4899.846570491791 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+METALAZY - KNN fit: 0.013837337493896484
+tunner weaker:  [{'n_estimators': [200]}]
+Best score was 0.8211445270094883 with 
+ RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+best param:  {'n_estimators': 200}
+METALAZY - Choose weaker fit: 6.680700778961182
+METALAZY - KNN neighbours: 1019.1672794818878
+INTERNAL TIME copy: 27.212073802947998 - 0%
+INTERNAL TIME cooc: 0.07612991333007812 - 0%
+INTERNAL TIME weight: 1.1894762516021729 - 0%
+INTERNAL TIME pred: 4826.589582681656 - 99%
+INTERNAL TIME total: 4855.067262649536 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.230950593948364 - 0%
+INTERNAL TIME cooc: 0.0762176513671875 - 0%
+INTERNAL TIME weight: 1.2059261798858643 - 0%
+INTERNAL TIME pred: 4832.06911110878 - 99%
+INTERNAL TIME total: 4860.582205533981 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.257789134979248 - 0%
+INTERNAL TIME cooc: 0.07633447647094727 - 0%
+INTERNAL TIME weight: 1.1986076831817627 - 0%
+INTERNAL TIME pred: 4836.917084932327 - 99%
+INTERNAL TIME total: 4865.449816226959 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.261887788772583 - 0%
+INTERNAL TIME cooc: 0.07533717155456543 - 0%
+INTERNAL TIME weight: 1.196730375289917 - 0%
+INTERNAL TIME pred: 4845.216657876968 - 99%
+INTERNAL TIME total: 4873.750613212585 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.186538696289062 - 0%
+INTERNAL TIME cooc: 0.07611846923828125 - 0%
+INTERNAL TIME weight: 1.1941821575164795 - 0%
+INTERNAL TIME pred: 4843.420388460159 - 99%
+INTERNAL TIME total: 4871.877227783203 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.16881489753723 - 0%
+INTERNAL TIME cooc: 0.07576632499694824 - 0%
+INTERNAL TIME weight: 1.1938180923461914 - 0%
+INTERNAL TIME pred: 4840.0814735889435 - 99%
+INTERNAL TIME total: 4868.519872903824 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.222530364990234 - 0%
+INTERNAL TIME cooc: 0.0758061408996582 - 0%
+INTERNAL TIME weight: 1.1924166679382324 - 0%
+INTERNAL TIME pred: 4851.099729299545 - 99%
+INTERNAL TIME total: 4879.590482473373 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+METALAZY - pred paralel: 4891.862950563431 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+METALAZY - KNN fit: 0.013644933700561523
+tunner weaker:  [{'n_estimators': [200]}]
+Best score was 0.8063352423050661 with 
+ RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+best param:  {'n_estimators': 200}
+METALAZY - Choose weaker fit: 6.798144340515137
+METALAZY - KNN neighbours: 1034.5168178081512
+INTERNAL TIME copy: 27.351271867752075 - 0%
+INTERNAL TIME cooc: 0.07631516456604004 - 0%
+INTERNAL TIME weight: 1.2225732803344727 - 0%
+INTERNAL TIME pred: 4853.2684674263 - 99%
+INTERNAL TIME total: 4881.918627738953 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.31121063232422 - 0%
+INTERNAL TIME cooc: 0.07571172714233398 - 0%
+INTERNAL TIME weight: 1.2192132472991943 - 0%
+INTERNAL TIME pred: 4859.501669645309 - 99%
+INTERNAL TIME total: 4888.107805252075 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.34126353263855 - 0%
+INTERNAL TIME cooc: 0.07584571838378906 - 0%
+INTERNAL TIME weight: 1.2130227088928223 - 0%
+INTERNAL TIME pred: 4858.298499107361 - 99%
+INTERNAL TIME total: 4886.928631067276 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.35522747039795 - 0%
+INTERNAL TIME cooc: 0.07601094245910645 - 0%
+INTERNAL TIME weight: 1.220872402191162 - 0%
+INTERNAL TIME pred: 4861.072576284409 - 99%
+INTERNAL TIME total: 4889.724687099457 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.29666233062744 - 0%
+INTERNAL TIME cooc: 0.07628297805786133 - 0%
+INTERNAL TIME weight: 1.2147092819213867 - 0%
+INTERNAL TIME pred: 4857.58405995369 - 99%
+INTERNAL TIME total: 4886.171714544296 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.300506353378296 - 0%
+INTERNAL TIME cooc: 0.07584261894226074 - 0%
+INTERNAL TIME weight: 1.2153611183166504 - 0%
+INTERNAL TIME pred: 4861.091246128082 - 99%
+INTERNAL TIME total: 4889.6829562187195 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+INTERNAL TIME copy: 27.28180742263794 - 0%
+INTERNAL TIME cooc: 0.07646679878234863 - 0%
+INTERNAL TIME weight: 1.216735601425171 - 0%
+INTERNAL TIME pred: 4861.941652536392 - 99%
+INTERNAL TIME total: 4890.516662359238 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False) - cooc 0
+
+METALAZY - pred paralel: 4899.275981426239 - RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+METALAZY - KNN fit: 0.011168479919433594
+tunner weaker:  [{'n_estimators': [200]}]
+Best score was 0.8169987798980748 with 
+ RandomForestClassifier(bootstrap=True, class_weight='balanced',
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, min_impurity_decrease=0.0,
+                       min_impurity_split=None, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=200, n_jobs=1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+best param:  {'n_estimators': 200}
+METALAZY - Choose weaker fit: 6.693930149078369
+METALAZY - KNN neighbours: 993.0753428936005
+/usr/local/lib/python3.6/dist-packages/joblib/externals/loky/backend/resource_tracker.py:266: UserWarning: resource_tracker: There appear to be 6 leaked semlock objects to clean up at shutdown
+  (len(rtype_cache), rtype))
