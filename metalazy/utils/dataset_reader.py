@@ -9,20 +9,24 @@ class DatasetReader:
         using the LBD default fold partition
     '''
 
-    def __init__(self, path):
+    def __init__(self, path, train, test):
         self.current_fold = 0
         self.default_fold_partition = True
         self.folds_path = path
         self.split = []
 
+        self.train_folds = train # claudio, paralelizar instancia test
+        self.test_folds = test # claudio, paralelizar instancia test
+
+        ''''claudio, paralelizar instancia test
         print('Loading folds')
         self.train_folds = sorted(
             [filename for filename in os.listdir(self.folds_path) if
              (filename.startswith("train") or filename.startswith("treino"))])
         self.test_folds = sorted(
-            [filename for filename in os.listdir(self.folds_path) if filename.startswith("test")])
+            [filename for filename in os.listdir(self.folds_path) if filename.startswith("test")])'''
 
-    def _load_dataset_from_folds(self, train_file, test_file):
+    def _load_dataset_from_folds(self, train_file, test_file):        
         print(train_file)
         print(test_file)
         result = load_svmlight_files([train_file, test_file])
@@ -34,6 +38,7 @@ class DatasetReader:
         return X_train, y_train, X_test, y_test
 
     def get_next_fold(self):
+        return self._load_dataset_from_folds(self.train_folds, self.test_folds) # claudio, paralelizar instancia test
 
         # If it is the default partition
         if self.default_fold_partition:

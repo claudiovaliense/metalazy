@@ -81,12 +81,14 @@ def main():
     parser.add_argument('-o', help='path to the output directory')
     parser.add_argument('-j', help='number of jobs to run in parallel. use -1 for all - Default:-1')
     parser.add_argument('-g', help='Size of the sample to the hyperparameter search - Default-5000')
+    parser.add_argument('-train', help='File train')
+    parser.add_argument('-test', help='File test')
 
     args = parser.parse_args()
     
     #args.p = "/home/claudiovaliense/dataset/stanford_tweets/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
-    args.p = "../../dataset/metalazy_sample"
+    args.p = "../../dataset/metalazy/split0"
     #args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "/home/claudiovaliense/dataset/acm/representations/5-folds/TFIDF_removed_stopwords_mindf1"
 
@@ -107,8 +109,8 @@ def main():
     grid_size = 5000
     if args.g:
         grid_size = int(args.g)
-
-    dataset_reader = DatasetReader(path)
+        
+    dataset_reader = DatasetReader(path, args.train, args.test)
 
     fold = 0
     result = []
@@ -167,7 +169,7 @@ def main():
 
         # Fabiano save y_prob
         y_pred_prob = predict_prob(grid.best_estimator_, X_test)
-        file_yprob = "../../dataset/test0_metalazy_y_prob"
+        file_yprob = "../../dataset/" +str(args.test) +"test0_metalazy_y_prob"
         with open(file_yprob, 'w', newline='') as csv_write:
             rows_out = csv.writer(csv_write)
             for y_doc in y_pred_prob:                             

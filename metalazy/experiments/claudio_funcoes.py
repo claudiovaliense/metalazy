@@ -367,7 +367,7 @@ def standard_deviation_column(file, column):
             values.append(float(row[column]))
     return statistics.pstdev(values)
 
-print(average_csv_column('/home/claudiovaliense/projetos/metalazy/metalazy/experiments/results/result_tunning_time.csv', 1))
-print(standard_deviation_column('/home/claudiovaliense/projetos/metalazy/metalazy/experiments/results/result_tunning_time.csv', 1))
+#print(average_csv_column('/home/claudiovaliense/projetos/metalazy/metalazy/experiments/results/result_tunning_time.csv', 1))
+#print(standard_deviation_column('/home/claudiovaliense/projetos/metalazy/metalazy/experiments/results/result_tunning_time.csv', 1))
 #print('Average: ',average_csv('f1.csv'))
 #print('standard_deviation', standard_deviation('f1.csv'))

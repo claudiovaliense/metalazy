@@ -9,14 +9,15 @@ import numpy
 from BayesianOptimization import BayesianOptimization
 import timeit  # Measure time
 from hyperopt import hp
+import sys 
 
-
-import sys
 sys.path.append("../../doutorado") # Import directory
 import claudio_funcoes as cv  # Functions utils author
 
-name_dataset="stanford_tweets"
-
+#name_dataset="stanford_tweets"
+#name_dataset="reut"
+name_dataset=sys.argv[1]
+kernel=sys.argv[2]
 
 ini = timeit.default_timer()
 dir_train = [    
@@ -37,7 +38,7 @@ f1_micro=[]
 f1_macro=[]
 for index_file in range(5):
     model_svm = svm.SVC()
-    model_svm.__init__(**{'kernel': 'rbf', 'C': 1, 'verbose': False, 'probability': False,
+    model_svm.__init__(**{'kernel': kernel, 'C': 1, 'verbose': False, 'probability': False,
                     'degree': 3, 'shrinking': True,
                     'decision_function_shape': None, 'random_state': None,
                     'tol': 0.001, 'cache_size': 25000, 'coef0': 0.0, 'gamma': 'auto',
@@ -68,7 +69,7 @@ for index_file in range(5):
 
     
     # best param svm grid---
-    grid_svm = GridSearchCV(model_svm, tuned_parameters_svm,  cv=3, scoring='f1_macro')
+    grid_svm = GridSearchCV(model_svm, tuned_parameters_svm,  cv=3, scoring='f1_macro', n_jobs=-1)
     grid_svm.fit(x_train, y_train)
     best_param_svm = grid_svm.best_params_            
     print('best param: ', best_param_svm)
