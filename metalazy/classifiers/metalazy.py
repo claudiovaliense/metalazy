@@ -38,9 +38,9 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
     #'svm': {'C': 2.0 ** np.arange(0, 15, 2), 'gamma': ['scale'], 'probability': True, 'kernel': 'linear'}
 
     # Classifiers to test for each dataset
-    possible_weakers = ['nb', 'logistic', 'extrarf','svm']
+    #possible_weakers = ['nb', 'logistic', 'extrarf','svm']
     # possible_weakers = ['nb']
-    #possible_weakers = ['svm', 'extrarf']
+    possible_weakers = ['svm']
     #possible_weakers = ['rf']
 
 
@@ -108,7 +108,7 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
         Create the classifier based on the specific_classifier parameter
         Possible values = ['rf', 'nb', 'extrarf', ''logistic]
         '''
-        specif_jobs=-1
+        specif_jobs=-1 #claudio
         clf = None
 
         if name == 'rf':
@@ -125,11 +125,11 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
             clf = LogisticRegression(random_state=self.random_state, n_jobs=specif_jobs)
         elif name == 'svm':
             clf = svm.SVC()
-            #clf.__init__({'kernel': 'linear', 'C': 1, 'verbose': False, 'probability': True,
-             #             'degree': 3, 'shrinking': True,
-              #            'decision_function_shape': None, 'random_state': None,
-               #           'tol': 0.001, 'cache_size': 25000, 'coef0': 0.0, 'gamma': 'auto',
-                #          'class_weight': None, 'random_state': 42})
+            clf.__init__({'kernel': 'linear', 'verbose': False, 'probability': True,
+                          'degree': 3, 'shrinking': True,
+                         'decision_function_shape': None, 'random_state': None,
+                          'tol': 0.001, 'cache_size': 25000, 'coef0': 0.0, 'gamma': 'auto',
+                          'class_weight': None, 'random_state': 42})
         else:
             raise Exception('The specific_classifier {} is not valid, use rf, nb, extrarf or logistic'.format(
                 self.specific_classifier))

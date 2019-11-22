@@ -1,0 +1,123 @@
+virtualenv metalazy
+Loading folds
+FOLD 0
+/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1/train0.gz
+/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1/test0.gz
+dict_keys(['grid_size', 'metric', 'n_jobs', 'n_neighbors', 'number_of_cooccurrences', 'oversample', 'random_state', 'select_features', 'specific_classifier', 'weight_function'])
+[{'n_neighbors': [100, 200, 350], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 0
+METALAZY - KNN fit: 0.002395153045654297
+METALAZY - Choose weaker fit: 2442.871458530426
+METALAZY - KNN neighbours: 1.1634409427642822
+INTERNAL TIME copy: 2.3199403285980225 - 1%
+INTERNAL TIME cooc: 0.008503913879394531 - 0%
+INTERNAL TIME weight: 0.0958247184753418 - 0%
+INTERNAL TIME pred: 192.84365725517273 - 98%
+INTERNAL TIME total: 195.2679262161255 - SVC(C=256.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 195.46296405792236 - SVC(C=256.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.002227783203125
+METALAZY - Choose weaker fit: 2642.548038005829
+METALAZY - KNN neighbours: 1.1402945518493652
+INTERNAL TIME copy: 2.2999398708343506 - 1%
+INTERNAL TIME cooc: 0.007892608642578125 - 0%
+INTERNAL TIME weight: 0.09608173370361328 - 0%
+INTERNAL TIME pred: 192.919100522995 - 98%
+INTERNAL TIME total: 195.32301473617554 - SVC(C=1024.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 195.56796979904175 - SVC(C=1024.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0022590160369873047
+METALAZY - Choose weaker fit: 2630.0820021629333
+METALAZY - KNN neighbours: 1.1323223114013672
+INTERNAL TIME copy: 2.2971906661987305 - 1%
+INTERNAL TIME cooc: 0.008010149002075195 - 0%
+INTERNAL TIME weight: 0.0966794490814209 - 0%
+INTERNAL TIME pred: 190.7060935497284 - 98%
+INTERNAL TIME total: 193.10797381401062 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 193.26046085357666 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0021436214447021484
+METALAZY - Choose weaker fit: 2445.3292033672333
+METALAZY - KNN neighbours: 1.159256935119629
+INTERNAL TIME copy: 2.3475394248962402 - 0%
+INTERNAL TIME cooc: 44.2337212562561 - 18%
+INTERNAL TIME weight: 0.09963035583496094 - 0%
+INTERNAL TIME pred: 193.71689629554749 - 80%
+INTERNAL TIME total: 240.3977873325348 - SVC(C=256.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 240.5220320224762 - SVC(C=256.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0034246444702148438
+METALAZY - Choose weaker fit: 2643.5227711200714
+METALAZY - KNN neighbours: 1.1406588554382324
+INTERNAL TIME copy: 2.3213534355163574 - 0%
+INTERNAL TIME cooc: 43.96832489967346 - 18%
+INTERNAL TIME weight: 0.09853363037109375 - 0%
+INTERNAL TIME pred: 193.79317903518677 - 80%
+INTERNAL TIME total: 240.18139100074768 - SVC(C=1024.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 240.32566332817078 - SVC(C=1024.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0024709701538085938
+METALAZY - Choose weaker fit: 2631.0496723651886
+METALAZY - KNN neighbours: 1.1340656280517578
+METALAZY - pred paralel: 238.0180459022522 - SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0022077560424804688
+METALAZY - Choose weaker fit: 2443.1547260284424
+METALAZY - KNN neighbours: 1.1911842823028564
+INTERNAL TIME copy: 2.541330575942993 - 0%
+INTERNAL TIME cooc: 0.010411500930786133 - 0%
+INTERNAL TIME weight: 0.11935019493103027 - 0%
+INTERNAL TIME pred: 921.8888471126556 - 99%
+INTERNAL TIME total: 924.5599393844604 - SVC(C=256.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 924.7901413440704 - SVC(C=256.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.0019402503967285156
+METALAZY - Choose weaker fit: 2641.774297952652
+METALAZY - KNN neighbours: 1.1652071475982666
+INTERNAL TIME copy: 2.511009454727173 - 0%
+INTERNAL TIME cooc: 0.010185003280639648 - 0%
+INTERNAL TIME weight: 0.1170809268951416 - 0%
+INTERNAL TIME pred: 925.573591709137 - 99%
+INTERNAL TIME total: 928.2118670940399 - SVC(C=1024.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+

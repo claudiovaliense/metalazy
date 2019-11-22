@@ -1,0 +1,11 @@
+macro,micro,config,best_clf,fold
+0.7340425531914894,0.94,"MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=50,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')","ExtraTreesClassifier(bootstrap=False, class_weight='balanced', criterion='gini',
+                     max_depth=None, max_features='log2', max_leaf_nodes=None,
+                     min_impurity_decrease=0.0, min_impurity_split=None,
+                     min_samples_leaf=1, min_samples_split=2,
+                     min_weight_fraction_leaf=0.0, n_estimators=200, n_jobs=8,
+                     oob_score=False, random_state=42, verbose=0,
+                     warm_start=False)",0

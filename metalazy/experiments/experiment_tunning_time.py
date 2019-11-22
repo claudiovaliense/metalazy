@@ -51,9 +51,9 @@ def predict_prob(clf, X_test):
     return y_pred_prob
 
 def choose_tunning_parameters(specific, weight, coccurrence):
-    #tuned_parameters = [{'n_neighbors': [100,200,350]}]
+    tuned_parameters = [{'n_neighbors': [200]}]
     #tuned_parameters = [{'n_neighbors': [350]}]
-    tuned_parameters = [{'n_neighbors': [50]}] #sample fabiano
+    #tuned_parameters = [{'n_neighbors': [50]}] #sample fabiano
     #tuned_parameters = [{'n_neighbors': [100]}]  # stanford dataset
 
 
@@ -88,8 +88,8 @@ def main():
     
     #args.p = "/home/claudiovaliense/dataset/stanford_tweets/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
-    args.p = "../../dataset/metalazy/split0"
-    #args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+    #args.p = "../../dataset/metalazy/split0"
+    args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "/home/claudiovaliense/dataset/acm/representations/5-folds/TFIDF_removed_stopwords_mindf1"
 
     args.o = "results/"

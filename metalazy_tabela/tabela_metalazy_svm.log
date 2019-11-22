@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.23)  18 NOV 2019 20:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.23)  22 NOV 2019 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**test.tex
-(./test.tex
+**tabela_metalazy_svm.tex
+(./tabela_metalazy_svm.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 8 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -606,8 +606,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip67
 )
-(./test.aux)
-\openout1 = `test.aux'.
+(./tabela_metalazy_svm.aux)
+\openout1 = `tabela_metalazy_svm.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -625,7 +625,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 \AtBeginShipoutBox=\box36
 Package hyperref Info: Link coloring OFF on input line 12.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -637,30 +638,30 @@ LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
 LaTeX Info: Redefining \nameref on input line 12.
 
-(./test.out) (./test.out)
+(./tabela_metalazy_svm.out) (./tabela_metalazy_svm.out)
 \@outlinefile=\write3
-\openout3 = `test.out'.
+\openout3 = `tabela_metalazy_svm.out'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
- (./test.aux)
+ (./tabela_metalazy_svm.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
-Package rerunfilecheck Info: File `test.out' has not changed.
+Package rerunfilecheck Info: File `tabela_metalazy_svm.out' has not changed.
 (rerunfilecheck)             Checksum: 5C9444487D3BE9D7E8F25370D88ECB73;90.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
  ) 
 Here is how much of TeX's memory you used:
  6300 strings out of 494830
- 91155 string characters out of 6178379
+ 91350 string characters out of 6178379
  190151 words of memory out of 5000000
  9564 multiletter control sequences out of 15000+600000
  9549 words of font info for 35 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
- 31i,11n,30p,482b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,11n,30p,497b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
@@ -672,7 +673,7 @@ ic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8
 .pfb>
-Output written on test.pdf (2 pages, 124471 bytes).
+Output written on tabela_metalazy_svm.pdf (2 pages, 124619 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream

@@ -1,0 +1,36 @@
+macro,micro,config,best_clf,fold
+0.621905072318428,0.7619907686132852,"MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')","SVC(C=64.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)",0
+0.6028199738901815,0.7529104777197912,"MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')","SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)",1
+0.5938537969609896,0.7485943775100403,"MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')","SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)",2
+0.6199839525456935,0.7651195499296765,"MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')","SVC(C=64.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)",3
+0.6274075404845397,0.7583919597989949,"MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=100,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')","SVC(C=16.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+    max_iter=-1, probability=True, random_state=None, shrinking=True, tol=0.001,
+    verbose=False)",4
