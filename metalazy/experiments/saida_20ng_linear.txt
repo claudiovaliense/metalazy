@@ -5,3 +5,3261 @@ FOLD 0
 dict_keys(['grid_size', 'metric', 'n_jobs', 'n_neighbors', 'number_of_cooccurrences', 'oversample', 'random_state', 'select_features', 'specific_classifier', 'weight_function'])
 [{'n_neighbors': [200], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
 GRID SEARCH FOR FOLD 0
+METALAZY - KNN fit: 0.005026578903198242
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6727288070868466 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1980.6338427066803
+METALAZY - KNN neighbours: 2.3701906204223633
+METALAZY - KNN fit: 0.0070612430572509766
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6735931847491203 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1987.8312182426453
+METALAZY - KNN neighbours: 3.757650852203369
+METALAZY - KNN fit: 0.005529642105102539
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6725000470575881 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2053.9272067546844
+METALAZY - KNN neighbours: 5.761087417602539
+METALAZY - KNN fit: 0.0058460235595703125
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6799345303096865 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2063.9363849163055
+METALAZY - KNN neighbours: 7.349490165710449
+METALAZY - KNN fit: 0.005948543548583984
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6847867049588123 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2122.15376496315
+METALAZY - KNN neighbours: 8.493326187133789
+METALAZY - KNN fit: 0.005898952484130859
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6735508846315175 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2140.46933054924
+METALAZY - KNN neighbours: 9.509973764419556
+INTERNAL TIME copy: 5.252613544464111 - 0%
+INTERNAL TIME cooc: 0.0029087066650390625 - 0%
+INTERNAL TIME weight: 0.2843749523162842 - 0%
+INTERNAL TIME pred: 2291.399070262909 - 99%
+INTERNAL TIME total: 2296.9389674663544 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.186032056808472 - 0%
+INTERNAL TIME cooc: 0.002665281295776367 - 0%
+INTERNAL TIME weight: 0.1979236602783203 - 0%
+INTERNAL TIME pred: 2266.925275325775 - 99%
+INTERNAL TIME total: 2272.3118963241577 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.1182167530059814 - 0%
+INTERNAL TIME cooc: 0.0026433467864990234 - 0%
+INTERNAL TIME weight: 0.27632856369018555 - 0%
+INTERNAL TIME pred: 2321.778436422348 - 99%
+INTERNAL TIME total: 2327.1756250858307 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.334809064865112 - 0%
+INTERNAL TIME cooc: 0.04999995231628418 - 0%
+INTERNAL TIME weight: 0.21626067161560059 - 0%
+INTERNAL TIME pred: 2920.305080652237 - 99%
+INTERNAL TIME total: 2925.906150341034 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.63585352897644 - 0%
+INTERNAL TIME cooc: 0.0028562545776367188 - 0%
+INTERNAL TIME weight: 0.2352907657623291 - 0%
+INTERNAL TIME pred: 2328.7918124198914 - 99%
+INTERNAL TIME total: 2334.6658129692078 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.079607009887695 - 0%
+INTERNAL TIME cooc: 0.03488802909851074 - 0%
+INTERNAL TIME weight: 0.20737791061401367 - 0%
+INTERNAL TIME pred: 2998.4144246578217 - 99%
+INTERNAL TIME total: 3003.736297607422 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.268704414367676 - 0%
+INTERNAL TIME cooc: 0.0027806758880615234 - 0%
+INTERNAL TIME weight: 0.42903614044189453 - 0%
+INTERNAL TIME pred: 2394.056927919388 - 99%
+INTERNAL TIME total: 2399.7574491500854 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.552126884460449 - 0%
+INTERNAL TIME cooc: 0.05211353302001953 - 0%
+INTERNAL TIME weight: 0.18813586235046387 - 0%
+INTERNAL TIME pred: 2424.5404682159424 - 99%
+INTERNAL TIME total: 2430.3328444957733 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.483613014221191 - 0%
+INTERNAL TIME cooc: 0.0031180381774902344 - 0%
+INTERNAL TIME weight: 0.29920506477355957 - 0%
+INTERNAL TIME pred: 2461.931577205658 - 99%
+INTERNAL TIME total: 2467.71751332283 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.955665111541748 - 0%
+INTERNAL TIME cooc: 0.06815218925476074 - 0%
+INTERNAL TIME weight: 0.2927980422973633 - 0%
+INTERNAL TIME pred: 2702.6867852211 - 99%
+INTERNAL TIME total: 2709.0034005641937 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.146408557891846 - 0%
+INTERNAL TIME cooc: 0.005895376205444336 - 0%
+INTERNAL TIME weight: 0.24490833282470703 - 0%
+INTERNAL TIME pred: 2769.6262018680573 - 99%
+INTERNAL TIME total: 2775.0234141349792 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.617710113525391 - 0%
+INTERNAL TIME cooc: 0.002743244171142578 - 0%
+INTERNAL TIME weight: 0.1774144172668457 - 0%
+INTERNAL TIME pred: 2833.9519884586334 - 99%
+INTERNAL TIME total: 2839.749856233597 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.42268967628479 - 0%
+INTERNAL TIME cooc: 0.002709627151489258 - 0%
+INTERNAL TIME weight: 0.1071162223815918 - 0%
+INTERNAL TIME pred: 2937.198013305664 - 99%
+INTERNAL TIME total: 2941.730528831482 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.604304552078247 - 0%
+INTERNAL TIME cooc: 109.98646426200867 - 4%
+INTERNAL TIME weight: 0.17145943641662598 - 0%
+INTERNAL TIME pred: 2362.540274620056 - 95%
+INTERNAL TIME total: 2478.3025028705597 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.642364263534546 - 0%
+INTERNAL TIME cooc: 107.57998085021973 - 4%
+INTERNAL TIME weight: 0.22373032569885254 - 0%
+INTERNAL TIME pred: 2387.975963830948 - 95%
+INTERNAL TIME total: 2501.422039270401 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.828506231307983 - 0%
+INTERNAL TIME cooc: 108.72814583778381 - 4%
+INTERNAL TIME weight: 0.1708536148071289 - 0%
+INTERNAL TIME pred: 2410.9540145397186 - 95%
+INTERNAL TIME total: 2525.6815202236176 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.3667542934417725 - 0%
+INTERNAL TIME cooc: 103.97876453399658 - 3%
+INTERNAL TIME weight: 0.1709003448486328 - 0%
+INTERNAL TIME pred: 2659.0231144428253 - 96%
+INTERNAL TIME total: 2768.5395336151123 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.145980358123779 - 0%
+INTERNAL TIME cooc: 100.0691306591034 - 3%
+INTERNAL TIME weight: 0.19417905807495117 - 0%
+INTERNAL TIME pred: 2721.763099193573 - 96%
+INTERNAL TIME total: 2827.172389268875 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.570444345474243 - 0%
+INTERNAL TIME cooc: 99.40293145179749 - 3%
+INTERNAL TIME weight: 0.23285245895385742 - 0%
+INTERNAL TIME pred: 2795.820970058441 - 96%
+INTERNAL TIME total: 2901.0271983146667 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.773558855056763 - 0%
+INTERNAL TIME cooc: 85.95058035850525 - 2%
+INTERNAL TIME weight: 0.2040109634399414 - 0%
+INTERNAL TIME pred: 2917.901909351349 - 96%
+INTERNAL TIME total: 3008.830059528351 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.754813194274902 - 0%
+INTERNAL TIME cooc: 110.42023968696594 - 4%
+INTERNAL TIME weight: 0.12766170501708984 - 0%
+INTERNAL TIME pred: 2384.654017686844 - 95%
+INTERNAL TIME total: 2500.956732273102 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.927405834197998 - 0%
+INTERNAL TIME cooc: 109.29091811180115 - 4%
+INTERNAL TIME weight: 0.3918473720550537 - 0%
+INTERNAL TIME pred: 2403.522428035736 - 95%
+INTERNAL TIME total: 2519.1325993537903 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.646840810775757 - 0%
+INTERNAL TIME cooc: 109.77073359489441 - 4%
+INTERNAL TIME weight: 0.28626585006713867 - 0%
+INTERNAL TIME pred: 2450.934094429016 - 95%
+INTERNAL TIME total: 2566.6379346847534 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 6.252702236175537 - 0%
+INTERNAL TIME cooc: 102.38107252120972 - 3%
+INTERNAL TIME weight: 0.41473865509033203 - 0%
+INTERNAL TIME pred: 2666.1738941669464 - 96%
+INTERNAL TIME total: 2775.222407579422 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.3780434131622314 - 0%
+INTERNAL TIME cooc: 99.36545443534851 - 3%
+INTERNAL TIME weight: 0.2907676696777344 - 0%
+INTERNAL TIME pred: 2754.6061339378357 - 96%
+INTERNAL TIME total: 2859.640399456024 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.25135350227356 - 0%
+INTERNAL TIME cooc: 101.68380284309387 - 3%
+INTERNAL TIME weight: 0.34134411811828613 - 0%
+INTERNAL TIME pred: 2817.061268091202 - 96%
+INTERNAL TIME total: 2924.3377685546875 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.408857107162476 - 0%
+INTERNAL TIME cooc: 85.1301577091217 - 2%
+INTERNAL TIME weight: 0.22021126747131348 - 0%
+INTERNAL TIME pred: 2940.766791820526 - 97%
+INTERNAL TIME total: 3031.5260179042816 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.197823524475098 - 0%
+INTERNAL TIME cooc: 111.49936628341675 - 4%
+INTERNAL TIME weight: 0.43555665016174316 - 0%
+INTERNAL TIME pred: 2367.8712089061737 - 95%
+INTERNAL TIME total: 2485.0039553642273 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 6.270548343658447 - 0%
+INTERNAL TIME cooc: 112.51200413703918 - 4%
+INTERNAL TIME weight: 0.3325181007385254 - 0%
+INTERNAL TIME pred: 2403.3978881835938 - 95%
+INTERNAL TIME total: 2522.51295876503 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.100399732589722 - 0%
+INTERNAL TIME cooc: 108.32566571235657 - 4%
+INTERNAL TIME weight: 0.13080048561096191 - 0%
+INTERNAL TIME pred: 2437.047841310501 - 95%
+INTERNAL TIME total: 2550.6047072410583 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.800459146499634 - 0%
+INTERNAL TIME cooc: 96.51771450042725 - 3%
+INTERNAL TIME weight: 0.1461315155029297 - 0%
+INTERNAL TIME pred: 2692.2516825199127 - 96%
+INTERNAL TIME total: 2793.7159876823425 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.587623119354248 - 0%
+INTERNAL TIME cooc: 104.9731764793396 - 3%
+INTERNAL TIME weight: 0.4011962413787842 - 0%
+INTERNAL TIME pred: 2684.0619316101074 - 96%
+INTERNAL TIME total: 2795.02392745018 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.265043497085571 - 0%
+INTERNAL TIME cooc: 98.75402545928955 - 3%
+INTERNAL TIME weight: 0.19386911392211914 - 0%
+INTERNAL TIME pred: 2787.298712015152 - 96%
+INTERNAL TIME total: 2891.511650085449 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.589629411697388 - 0%
+INTERNAL TIME cooc: 87.44372153282166 - 2%
+INTERNAL TIME weight: 0.2953176498413086 - 0%
+INTERNAL TIME pred: 2836.3088257312775 - 96%
+INTERNAL TIME total: 2928.637494325638 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 3127.08514046669 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 3132.8996880054474 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2996.168750524521 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 3056.3800752162933 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 3086.3955709934235 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 3019.860256910324 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.00682520866394043
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6669418806842872 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 421.3040494918823
+GENERAL - Total grid time: 5592.1464586257935
+GENERAL - Best score was 0.837081500116264 with 
+ MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+GENERAL - Best param was {'n_neighbors': 200, 'number_of_cooccurrences': 10, 'weight_function': 'None'}
+
+METALAZY - KNN fit: 0.004488706588745117
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6893311335414397 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 411.7356607913971
+Total fit time: 411.74017453193665
+METALAZY - KNN neighbours: 1.7477757930755615
+INTERNAL TIME copy: 0.6332283020019531 - 0%
+INTERNAL TIME cooc: 11.306796312332153 - 4%
+INTERNAL TIME weight: 0.026516437530517578 - 0%
+INTERNAL TIME pred: 250.0670223236084 - 95%
+INTERNAL TIME total: 262.033563375473 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6227266788482666 - 0%
+INTERNAL TIME cooc: 11.39101266860962 - 4%
+INTERNAL TIME weight: 0.026724815368652344 - 0%
+INTERNAL TIME pred: 253.1603319644928 - 95%
+INTERNAL TIME total: 265.20079612731934 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6292107105255127 - 0%
+INTERNAL TIME cooc: 11.408405542373657 - 4%
+INTERNAL TIME weight: 0.026962995529174805 - 0%
+INTERNAL TIME pred: 255.67745232582092 - 95%
+INTERNAL TIME total: 267.74203157424927 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5929524898529053 - 0%
+INTERNAL TIME cooc: 11.191141366958618 - 3%
+INTERNAL TIME weight: 0.02556753158569336 - 0%
+INTERNAL TIME pred: 289.3049921989441 - 96%
+INTERNAL TIME total: 301.1146535873413 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6073689460754395 - 0%
+INTERNAL TIME cooc: 11.495298624038696 - 3%
+INTERNAL TIME weight: 0.0263974666595459 - 0%
+INTERNAL TIME pred: 302.09910774230957 - 96%
+INTERNAL TIME total: 314.22817277908325 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5798866748809814 - 0%
+INTERNAL TIME cooc: 10.690389633178711 - 3%
+INTERNAL TIME weight: 0.02512502670288086 - 0%
+INTERNAL TIME pred: 321.00531816482544 - 96%
+INTERNAL TIME total: 332.300719499588 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5801506042480469 - 0%
+INTERNAL TIME cooc: 10.393667221069336 - 2%
+INTERNAL TIME weight: 0.023552656173706055 - 0%
+INTERNAL TIME pred: 358.18505120277405 - 97%
+INTERNAL TIME total: 369.18242168426514 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5725686550140381 - 0%
+INTERNAL TIME cooc: 10.575348615646362 - 2%
+INTERNAL TIME weight: 0.02434229850769043 - 0%
+INTERNAL TIME pred: 370.95817589759827 - 97%
+INTERNAL TIME total: 382.13043546676636 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 383.324471950531 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+Total pred time: 385.0732421875
+METALAZY - KNN neighbours: 1.7212114334106445
+INTERNAL TIME copy: 0.6689929962158203 - 0%
+INTERNAL TIME cooc: 12.03834056854248 - 4%
+INTERNAL TIME weight: 0.027402639389038086 - 0%
+INTERNAL TIME pred: 261.97040486335754 - 95%
+INTERNAL TIME total: 274.7051410675049 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6671619415283203 - 0%
+INTERNAL TIME cooc: 12.008501052856445 - 4%
+INTERNAL TIME weight: 0.029244422912597656 - 0%
+INTERNAL TIME pred: 263.8674120903015 - 95%
+INTERNAL TIME total: 276.5723195075989 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6503543853759766 - 0%
+INTERNAL TIME cooc: 12.217130184173584 - 4%
+INTERNAL TIME weight: 0.02800893783569336 - 0%
+INTERNAL TIME pred: 273.31159567832947 - 95%
+INTERNAL TIME total: 286.2070891857147 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6174876689910889 - 0%
+INTERNAL TIME cooc: 11.479536771774292 - 3%
+INTERNAL TIME weight: 0.026665210723876953 - 0%
+INTERNAL TIME pred: 305.16824746131897 - 96%
+INTERNAL TIME total: 317.2919371128082 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6660988330841064 - 0%
+INTERNAL TIME cooc: 12.170656681060791 - 3%
+INTERNAL TIME weight: 0.027570486068725586 - 0%
+INTERNAL TIME pred: 311.7482385635376 - 96%
+INTERNAL TIME total: 324.6125645637512 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6376645565032959 - 0%
+INTERNAL TIME cooc: 11.376602411270142 - 3%
+INTERNAL TIME weight: 0.026088237762451172 - 0%
+INTERNAL TIME pred: 333.5607602596283 - 96%
+INTERNAL TIME total: 345.6011154651642 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6029472351074219 - 0%
+INTERNAL TIME cooc: 10.945785760879517 - 2%
+INTERNAL TIME weight: 0.024683713912963867 - 0%
+INTERNAL TIME pred: 371.3558449745178 - 96%
+INTERNAL TIME total: 382.9292616844177 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.6235480308532715 - 0%
+INTERNAL TIME cooc: 11.30411696434021 - 2%
+INTERNAL TIME weight: 0.0257265567779541 - 0%
+INTERNAL TIME pred: 382.2112467288971 - 96%
+INTERNAL TIME total: 394.16463828086853 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 395.36027240753174 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+Macro: 0.8583956406420326
+Micro: 0.8617218543046358
+      macro     micro  ...                                           best_clf fold
+0  0.858396  0.861722  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    0
+
+[1 rows x 5 columns]
+          fit        pred
+0  411.740175  385.073242
+FOLD 1
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/train1.gz
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/test1.gz
+dict_keys(['grid_size', 'metric', 'n_jobs', 'n_neighbors', 'number_of_cooccurrences', 'oversample', 'random_state', 'select_features', 'specific_classifier', 'weight_function'])
+[{'n_neighbors': [200], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 1
+METALAZY - KNN fit: 0.011144399642944336
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6691882614327369 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2066.9648203849792
+METALAZY - KNN neighbours: 2.476616144180298
+METALAZY - KNN fit: 0.011360883712768555
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6863982026607879 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2067.246218919754
+METALAZY - KNN neighbours: 2.550295829772949
+METALAZY - KNN fit: 0.011376142501831055
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6815315436579092 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2069.7721116542816
+METALAZY - KNN neighbours: 4.163597345352173
+METALAZY - KNN fit: 0.011318445205688477
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6731604495849574 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2075.4286415576935
+METALAZY - KNN neighbours: 5.8194029331207275
+METALAZY - KNN fit: 0.007350444793701172
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6739963211228629 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2089.1392815113068
+METALAZY - KNN neighbours: 7.3276214599609375
+METALAZY - KNN fit: 0.008592605590820312
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6795885196230865 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2104.864698410034
+METALAZY - KNN neighbours: 9.855537176132202
+INTERNAL TIME copy: 5.402509450912476 - 0%
+INTERNAL TIME cooc: 0.0031404495239257812 - 0%
+INTERNAL TIME weight: 0.19318246841430664 - 0%
+INTERNAL TIME pred: 2104.59796500206 - 99%
+INTERNAL TIME total: 2110.1967973709106 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.461565017700195 - 0%
+INTERNAL TIME cooc: 0.0031495094299316406 - 0%
+INTERNAL TIME weight: 0.2550368309020996 - 0%
+INTERNAL TIME pred: 2197.778413295746 - 99%
+INTERNAL TIME total: 2203.498164653778 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.097834348678589 - 0%
+INTERNAL TIME cooc: 0.0026853084564208984 - 0%
+INTERNAL TIME weight: 0.19363808631896973 - 0%
+INTERNAL TIME pred: 2233.324073791504 - 99%
+INTERNAL TIME total: 2238.618231534958 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.805409908294678 - 0%
+INTERNAL TIME cooc: 0.0033588409423828125 - 0%
+INTERNAL TIME weight: 0.1574997901916504 - 0%
+INTERNAL TIME pred: 2484.3288419246674 - 99%
+INTERNAL TIME total: 2489.295110464096 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.652466535568237 - 0%
+INTERNAL TIME cooc: 0.0028061866760253906 - 0%
+INTERNAL TIME weight: 0.20059514045715332 - 0%
+INTERNAL TIME pred: 2587.172290086746 - 99%
+INTERNAL TIME total: 2593.0281579494476 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.566413879394531 - 0%
+INTERNAL TIME cooc: 0.002737283706665039 - 0%
+INTERNAL TIME weight: 0.13194632530212402 - 0%
+INTERNAL TIME pred: 2650.386487007141 - 99%
+INTERNAL TIME total: 2656.0875844955444 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.109717845916748 - 0%
+INTERNAL TIME cooc: 0.002721548080444336 - 0%
+INTERNAL TIME weight: 0.20286202430725098 - 0%
+INTERNAL TIME pred: 2771.700611591339 - 99%
+INTERNAL TIME total: 2776.0159130096436 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.016060829162598 - 0%
+INTERNAL TIME cooc: 0.07876896858215332 - 0%
+INTERNAL TIME weight: 0.22473740577697754 - 0%
+INTERNAL TIME pred: 2177.574526786804 - 99%
+INTERNAL TIME total: 2182.894093990326 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.1712868213653564 - 0%
+INTERNAL TIME cooc: 0.003160715103149414 - 0%
+INTERNAL TIME weight: 0.13408279418945312 - 0%
+INTERNAL TIME pred: 2220.1375303268433 - 99%
+INTERNAL TIME total: 2225.446060657501 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.815020561218262 - 0%
+INTERNAL TIME cooc: 0.09336209297180176 - 0%
+INTERNAL TIME weight: 0.22845458984375 - 0%
+INTERNAL TIME pred: 2278.302673101425 - 99%
+INTERNAL TIME total: 2283.439510345459 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.309387445449829 - 0%
+INTERNAL TIME cooc: 0.02272653579711914 - 0%
+INTERNAL TIME weight: 0.33357715606689453 - 0%
+INTERNAL TIME pred: 2461.026690721512 - 99%
+INTERNAL TIME total: 2466.6923818588257 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.710817337036133 - 0%
+INTERNAL TIME cooc: 0.0031845569610595703 - 0%
+INTERNAL TIME weight: 0.13389134407043457 - 0%
+INTERNAL TIME pred: 2526.220312356949 - 99%
+INTERNAL TIME total: 2532.0682055950165 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.1710426807403564 - 0%
+INTERNAL TIME cooc: 0.0027005672454833984 - 0%
+INTERNAL TIME weight: 0.2845580577850342 - 0%
+INTERNAL TIME pred: 2595.510684967041 - 99%
+INTERNAL TIME total: 2600.968986272812 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.664714336395264 - 0%
+INTERNAL TIME cooc: 0.002777099609375 - 0%
+INTERNAL TIME weight: 0.17696547508239746 - 0%
+INTERNAL TIME pred: 2742.9720089435577 - 99%
+INTERNAL TIME total: 2747.816465854645 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.14267635345459 - 0%
+INTERNAL TIME cooc: 95.21808004379272 - 4%
+INTERNAL TIME weight: 0.3226282596588135 - 0%
+INTERNAL TIME pred: 2110.9751315116882 - 95%
+INTERNAL TIME total: 2211.6585161685944 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 6.254517316818237 - 0%
+INTERNAL TIME cooc: 93.40898513793945 - 4%
+INTERNAL TIME weight: 0.13947129249572754 - 0%
+INTERNAL TIME pred: 2187.303210735321 - 95%
+INTERNAL TIME total: 2287.1061844825745 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.684802293777466 - 0%
+INTERNAL TIME cooc: 92.15832734107971 - 3%
+INTERNAL TIME weight: 0.2603483200073242 - 0%
+INTERNAL TIME pred: 2209.6238164901733 - 95%
+INTERNAL TIME total: 2306.727294445038 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.1923744678497314 - 0%
+INTERNAL TIME cooc: 91.61612010002136 - 3%
+INTERNAL TIME weight: 0.19663405418395996 - 0%
+INTERNAL TIME pred: 2446.15416431427 - 96%
+INTERNAL TIME total: 2543.159292936325 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.919046401977539 - 0%
+INTERNAL TIME cooc: 85.59399151802063 - 3%
+INTERNAL TIME weight: 0.22876572608947754 - 0%
+INTERNAL TIME pred: 2522.5789856910706 - 96%
+INTERNAL TIME total: 2613.320789337158 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.589753866195679 - 0%
+INTERNAL TIME cooc: 87.14093732833862 - 3%
+INTERNAL TIME weight: 0.17064523696899414 - 0%
+INTERNAL TIME pred: 2563.499188899994 - 96%
+INTERNAL TIME total: 2655.400525331497 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 3.9993977546691895 - 0%
+INTERNAL TIME cooc: 73.22510862350464 - 2%
+INTERNAL TIME weight: 0.1383199691772461 - 0%
+INTERNAL TIME pred: 2677.216409921646 - 97%
+INTERNAL TIME total: 2754.579236268997 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.791502952575684 - 0%
+INTERNAL TIME cooc: 0.0026743412017822266 - 0%
+INTERNAL TIME weight: 0.3887639045715332 - 0%
+INTERNAL TIME pred: 2159.7984659671783 - 99%
+INTERNAL TIME total: 2164.9814071655273 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.0274012088775635 - 0%
+INTERNAL TIME cooc: 0.0387420654296875 - 0%
+INTERNAL TIME weight: 0.19161105155944824 - 0%
+INTERNAL TIME pred: 2197.1305932998657 - 99%
+INTERNAL TIME total: 2202.3883476257324 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.240996360778809 - 0%
+INTERNAL TIME cooc: 0.002577066421508789 - 0%
+INTERNAL TIME weight: 0.24605154991149902 - 0%
+INTERNAL TIME pred: 2249.72989153862 - 99%
+INTERNAL TIME total: 2255.219516515732 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.352151870727539 - 0%
+INTERNAL TIME cooc: 0.03889131546020508 - 0%
+INTERNAL TIME weight: 0.13832378387451172 - 0%
+INTERNAL TIME pred: 2465.1298563480377 - 99%
+INTERNAL TIME total: 2470.6592233181 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.236331462860107 - 0%
+INTERNAL TIME cooc: 0.026651382446289062 - 0%
+INTERNAL TIME weight: 0.11006546020507812 - 0%
+INTERNAL TIME pred: 2534.1527354717255 - 99%
+INTERNAL TIME total: 2539.525783777237 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.322004079818726 - 0%
+INTERNAL TIME cooc: 0.030814170837402344 - 0%
+INTERNAL TIME weight: 0.17391729354858398 - 0%
+INTERNAL TIME pred: 2641.7901298999786 - 99%
+INTERNAL TIME total: 2647.3168654441833 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.5572264194488525 - 0%
+INTERNAL TIME cooc: 0.043048858642578125 - 0%
+INTERNAL TIME weight: 0.1360781192779541 - 0%
+INTERNAL TIME pred: 2715.0340361595154 - 99%
+INTERNAL TIME total: 2719.7703895568848 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.1550328731536865 - 0%
+INTERNAL TIME cooc: 94.52145957946777 - 4%
+INTERNAL TIME weight: 0.24304866790771484 - 0%
+INTERNAL TIME pred: 2160.4468455314636 - 95%
+INTERNAL TIME total: 2260.366386651993 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.338145732879639 - 0%
+INTERNAL TIME cooc: 95.87977170944214 - 4%
+INTERNAL TIME weight: 0.3234221935272217 - 0%
+INTERNAL TIME pred: 2191.0578689575195 - 95%
+INTERNAL TIME total: 2292.5992085933685 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.71668267250061 - 0%
+INTERNAL TIME cooc: 94.97186422348022 - 4%
+INTERNAL TIME weight: 0.23020076751708984 - 0%
+INTERNAL TIME pred: 2251.57399559021 - 95%
+INTERNAL TIME total: 2351.492743253708 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.169468641281128 - 0%
+INTERNAL TIME cooc: 92.46455669403076 - 3%
+INTERNAL TIME weight: 0.15169286727905273 - 0%
+INTERNAL TIME pred: 2430.7966883182526 - 96%
+INTERNAL TIME total: 2528.5824065208435 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.993061542510986 - 0%
+INTERNAL TIME cooc: 87.30226707458496 - 3%
+INTERNAL TIME weight: 0.21983695030212402 - 0%
+INTERNAL TIME pred: 2509.060403585434 - 96%
+INTERNAL TIME total: 2601.575569152832 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.978990793228149 - 0%
+INTERNAL TIME cooc: 89.8934679031372 - 3%
+INTERNAL TIME weight: 0.2044994831085205 - 0%
+INTERNAL TIME pred: 2543.1224727630615 - 96%
+INTERNAL TIME total: 2638.1994309425354 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.187349557876587 - 0%
+INTERNAL TIME cooc: 73.86069989204407 - 2%
+INTERNAL TIME weight: 0.18658971786499023 - 0%
+INTERNAL TIME pred: 2695.85071349144 - 97%
+INTERNAL TIME total: 2774.0853526592255 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.0296642780303955 - 0%
+INTERNAL TIME cooc: 95.1683418750763 - 4%
+INTERNAL TIME weight: 0.22444391250610352 - 0%
+INTERNAL TIME pred: 2150.1179864406586 - 95%
+INTERNAL TIME total: 2250.5404365062714 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.94383692741394 - 0%
+INTERNAL TIME cooc: 94.60605239868164 - 4%
+INTERNAL TIME weight: 0.2853367328643799 - 0%
+INTERNAL TIME pred: 2194.4353749752045 - 95%
+INTERNAL TIME total: 2295.2706010341644 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.904964923858643 - 0%
+INTERNAL TIME cooc: 93.12597489356995 - 3%
+INTERNAL TIME weight: 0.27962207794189453 - 0%
+INTERNAL TIME pred: 2230.2011511325836 - 95%
+INTERNAL TIME total: 2328.511713027954 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.993072748184204 - 0%
+INTERNAL TIME cooc: 93.32169437408447 - 3%
+INTERNAL TIME weight: 0.2451174259185791 - 0%
+INTERNAL TIME pred: 2442.465578317642 - 96%
+INTERNAL TIME total: 2541.0254628658295 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.996654272079468 - 0%
+INTERNAL TIME cooc: 88.13786554336548 - 3%
+INTERNAL TIME weight: 0.24014759063720703 - 0%
+INTERNAL TIME pred: 2506.01606631279 - 96%
+INTERNAL TIME total: 2599.390733718872 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.162533283233643 - 0%
+INTERNAL TIME cooc: 87.13968849182129 - 3%
+INTERNAL TIME weight: 0.13529729843139648 - 0%
+INTERNAL TIME pred: 2571.4787747859955 - 96%
+INTERNAL TIME total: 2663.916293859482 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.690086841583252 - 0%
+INTERNAL TIME cooc: 80.00849461555481 - 2%
+INTERNAL TIME weight: 0.21502280235290527 - 0%
+INTERNAL TIME pred: 2655.9238681793213 - 96%
+INTERNAL TIME total: 2740.8374724388123 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 2812.5351827144623 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2807.0727450847626 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2796.3200829029083 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2841.360374212265 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2833.6595277786255 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2844.5062227249146 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.005324125289916992
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6786456588760681 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 401.76374530792236
+GENERAL - Total grid time: 5321.2165286540985
+GENERAL - Best score was 0.8356978894166341 with 
+ MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+GENERAL - Best param was {'n_neighbors': 200, 'number_of_cooccurrences': 10, 'weight_function': 'None'}
+
+METALAZY - KNN fit: 0.0044193267822265625
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.687151845228884 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 392.26213812828064
+Total fit time: 392.2665820121765
+METALAZY - KNN neighbours: 1.6115696430206299
+INTERNAL TIME copy: 0.5803618431091309 - 0%
+INTERNAL TIME cooc: 10.61810302734375 - 4%
+INTERNAL TIME weight: 0.025244951248168945 - 0%
+INTERNAL TIME pred: 233.46033358573914 - 95%
+INTERNAL TIME total: 244.68404340744019 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5743162631988525 - 0%
+INTERNAL TIME cooc: 10.353250503540039 - 4%
+INTERNAL TIME weight: 0.025223493576049805 - 0%
+INTERNAL TIME pred: 233.9078652858734 - 95%
+INTERNAL TIME total: 244.86065554618835 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5805904865264893 - 0%
+INTERNAL TIME cooc: 10.56200885772705 - 4%
+INTERNAL TIME weight: 0.025235414505004883 - 0%
+INTERNAL TIME pred: 234.88677382469177 - 95%
+INTERNAL TIME total: 246.05460858345032 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5649471282958984 - 0%
+INTERNAL TIME cooc: 10.268938779830933 - 3%
+INTERNAL TIME weight: 0.024193525314331055 - 0%
+INTERNAL TIME pred: 278.04413509368896 - 96%
+INTERNAL TIME total: 288.9022145271301 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5955705642700195 - 0%
+INTERNAL TIME cooc: 10.577401876449585 - 3%
+INTERNAL TIME weight: 0.024508953094482422 - 0%
+INTERNAL TIME pred: 298.2075901031494 - 96%
+INTERNAL TIME total: 309.4050714969635 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5546584129333496 - 0%
+INTERNAL TIME cooc: 10.05911660194397 - 3%
+INTERNAL TIME weight: 0.02364516258239746 - 0%
+INTERNAL TIME pred: 301.3787405490875 - 96%
+INTERNAL TIME total: 312.01616072654724 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 373.46850657463074 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+Total pred time: 375.08102321624756
+METALAZY - KNN neighbours: 1.5471816062927246
+INTERNAL TIME copy: 0.5830667018890381 - 0%
+INTERNAL TIME cooc: 10.555047273635864 - 4%
+INTERNAL TIME weight: 0.02552342414855957 - 0%
+INTERNAL TIME pred: 236.62305402755737 - 95%
+INTERNAL TIME total: 247.78669142723083 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5926625728607178 - 0%
+INTERNAL TIME cooc: 10.920700073242188 - 4%
+INTERNAL TIME weight: 0.025794506072998047 - 0%
+INTERNAL TIME pred: 236.87004399299622 - 95%
+INTERNAL TIME total: 248.40920114517212 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5866415500640869 - 0%
+INTERNAL TIME cooc: 10.710506200790405 - 4%
+INTERNAL TIME weight: 0.02571868896484375 - 0%
+INTERNAL TIME pred: 238.23370552062988 - 95%
+INTERNAL TIME total: 249.55657196044922 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.573422908782959 - 0%
+INTERNAL TIME cooc: 10.431578874588013 - 3%
+INTERNAL TIME weight: 0.024532556533813477 - 0%
+INTERNAL TIME pred: 282.028377532959 - 96%
+INTERNAL TIME total: 293.05791187286377 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5561928749084473 - 0%
+INTERNAL TIME cooc: 9.999597787857056 - 3%
+INTERNAL TIME weight: 0.023786067962646484 - 0%
+INTERNAL TIME pred: 289.81800842285156 - 96%
+INTERNAL TIME total: 300.3975851535797 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.575258731842041 - 0%
+INTERNAL TIME cooc: 10.47061800956726 - 3%
+INTERNAL TIME weight: 0.024547100067138672 - 0%
+INTERNAL TIME pred: 317.57072401046753 - 96%
+INTERNAL TIME total: 328.64114785194397 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5381350517272949 - 0%
+INTERNAL TIME cooc: 9.647330522537231 - 2%
+INTERNAL TIME weight: 0.022533893585205078 - 0%
+INTERNAL TIME pred: 334.7402536869049 - 97%
+INTERNAL TIME total: 344.94825315475464 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5655183792114258 - 0%
+INTERNAL TIME cooc: 10.262198448181152 - 2%
+INTERNAL TIME weight: 0.023154497146606445 - 0%
+INTERNAL TIME pred: 365.66600704193115 - 97%
+INTERNAL TIME total: 376.51687836647034 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 377.7057030200958 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+Macro: 0.8685326192408995
+Micro: 0.8717201166180758
+      macro     micro  ...                                           best_clf fold
+0  0.858396  0.861722  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    0
+1  0.868533  0.871720  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    1
+
+[2 rows x 5 columns]
+          fit        pred
+0  411.740175  385.073242
+1  392.266582  375.081023
+FOLD 2
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/train2.gz
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/test2.gz
+dict_keys(['grid_size', 'metric', 'n_jobs', 'n_neighbors', 'number_of_cooccurrences', 'oversample', 'random_state', 'select_features', 'specific_classifier', 'weight_function'])
+[{'n_neighbors': [200], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 2
+METALAZY - KNN fit: 0.007676601409912109
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6672789008530425 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1877.6887567043304
+METALAZY - KNN neighbours: 2.137718915939331
+METALAZY - KNN fit: 0.004284381866455078
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6859231208863709 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1899.1820075511932
+METALAZY - KNN neighbours: 3.0786221027374268
+METALAZY - KNN fit: 0.0060045719146728516
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6714105254972204 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1972.431791305542
+METALAZY - KNN neighbours: 4.621962785720825
+METALAZY - KNN fit: 0.0047986507415771484
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6686557805798571 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1985.0819301605225
+METALAZY - KNN neighbours: 6.477943181991577
+METALAZY - KNN fit: 0.007094144821166992
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6620278225806071 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1989.9755728244781
+METALAZY - KNN neighbours: 6.39389705657959
+METALAZY - KNN fit: 0.006650209426879883
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6811871603051068 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2000.5278685092926
+METALAZY - KNN neighbours: 8.68750524520874
+INTERNAL TIME copy: 5.345731496810913 - 0%
+INTERNAL TIME cooc: 83.8896815776825 - 4%
+INTERNAL TIME weight: 0.27441906929016113 - 0%
+INTERNAL TIME pred: 1837.3547384738922 - 95%
+INTERNAL TIME total: 1926.8645706176758 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.059936046600342 - 0%
+INTERNAL TIME cooc: 87.83162260055542 - 4%
+INTERNAL TIME weight: 0.13833975791931152 - 0%
+INTERNAL TIME pred: 1917.5226607322693 - 95%
+INTERNAL TIME total: 2010.5525591373444 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.116373777389526 - 0%
+INTERNAL TIME cooc: 83.14756155014038 - 4%
+INTERNAL TIME weight: 0.27054381370544434 - 0%
+INTERNAL TIME pred: 1972.0439293384552 - 95%
+INTERNAL TIME total: 2059.5784084796906 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.48194146156311 - 0%
+INTERNAL TIME cooc: 85.09077191352844 - 3%
+INTERNAL TIME weight: 0.13028645515441895 - 0%
+INTERNAL TIME pred: 2214.2685894966125 - 96%
+INTERNAL TIME total: 2303.9715893268585 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.03116250038147 - 0%
+INTERNAL TIME cooc: 84.83046555519104 - 3%
+INTERNAL TIME weight: 0.3191063404083252 - 0%
+INTERNAL TIME pred: 2335.2822437286377 - 96%
+INTERNAL TIME total: 2425.4629781246185 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.497429370880127 - 0%
+INTERNAL TIME cooc: 81.18504691123962 - 3%
+INTERNAL TIME weight: 0.07771039009094238 - 0%
+INTERNAL TIME pred: 2460.2122201919556 - 96%
+INTERNAL TIME total: 2545.9724068641663 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.145702600479126 - 0%
+INTERNAL TIME cooc: 72.69823694229126 - 2%
+INTERNAL TIME weight: 0.17642498016357422 - 0%
+INTERNAL TIME pred: 2562.3387808799744 - 97%
+INTERNAL TIME total: 2639.3591454029083 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.826246976852417 - 0%
+INTERNAL TIME cooc: 0.0906524658203125 - 0%
+INTERNAL TIME weight: 0.1695265769958496 - 0%
+INTERNAL TIME pred: 1990.1262845993042 - 99%
+INTERNAL TIME total: 1995.2127106189728 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.41133975982666 - 0%
+INTERNAL TIME cooc: 0.0025627613067626953 - 0%
+INTERNAL TIME weight: 0.0991513729095459 - 0%
+INTERNAL TIME pred: 2057.5942301750183 - 99%
+INTERNAL TIME total: 2062.1072840690613 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.438114643096924 - 0%
+INTERNAL TIME cooc: 0.002619028091430664 - 0%
+INTERNAL TIME weight: 0.12539291381835938 - 0%
+INTERNAL TIME pred: 2097.281769990921 - 99%
+INTERNAL TIME total: 2101.8478965759277 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.6382527351379395 - 0%
+INTERNAL TIME cooc: 0.002610445022583008 - 0%
+INTERNAL TIME weight: 0.12279486656188965 - 0%
+INTERNAL TIME pred: 2284.5257737636566 - 99%
+INTERNAL TIME total: 2289.289431810379 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.561328887939453 - 0%
+INTERNAL TIME cooc: 0.002539396286010742 - 0%
+INTERNAL TIME weight: 0.17154359817504883 - 0%
+INTERNAL TIME pred: 2384.902556657791 - 99%
+INTERNAL TIME total: 2389.6379685401917 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.543673276901245 - 0%
+INTERNAL TIME cooc: 0.002855062484741211 - 0%
+INTERNAL TIME weight: 0.1880202293395996 - 0%
+INTERNAL TIME pred: 2474.4421434402466 - 99%
+INTERNAL TIME total: 2480.176692008972 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.086811542510986 - 0%
+INTERNAL TIME cooc: 0.002991199493408203 - 0%
+INTERNAL TIME weight: 0.1312272548675537 - 0%
+INTERNAL TIME pred: 2550.4443910121918 - 99%
+INTERNAL TIME total: 2554.6654210090637 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.924347639083862 - 0%
+INTERNAL TIME cooc: 86.16115164756775 - 4%
+INTERNAL TIME weight: 0.11750435829162598 - 0%
+INTERNAL TIME pred: 1911.0819103717804 - 95%
+INTERNAL TIME total: 2002.2849140167236 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.419201135635376 - 0%
+INTERNAL TIME cooc: 90.06317400932312 - 4%
+INTERNAL TIME weight: 0.20705533027648926 - 0%
+INTERNAL TIME pred: 1993.041491985321 - 95%
+INTERNAL TIME total: 2088.730922460556 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.505926847457886 - 0%
+INTERNAL TIME cooc: 85.61142563819885 - 4%
+INTERNAL TIME weight: 0.2589609622955322 - 0%
+INTERNAL TIME pred: 2011.6183695793152 - 95%
+INTERNAL TIME total: 2101.9946830272675 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.200517892837524 - 0%
+INTERNAL TIME cooc: 86.01055407524109 - 3%
+INTERNAL TIME weight: 0.24645113945007324 - 0%
+INTERNAL TIME pred: 2229.6891720294952 - 96%
+INTERNAL TIME total: 2320.146695137024 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.130181074142456 - 0%
+INTERNAL TIME cooc: 84.04029583930969 - 3%
+INTERNAL TIME weight: 0.24252700805664062 - 0%
+INTERNAL TIME pred: 2306.0834527015686 - 96%
+INTERNAL TIME total: 2395.4964566230774 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.78582239151001 - 0%
+INTERNAL TIME cooc: 81.42350697517395 - 3%
+INTERNAL TIME weight: 0.18225455284118652 - 0%
+INTERNAL TIME pred: 2463.8944375514984 - 96%
+INTERNAL TIME total: 2550.2860214710236 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.215634822845459 - 0%
+INTERNAL TIME cooc: 74.32457137107849 - 2%
+INTERNAL TIME weight: 0.1181039810180664 - 0%
+INTERNAL TIME pred: 2513.973251104355 - 96%
+INTERNAL TIME total: 2592.631561279297 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.945585012435913 - 0%
+INTERNAL TIME cooc: 0.038022756576538086 - 0%
+INTERNAL TIME weight: 0.17707371711730957 - 0%
+INTERNAL TIME pred: 2031.5158343315125 - 99%
+INTERNAL TIME total: 2036.6765158176422 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.425910234451294 - 0%
+INTERNAL TIME cooc: 0.0026772022247314453 - 0%
+INTERNAL TIME weight: 0.1957714557647705 - 0%
+INTERNAL TIME pred: 2085.388243198395 - 99%
+INTERNAL TIME total: 2090.0126020908356 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.902585506439209 - 0%
+INTERNAL TIME cooc: 0.04266214370727539 - 0%
+INTERNAL TIME weight: 0.10731101036071777 - 0%
+INTERNAL TIME pred: 2095.5281467437744 - 99%
+INTERNAL TIME total: 2100.5807054042816 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.802526473999023 - 0%
+INTERNAL TIME cooc: 0.0027086734771728516 - 0%
+INTERNAL TIME weight: 0.19623422622680664 - 0%
+INTERNAL TIME pred: 2257.93443441391 - 99%
+INTERNAL TIME total: 2262.935903787613 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.966936826705933 - 0%
+INTERNAL TIME cooc: 0.002644777297973633 - 0%
+INTERNAL TIME weight: 0.3180227279663086 - 0%
+INTERNAL TIME pred: 2362.0336978435516 - 99%
+INTERNAL TIME total: 2367.321302175522 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.015184164047241 - 0%
+INTERNAL TIME cooc: 0.003324747085571289 - 0%
+INTERNAL TIME weight: 0.43259358406066895 - 0%
+INTERNAL TIME pred: 2465.447254180908 - 99%
+INTERNAL TIME total: 2469.8983566761017 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.644556760787964 - 0%
+INTERNAL TIME cooc: 0.002735614776611328 - 0%
+INTERNAL TIME weight: 0.05235886573791504 - 0%
+INTERNAL TIME pred: 2565.078766345978 - 99%
+INTERNAL TIME total: 2569.7784175872803 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.294429063796997 - 0%
+INTERNAL TIME cooc: 0.002648591995239258 - 0%
+INTERNAL TIME weight: 0.22895097732543945 - 0%
+INTERNAL TIME pred: 1993.3357989788055 - 99%
+INTERNAL TIME total: 1998.8618276119232 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.945795297622681 - 0%
+INTERNAL TIME cooc: 0.0025930404663085938 - 0%
+INTERNAL TIME weight: 0.07502579689025879 - 0%
+INTERNAL TIME pred: 2071.2213180065155 - 99%
+INTERNAL TIME total: 2076.2447321414948 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.535001277923584 - 0%
+INTERNAL TIME cooc: 0.04297518730163574 - 0%
+INTERNAL TIME weight: 0.2755460739135742 - 0%
+INTERNAL TIME pred: 2090.279762029648 - 99%
+INTERNAL TIME total: 2095.1332845687866 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.8434107303619385 - 0%
+INTERNAL TIME cooc: 0.0027327537536621094 - 0%
+INTERNAL TIME weight: 0.1475999355316162 - 0%
+INTERNAL TIME pred: 2292.0855333805084 - 99%
+INTERNAL TIME total: 2297.0792768001556 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.909740924835205 - 0%
+INTERNAL TIME cooc: 0.002568960189819336 - 0%
+INTERNAL TIME weight: 0.09204554557800293 - 0%
+INTERNAL TIME pred: 2349.4600961208344 - 99%
+INTERNAL TIME total: 2354.4644515514374 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.9829816818237305 - 0%
+INTERNAL TIME cooc: 0.038999319076538086 - 0%
+INTERNAL TIME weight: 0.26477885246276855 - 0%
+INTERNAL TIME pred: 2475.2013549804688 - 99%
+INTERNAL TIME total: 2480.488114833832 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.223987340927124 - 0%
+INTERNAL TIME cooc: 0.002616405487060547 - 0%
+INTERNAL TIME weight: 0.14006280899047852 - 0%
+INTERNAL TIME pred: 2522.1927688121796 - 99%
+INTERNAL TIME total: 2526.5594353675842 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.488414525985718 - 0%
+INTERNAL TIME cooc: 93.28108787536621 - 4%
+INTERNAL TIME weight: 0.2394266128540039 - 0%
+INTERNAL TIME pred: 2012.4273636341095 - 95%
+INTERNAL TIME total: 2110.4362926483154 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.01755166053772 - 0%
+INTERNAL TIME cooc: 90.2378032207489 - 4%
+INTERNAL TIME weight: 0.13800430297851562 - 0%
+INTERNAL TIME pred: 2059.741883277893 - 95%
+INTERNAL TIME total: 2155.135242462158 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.877232313156128 - 0%
+INTERNAL TIME cooc: 88.78801560401917 - 4%
+INTERNAL TIME weight: 0.3067936897277832 - 0%
+INTERNAL TIME pred: 2075.9607124328613 - 95%
+INTERNAL TIME total: 2169.9327540397644 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.783417701721191 - 0%
+INTERNAL TIME cooc: 88.36965537071228 - 3%
+INTERNAL TIME weight: 0.3027815818786621 - 0%
+INTERNAL TIME pred: 2216.863260984421 - 95%
+INTERNAL TIME total: 2310.319115638733 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.029845952987671 - 0%
+INTERNAL TIME cooc: 82.42682075500488 - 3%
+INTERNAL TIME weight: 0.19973039627075195 - 0%
+INTERNAL TIME pred: 2302.3531572818756 - 96%
+INTERNAL TIME total: 2389.009554386139 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.3106913566589355 - 0%
+INTERNAL TIME cooc: 81.83236074447632 - 3%
+INTERNAL TIME weight: 0.18497824668884277 - 0%
+INTERNAL TIME pred: 2387.4748961925507 - 96%
+INTERNAL TIME total: 2474.8029265403748 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 3.930392026901245 - 0%
+INTERNAL TIME cooc: 69.97129273414612 - 2%
+INTERNAL TIME weight: 0.2666895389556885 - 0%
+INTERNAL TIME pred: 2480.5466318130493 - 97%
+INTERNAL TIME total: 2554.7150061130524 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 2686.2281877994537 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2589.8314752578735 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2685.8796689510345 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2613.2853939533234 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2610.1181230545044 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2595.4338986873627 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.006730556488037109
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6772711568678231 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 402.15283036231995
+GENERAL - Total grid time: 5007.7674424648285
+GENERAL - Best score was 0.834163961003573 with 
+ MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+GENERAL - Best param was {'n_neighbors': 200, 'number_of_cooccurrences': 10, 'weight_function': 'None'}
+
+METALAZY - KNN fit: 0.0053234100341796875
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6835603249756284 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 392.8162250518799
+Total fit time: 392.82157278060913
+METALAZY - KNN neighbours: 1.5310077667236328
+INTERNAL TIME copy: 0.5752475261688232 - 0%
+INTERNAL TIME cooc: 10.564026832580566 - 4%
+INTERNAL TIME weight: 0.025369882583618164 - 0%
+INTERNAL TIME pred: 235.0176067352295 - 95%
+INTERNAL TIME total: 246.1822509765625 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5826840400695801 - 0%
+INTERNAL TIME cooc: 10.614999055862427 - 4%
+INTERNAL TIME weight: 0.02567458152770996 - 0%
+INTERNAL TIME pred: 240.38999366760254 - 95%
+INTERNAL TIME total: 251.61335134506226 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5855669975280762 - 0%
+INTERNAL TIME cooc: 10.668222188949585 - 4%
+INTERNAL TIME weight: 0.02540135383605957 - 0%
+INTERNAL TIME pred: 241.3476366996765 - 95%
+INTERNAL TIME total: 252.62682723999023 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5648510456085205 - 0%
+INTERNAL TIME cooc: 10.3369722366333 - 3%
+INTERNAL TIME weight: 0.024428367614746094 - 0%
+INTERNAL TIME pred: 266.4227786064148 - 96%
+INTERNAL TIME total: 277.34903025627136 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5740866661071777 - 0%
+INTERNAL TIME cooc: 10.48366117477417 - 3%
+INTERNAL TIME weight: 0.024520158767700195 - 0%
+INTERNAL TIME pred: 294.78637194633484 - 96%
+INTERNAL TIME total: 305.8686399459839 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5615358352661133 - 0%
+INTERNAL TIME cooc: 10.176934242248535 - 3%
+INTERNAL TIME weight: 0.024271726608276367 - 0%
+INTERNAL TIME pred: 300.22717809677124 - 96%
+INTERNAL TIME total: 310.98991990089417 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.548712968826294 - 0%
+INTERNAL TIME cooc: 9.800960779190063 - 2%
+INTERNAL TIME weight: 0.022890090942382812 - 0%
+INTERNAL TIME pred: 344.37560987472534 - 97%
+INTERNAL TIME total: 354.7481737136841 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 355.9280729293823 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+Total pred time: 357.46002888679504
+METALAZY - KNN neighbours: 1.6058943271636963
+INTERNAL TIME copy: 0.5906155109405518 - 0%
+INTERNAL TIME cooc: 10.8464674949646 - 4%
+INTERNAL TIME weight: 0.02591562271118164 - 0%
+INTERNAL TIME pred: 239.54699206352234 - 95%
+INTERNAL TIME total: 251.00999069213867 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5869836807250977 - 0%
+INTERNAL TIME cooc: 10.75351095199585 - 4%
+INTERNAL TIME weight: 0.025691986083984375 - 0%
+INTERNAL TIME pred: 244.34796023368835 - 95%
+INTERNAL TIME total: 255.7141468524933 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5921521186828613 - 0%
+INTERNAL TIME cooc: 10.765651941299438 - 4%
+INTERNAL TIME weight: 0.025652647018432617 - 0%
+INTERNAL TIME pred: 244.94598197937012 - 95%
+INTERNAL TIME total: 256.32943868637085 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5797011852264404 - 0%
+INTERNAL TIME cooc: 10.59219479560852 - 3%
+INTERNAL TIME weight: 0.025061368942260742 - 0%
+INTERNAL TIME pred: 270.68874979019165 - 96%
+INTERNAL TIME total: 281.8857071399689 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5600852966308594 - 0%
+INTERNAL TIME cooc: 10.135963439941406 - 3%
+INTERNAL TIME weight: 0.0240328311920166 - 0%
+INTERNAL TIME pred: 291.53158140182495 - 96%
+INTERNAL TIME total: 302.25166296958923 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5769972801208496 - 0%
+INTERNAL TIME cooc: 10.490293979644775 - 3%
+INTERNAL TIME weight: 0.024592161178588867 - 0%
+INTERNAL TIME pred: 311.91318678855896 - 96%
+INTERNAL TIME total: 323.0050702095032 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.54976487159729 - 0%
+INTERNAL TIME cooc: 9.890668153762817 - 2%
+INTERNAL TIME weight: 0.022996902465820312 - 0%
+INTERNAL TIME pred: 333.27499866485596 - 96%
+INTERNAL TIME total: 343.7384285926819 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5625474452972412 - 0%
+INTERNAL TIME cooc: 10.08714509010315 - 2%
+INTERNAL TIME weight: 0.02327895164489746 - 0%
+INTERNAL TIME pred: 355.6168439388275 - 97%
+INTERNAL TIME total: 366.2898154258728 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 367.47198963165283 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+Macro: 0.8659583474901357
+Micro: 0.8679045092838197
+      macro     micro  ...                                           best_clf fold
+0  0.858396  0.861722  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    0
+1  0.868533  0.871720  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    1
+2  0.865958  0.867905  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    2
+
+[3 rows x 5 columns]
+          fit        pred
+0  411.740175  385.073242
+1  392.266582  375.081023
+2  392.821573  357.460029
+FOLD 3
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/train3.gz
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/test3.gz
+dict_keys(['grid_size', 'metric', 'n_jobs', 'n_neighbors', 'number_of_cooccurrences', 'oversample', 'random_state', 'select_features', 'specific_classifier', 'weight_function'])
+[{'n_neighbors': [200], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 3
+METALAZY - KNN fit: 0.004868745803833008
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6803053424013218 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1886.3496537208557
+METALAZY - KNN neighbours: 2.119706869125366
+METALAZY - KNN fit: 0.006821632385253906
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.682541050557225 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1927.299559354782
+METALAZY - KNN neighbours: 3.1574866771698
+METALAZY - KNN fit: 0.007262229919433594
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6762879237400833 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1975.4412372112274
+METALAZY - KNN neighbours: 4.126307249069214
+METALAZY - KNN fit: 0.006663084030151367
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6912591550281342 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1981.8864846229553
+METALAZY - KNN neighbours: 5.348314046859741
+METALAZY - KNN fit: 0.005352973937988281
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6777584867279149 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2007.326826095581
+METALAZY - KNN neighbours: 5.903246164321899
+METALAZY - KNN fit: 0.0047168731689453125
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6919945541374839 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2045.663417816162
+METALAZY - KNN neighbours: 7.387623310089111
+INTERNAL TIME copy: 5.159471750259399 - 0%
+INTERNAL TIME cooc: 0.03458714485168457 - 0%
+INTERNAL TIME weight: 0.173431396484375 - 0%
+INTERNAL TIME pred: 1810.3700499534607 - 99%
+INTERNAL TIME total: 1815.7375402450562 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.941257476806641 - 0%
+INTERNAL TIME cooc: 0.002763509750366211 - 0%
+INTERNAL TIME weight: 0.3548293113708496 - 0%
+INTERNAL TIME pred: 1893.1396644115448 - 99%
+INTERNAL TIME total: 1898.4385147094727 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.6627562046051025 - 0%
+INTERNAL TIME cooc: 0.04305458068847656 - 0%
+INTERNAL TIME weight: 0.11572933197021484 - 0%
+INTERNAL TIME pred: 1989.3309643268585 - 99%
+INTERNAL TIME total: 1994.1525044441223 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.230150938034058 - 0%
+INTERNAL TIME cooc: 0.0025377273559570312 - 0%
+INTERNAL TIME weight: 0.3735823631286621 - 0%
+INTERNAL TIME pred: 2268.4110741615295 - 99%
+INTERNAL TIME total: 2274.017345190048 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.458200216293335 - 0%
+INTERNAL TIME cooc: 0.04257607460021973 - 0%
+INTERNAL TIME weight: 0.19179487228393555 - 0%
+INTERNAL TIME pred: 2370.5493853092194 - 99%
+INTERNAL TIME total: 2375.241956472397 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.412810802459717 - 0%
+INTERNAL TIME cooc: 0.002549886703491211 - 0%
+INTERNAL TIME weight: 0.1492753028869629 - 0%
+INTERNAL TIME pred: 2501.6982865333557 - 99%
+INTERNAL TIME total: 2506.262922525406 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.095004558563232 - 0%
+INTERNAL TIME cooc: 0.002593994140625 - 0%
+INTERNAL TIME weight: 0.12489914894104004 - 0%
+INTERNAL TIME pred: 2642.4192123413086 - 99%
+INTERNAL TIME total: 2646.6417100429535 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.890242099761963 - 0%
+INTERNAL TIME cooc: 0.038742780685424805 - 0%
+INTERNAL TIME weight: 0.2810688018798828 - 0%
+INTERNAL TIME pred: 2071.5391466617584 - 99%
+INTERNAL TIME total: 2076.7492003440857 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.616757392883301 - 0%
+INTERNAL TIME cooc: 0.0025968551635742188 - 0%
+INTERNAL TIME weight: 0.2578756809234619 - 0%
+INTERNAL TIME pred: 2100.8153824806213 - 99%
+INTERNAL TIME total: 2106.6926124095917 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.7457594871521 - 0%
+INTERNAL TIME cooc: 0.0030918121337890625 - 0%
+INTERNAL TIME weight: 0.27693796157836914 - 0%
+INTERNAL TIME pred: 2118.318805217743 - 99%
+INTERNAL TIME total: 2124.344594478607 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.94124174118042 - 0%
+INTERNAL TIME cooc: 0.002640962600708008 - 0%
+INTERNAL TIME weight: 0.12546920776367188 - 0%
+INTERNAL TIME pred: 2372.4092206954956 - 99%
+INTERNAL TIME total: 2377.4785726070404 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.511163711547852 - 0%
+INTERNAL TIME cooc: 0.0026519298553466797 - 0%
+INTERNAL TIME weight: 0.22649788856506348 - 0%
+INTERNAL TIME pred: 2419.9376718997955 - 99%
+INTERNAL TIME total: 2424.677985429764 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.305010557174683 - 0%
+INTERNAL TIME cooc: 0.0028464794158935547 - 0%
+INTERNAL TIME weight: 0.1597294807434082 - 0%
+INTERNAL TIME pred: 2515.03919005394 - 99%
+INTERNAL TIME total: 2520.506776571274 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.587367534637451 - 0%
+INTERNAL TIME cooc: 0.04269886016845703 - 0%
+INTERNAL TIME weight: 0.25113439559936523 - 0%
+INTERNAL TIME pred: 2611.184258699417 - 99%
+INTERNAL TIME total: 2616.0654594898224 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.082592964172363 - 0%
+INTERNAL TIME cooc: 90.4095242023468 - 4%
+INTERNAL TIME weight: 0.1489391326904297 - 0%
+INTERNAL TIME pred: 1960.0717988014221 - 95%
+INTERNAL TIME total: 2055.7128551006317 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.87060284614563 - 0%
+INTERNAL TIME cooc: 89.01091170310974 - 4%
+INTERNAL TIME weight: 0.26154160499572754 - 0%
+INTERNAL TIME pred: 2045.4654746055603 - 95%
+INTERNAL TIME total: 2139.6085307598114 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.505410432815552 - 0%
+INTERNAL TIME cooc: 81.10778594017029 - 3%
+INTERNAL TIME weight: 0.15949749946594238 - 0%
+INTERNAL TIME pred: 2415.549705505371 - 96%
+INTERNAL TIME total: 2501.322399377823 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.035504341125488 - 0%
+INTERNAL TIME cooc: 69.50293183326721 - 2%
+INTERNAL TIME weight: 0.03835606575012207 - 0%
+INTERNAL TIME pred: 2489.0479855537415 - 97%
+INTERNAL TIME total: 2562.6247777938843 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.6865739822387695 - 0%
+INTERNAL TIME cooc: 0.0026617050170898438 - 0%
+INTERNAL TIME weight: 0.24763965606689453 - 0%
+INTERNAL TIME pred: 1972.1519980430603 - 99%
+INTERNAL TIME total: 1977.088873386383 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.5019261837005615 - 0%
+INTERNAL TIME cooc: 0.04271864891052246 - 0%
+INTERNAL TIME weight: 0.13488054275512695 - 0%
+INTERNAL TIME pred: 2086.357052564621 - 99%
+INTERNAL TIME total: 2091.036577939987 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.019365549087524 - 0%
+INTERNAL TIME cooc: 0.0027077198028564453 - 0%
+INTERNAL TIME weight: 0.1957252025604248 - 0%
+INTERNAL TIME pred: 2088.936990261078 - 99%
+INTERNAL TIME total: 2094.1547887325287 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.571590185165405 - 0%
+INTERNAL TIME cooc: 0.07474136352539062 - 0%
+INTERNAL TIME weight: 0.239396333694458 - 0%
+INTERNAL TIME pred: 2388.499786376953 - 99%
+INTERNAL TIME total: 2393.3855142593384 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.630666732788086 - 0%
+INTERNAL TIME cooc: 0.04263806343078613 - 0%
+INTERNAL TIME weight: 0.26529479026794434 - 0%
+INTERNAL TIME pred: 2396.104231119156 - 99%
+INTERNAL TIME total: 2401.0428307056427 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.0714499950408936 - 0%
+INTERNAL TIME cooc: 0.05874443054199219 - 0%
+INTERNAL TIME weight: 0.11563706398010254 - 0%
+INTERNAL TIME pred: 2578.829364299774 - 99%
+INTERNAL TIME total: 2584.075195789337 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.056861400604248 - 0%
+INTERNAL TIME cooc: 0.0027604103088378906 - 0%
+INTERNAL TIME weight: 0.08341479301452637 - 0%
+INTERNAL TIME pred: 2604.7382543087006 - 99%
+INTERNAL TIME total: 2608.881290912628 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.561559438705444 - 0%
+INTERNAL TIME cooc: 91.51586723327637 - 4%
+INTERNAL TIME weight: 0.1022946834564209 - 0%
+INTERNAL TIME pred: 2064.248445749283 - 95%
+INTERNAL TIME total: 2161.428167104721 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.418844699859619 - 0%
+INTERNAL TIME cooc: 90.15100121498108 - 4%
+INTERNAL TIME weight: 0.2262890338897705 - 0%
+INTERNAL TIME pred: 2096.6334187984467 - 95%
+INTERNAL TIME total: 2191.429553747177 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.3819355964660645 - 0%
+INTERNAL TIME cooc: 90.62555956840515 - 4%
+INTERNAL TIME weight: 0.2464582920074463 - 0%
+INTERNAL TIME pred: 2107.0162484645844 - 95%
+INTERNAL TIME total: 2202.270201921463 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.0980634689331055 - 0%
+INTERNAL TIME cooc: 88.34898734092712 - 3%
+INTERNAL TIME weight: 0.24685120582580566 - 0%
+INTERNAL TIME pred: 2328.662164211273 - 96%
+INTERNAL TIME total: 2422.3560662269592 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.872899532318115 - 0%
+INTERNAL TIME cooc: 82.54903531074524 - 3%
+INTERNAL TIME weight: 0.18331646919250488 - 0%
+INTERNAL TIME pred: 2388.650420665741 - 96%
+INTERNAL TIME total: 2476.255671977997 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.492213487625122 - 0%
+INTERNAL TIME cooc: 84.00938987731934 - 3%
+INTERNAL TIME weight: 0.062200307846069336 - 0%
+INTERNAL TIME pred: 2456.4505836963654 - 96%
+INTERNAL TIME total: 2545.014387369156 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.11935019493103 - 0%
+INTERNAL TIME cooc: 71.22612881660461 - 2%
+INTERNAL TIME weight: 0.23007559776306152 - 0%
+INTERNAL TIME pred: 2555.7731680870056 - 97%
+INTERNAL TIME total: 2631.3487226963043 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.232530117034912 - 0%
+INTERNAL TIME cooc: 92.82138085365295 - 4%
+INTERNAL TIME weight: 0.19911670684814453 - 0%
+INTERNAL TIME pred: 2024.4067070484161 - 95%
+INTERNAL TIME total: 2122.659734725952 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.824620246887207 - 0%
+INTERNAL TIME cooc: 88.27558755874634 - 3%
+INTERNAL TIME weight: 0.25307536125183105 - 0%
+INTERNAL TIME pred: 2118.817252635956 - 95%
+INTERNAL TIME total: 2212.170535802841 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.099145889282227 - 0%
+INTERNAL TIME cooc: 90.68614411354065 - 4%
+INTERNAL TIME weight: 0.2781550884246826 - 0%
+INTERNAL TIME pred: 2119.682719707489 - 95%
+INTERNAL TIME total: 2215.7461647987366 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.392394065856934 - 0%
+INTERNAL TIME cooc: 86.74486041069031 - 3%
+INTERNAL TIME weight: 0.11359143257141113 - 0%
+INTERNAL TIME pred: 2351.123602628708 - 96%
+INTERNAL TIME total: 2442.3744485378265 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.847350597381592 - 0%
+INTERNAL TIME cooc: 81.9475085735321 - 3%
+INTERNAL TIME weight: 0.25225090980529785 - 0%
+INTERNAL TIME pred: 2358.8043825626373 - 96%
+INTERNAL TIME total: 2445.8514926433563 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.704394578933716 - 0%
+INTERNAL TIME cooc: 81.03079652786255 - 3%
+INTERNAL TIME weight: 0.23406243324279785 - 0%
+INTERNAL TIME pred: 2477.863249063492 - 96%
+INTERNAL TIME total: 2563.832502603531 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.038789749145508 - 0%
+INTERNAL TIME cooc: 75.24339246749878 - 2%
+INTERNAL TIME weight: 0.33841681480407715 - 0%
+INTERNAL TIME pred: 2494.3048560619354 - 96%
+INTERNAL TIME total: 2573.925455093384 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 2716.1141908168793 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2675.652830839157 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2607.244712114334 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2731.6867065429688 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2678.9445321559906 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2676.5924546718597 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.004324197769165039
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6641481352239592 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 392.6006233692169
+GENERAL - Total grid time: 5083.352866411209
+GENERAL - Best score was 0.839542197403103 with 
+ MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+GENERAL - Best param was {'n_neighbors': 200, 'number_of_cooccurrences': 10, 'weight_function': 'None'}
+
+METALAZY - KNN fit: 0.005377054214477539
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6820234034252073 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 388.92288756370544
+Total fit time: 388.9282879829407
+METALAZY - KNN neighbours: 1.4757273197174072
+INTERNAL TIME copy: 0.5854735374450684 - 0%
+INTERNAL TIME cooc: 10.519720792770386 - 4%
+INTERNAL TIME weight: 0.025385618209838867 - 0%
+INTERNAL TIME pred: 237.83744263648987 - 95%
+INTERNAL TIME total: 248.96802258491516 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5821764469146729 - 0%
+INTERNAL TIME cooc: 10.745563507080078 - 4%
+INTERNAL TIME weight: 0.025368213653564453 - 0%
+INTERNAL TIME pred: 239.18119430541992 - 95%
+INTERNAL TIME total: 250.53430247306824 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5688431262969971 - 0%
+INTERNAL TIME cooc: 10.496687889099121 - 4%
+INTERNAL TIME weight: 0.03530311584472656 - 0%
+INTERNAL TIME pred: 239.56095170974731 - 95%
+INTERNAL TIME total: 250.66178584098816 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5719203948974609 - 0%
+INTERNAL TIME cooc: 10.451250314712524 - 3%
+INTERNAL TIME weight: 0.024744033813476562 - 0%
+INTERNAL TIME pred: 271.6384029388428 - 96%
+INTERNAL TIME total: 282.68631768226624 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5537784099578857 - 0%
+INTERNAL TIME cooc: 10.070650100708008 - 3%
+INTERNAL TIME weight: 0.023818016052246094 - 0%
+INTERNAL TIME pred: 299.7126667499542 - 96%
+INTERNAL TIME total: 310.36091327667236 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5713026523590088 - 0%
+INTERNAL TIME cooc: 10.449053525924683 - 3%
+INTERNAL TIME weight: 0.0241241455078125 - 0%
+INTERNAL TIME pred: 300.37494587898254 - 96%
+INTERNAL TIME total: 311.41942620277405 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.544776439666748 - 0%
+INTERNAL TIME cooc: 9.816407442092896 - 2%
+INTERNAL TIME weight: 0.022745847702026367 - 0%
+INTERNAL TIME pred: 338.15648198127747 - 97%
+INTERNAL TIME total: 348.54041171073914 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5480337142944336 - 0%
+INTERNAL TIME cooc: 9.885255575180054 - 2%
+INTERNAL TIME weight: 0.022848844528198242 - 0%
+INTERNAL TIME pred: 346.32761430740356 - 97%
+INTERNAL TIME total: 356.78375244140625 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 357.94251585006714 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+Total pred time: 359.4192135334015
+METALAZY - KNN neighbours: 1.4379568099975586
+INTERNAL TIME copy: 0.591151237487793 - 0%
+INTERNAL TIME cooc: 10.999311447143555 - 4%
+INTERNAL TIME weight: 0.026012182235717773 - 0%
+INTERNAL TIME pred: 242.9456205368042 - 95%
+INTERNAL TIME total: 254.56209540367126 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5791919231414795 - 0%
+INTERNAL TIME cooc: 10.699201583862305 - 4%
+INTERNAL TIME weight: 0.02559947967529297 - 0%
+INTERNAL TIME pred: 243.55237865447998 - 95%
+INTERNAL TIME total: 254.85637164115906 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5861611366271973 - 0%
+INTERNAL TIME cooc: 10.898041486740112 - 4%
+INTERNAL TIME weight: 0.02585601806640625 - 0%
+INTERNAL TIME pred: 245.38740921020508 - 95%
+INTERNAL TIME total: 256.8974678516388 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5744976997375488 - 0%
+INTERNAL TIME cooc: 10.473134756088257 - 3%
+INTERNAL TIME weight: 0.024891138076782227 - 0%
+INTERNAL TIME pred: 275.95859932899475 - 96%
+INTERNAL TIME total: 287.03112292289734 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5658349990844727 - 0%
+INTERNAL TIME cooc: 10.268351554870605 - 3%
+INTERNAL TIME weight: 0.02418375015258789 - 0%
+INTERNAL TIME pred: 303.72079253196716 - 96%
+INTERNAL TIME total: 314.57916283607483 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5774016380310059 - 0%
+INTERNAL TIME cooc: 10.637051343917847 - 3%
+INTERNAL TIME weight: 0.024653196334838867 - 0%
+INTERNAL TIME pred: 305.19676899909973 - 96%
+INTERNAL TIME total: 316.4358751773834 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.539334774017334 - 0%
+INTERNAL TIME cooc: 9.687621831893921 - 2%
+INTERNAL TIME weight: 0.022511005401611328 - 0%
+INTERNAL TIME pred: 335.28308510780334 - 97%
+INTERNAL TIME total: 345.5325527191162 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 370.7690906524658 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+Macro: 0.8576294508194369
+Micro: 0.8605947955390335
+      macro     micro  ...                                           best_clf fold
+0  0.858396  0.861722  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    0
+1  0.868533  0.871720  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    1
+2  0.865958  0.867905  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    2
+3  0.857629  0.860595  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    3
+
+[4 rows x 5 columns]
+          fit        pred
+0  411.740175  385.073242
+1  392.266582  375.081023
+2  392.821573  357.460029
+3  388.928288  359.419214
+FOLD 4
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/train4.gz
+/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1/test4.gz
+dict_keys(['grid_size', 'metric', 'n_jobs', 'n_neighbors', 'number_of_cooccurrences', 'oversample', 'random_state', 'select_features', 'specific_classifier', 'weight_function'])
+[{'n_neighbors': [200], 'number_of_cooccurrences': [0, 10], 'weight_function': ['None']}]
+GRID SEARCH FOR FOLD 4
+METALAZY - KNN fit: 0.004940509796142578
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.690895510830983 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1884.1434230804443
+METALAZY - KNN neighbours: 2.299619436264038
+METALAZY - KNN fit: 0.004769325256347656
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6707319546509002 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1894.6051578521729
+METALAZY - KNN neighbours: 3.135199785232544
+METALAZY - KNN fit: 0.017820358276367188
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6609410374687396 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 1974.8524386882782
+METALAZY - KNN neighbours: 4.796992301940918
+METALAZY - KNN fit: 0.0060956478118896484
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6862068010457646 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2000.0904331207275
+METALAZY - KNN neighbours: 5.501924276351929
+METALAZY - KNN fit: 0.0063707828521728516
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6788583124585995 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2009.5030653476715
+METALAZY - KNN neighbours: 7.0854811668396
+METALAZY - KNN fit: 0.005864620208740234
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6833942960067405 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 2050.2343327999115
+METALAZY - KNN neighbours: 7.427386283874512
+INTERNAL TIME copy: 4.636926651000977 - 0%
+INTERNAL TIME cooc: 0.002655506134033203 - 0%
+INTERNAL TIME weight: 0.11562466621398926 - 0%
+INTERNAL TIME pred: 1954.425127029419 - 99%
+INTERNAL TIME total: 1959.180333852768 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.29752779006958 - 0%
+INTERNAL TIME cooc: 0.002839326858520508 - 0%
+INTERNAL TIME weight: 0.21919703483581543 - 0%
+INTERNAL TIME pred: 1974.0547795295715 - 99%
+INTERNAL TIME total: 1978.5743436813354 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.46748948097229 - 0%
+INTERNAL TIME cooc: 0.0026886463165283203 - 0%
+INTERNAL TIME weight: 0.06785297393798828 - 0%
+INTERNAL TIME pred: 1978.1466467380524 - 99%
+INTERNAL TIME total: 1982.6846778392792 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.864803075790405 - 0%
+INTERNAL TIME cooc: 0.07074570655822754 - 0%
+INTERNAL TIME weight: 0.11104083061218262 - 0%
+INTERNAL TIME pred: 2268.0277483463287 - 99%
+INTERNAL TIME total: 2273.0743379592896 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.742342948913574 - 0%
+INTERNAL TIME cooc: 0.010845184326171875 - 0%
+INTERNAL TIME weight: 0.13894414901733398 - 0%
+INTERNAL TIME pred: 2389.2197992801666 - 99%
+INTERNAL TIME total: 2394.1119315624237 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.395468235015869 - 0%
+INTERNAL TIME cooc: 0.0026636123657226562 - 0%
+INTERNAL TIME weight: 0.23096728324890137 - 0%
+INTERNAL TIME pred: 2475.856018304825 - 99%
+INTERNAL TIME total: 2480.4851174354553 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 3.789250612258911 - 0%
+INTERNAL TIME cooc: 0.0866703987121582 - 0%
+INTERNAL TIME weight: 0.21761703491210938 - 0%
+INTERNAL TIME pred: 2603.1840963363647 - 99%
+INTERNAL TIME total: 2607.277634382248 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 3.926980495452881 - 0%
+INTERNAL TIME cooc: 84.4829592704773 - 4%
+INTERNAL TIME weight: 0.15815186500549316 - 0%
+INTERNAL TIME pred: 1891.797165632248 - 95%
+INTERNAL TIME total: 1980.3652572631836 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.563442230224609 - 0%
+INTERNAL TIME cooc: 84.02753496170044 - 4%
+INTERNAL TIME weight: 0.16936206817626953 - 0%
+INTERNAL TIME pred: 1930.7489926815033 - 95%
+INTERNAL TIME total: 2019.5093319416046 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.394814968109131 - 0%
+INTERNAL TIME cooc: 86.92152690887451 - 4%
+INTERNAL TIME weight: 0.18996524810791016 - 0%
+INTERNAL TIME pred: 1988.6972196102142 - 95%
+INTERNAL TIME total: 2080.203526735306 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.295654535293579 - 0%
+INTERNAL TIME cooc: 84.64100527763367 - 3%
+INTERNAL TIME weight: 0.19536423683166504 - 0%
+INTERNAL TIME pred: 2257.408942461014 - 96%
+INTERNAL TIME total: 2346.5409665107727 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.836524963378906 - 0%
+INTERNAL TIME cooc: 84.85609102249146 - 3%
+INTERNAL TIME weight: 0.1224815845489502 - 0%
+INTERNAL TIME pred: 2323.138077020645 - 96%
+INTERNAL TIME total: 2412.9531745910645 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.2523603439331055 - 0%
+INTERNAL TIME cooc: 80.86002540588379 - 3%
+INTERNAL TIME weight: 0.11033749580383301 - 0%
+INTERNAL TIME pred: 2484.040468454361 - 96%
+INTERNAL TIME total: 2570.2631916999817 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.209243059158325 - 0%
+INTERNAL TIME cooc: 76.1428496837616 - 2%
+INTERNAL TIME weight: 0.32628941535949707 - 0%
+INTERNAL TIME pred: 2513.4704089164734 - 96%
+INTERNAL TIME total: 2594.148791074753 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.166637420654297 - 0%
+INTERNAL TIME cooc: 0.002752065658569336 - 0%
+INTERNAL TIME weight: 0.23487019538879395 - 0%
+INTERNAL TIME pred: 2011.346563577652 - 99%
+INTERNAL TIME total: 2016.7508232593536 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.712398052215576 - 0%
+INTERNAL TIME cooc: 0.034742116928100586 - 0%
+INTERNAL TIME weight: 0.27944493293762207 - 0%
+INTERNAL TIME pred: 2046.2013812065125 - 99%
+INTERNAL TIME total: 2051.2279663085938 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.707799911499023 - 0%
+INTERNAL TIME cooc: 0.0026199817657470703 - 0%
+INTERNAL TIME weight: 0.03553605079650879 - 0%
+INTERNAL TIME pred: 2077.100237607956 - 99%
+INTERNAL TIME total: 2081.846193552017 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.407771348953247 - 0%
+INTERNAL TIME cooc: 0.026775836944580078 - 0%
+INTERNAL TIME weight: 0.05795574188232422 - 0%
+INTERNAL TIME pred: 2255.865230321884 - 99%
+INTERNAL TIME total: 2261.3577332496643 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.039753198623657 - 0%
+INTERNAL TIME cooc: 0.06720614433288574 - 0%
+INTERNAL TIME weight: 0.23714566230773926 - 0%
+INTERNAL TIME pred: 2342.0612394809723 - 99%
+INTERNAL TIME total: 2347.4053444862366 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.108184576034546 - 0%
+INTERNAL TIME cooc: 0.0028350353240966797 - 0%
+INTERNAL TIME weight: 0.13939189910888672 - 0%
+INTERNAL TIME pred: 2436.1102995872498 - 99%
+INTERNAL TIME total: 2441.3607110977173 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.043041706085205 - 0%
+INTERNAL TIME cooc: 0.027051210403442383 - 0%
+INTERNAL TIME weight: 0.14006710052490234 - 0%
+INTERNAL TIME pred: 2536.7757437229156 - 99%
+INTERNAL TIME total: 2540.985903739929 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.263381242752075 - 0%
+INTERNAL TIME cooc: 89.71915650367737 - 4%
+INTERNAL TIME weight: 0.1408989429473877 - 0%
+INTERNAL TIME pred: 1998.9098229408264 - 95%
+INTERNAL TIME total: 2094.0332596302032 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.698462724685669 - 0%
+INTERNAL TIME cooc: 89.23988485336304 - 4%
+INTERNAL TIME weight: 0.23902034759521484 - 0%
+INTERNAL TIME pred: 2024.724128961563 - 95%
+INTERNAL TIME total: 2118.901496887207 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.780048131942749 - 0%
+INTERNAL TIME cooc: 89.77260327339172 - 4%
+INTERNAL TIME weight: 0.3937966823577881 - 0%
+INTERNAL TIME pred: 2053.752370595932 - 95%
+INTERNAL TIME total: 2148.6988186836243 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.243075609207153 - 0%
+INTERNAL TIME cooc: 88.2776243686676 - 3%
+INTERNAL TIME weight: 0.278839111328125 - 0%
+INTERNAL TIME pred: 2220.9798719882965 - 95%
+INTERNAL TIME total: 2314.7794110774994 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.943104982376099 - 0%
+INTERNAL TIME cooc: 83.12481331825256 - 3%
+INTERNAL TIME weight: 0.18965506553649902 - 0%
+INTERNAL TIME pred: 2301.5164165496826 - 96%
+INTERNAL TIME total: 2389.773989915848 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.968450546264648 - 0%
+INTERNAL TIME cooc: 82.06842374801636 - 3%
+INTERNAL TIME weight: 0.1855332851409912 - 0%
+INTERNAL TIME pred: 2404.1810297966003 - 96%
+INTERNAL TIME total: 2491.4034373760223 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.278231143951416 - 0%
+INTERNAL TIME cooc: 70.35275769233704 - 2%
+INTERNAL TIME weight: 0.11389970779418945 - 0%
+INTERNAL TIME pred: 2493.1069552898407 - 97%
+INTERNAL TIME total: 2567.8518438339233 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.838863134384155 - 0%
+INTERNAL TIME cooc: 91.77460265159607 - 4%
+INTERNAL TIME weight: 0.08239030838012695 - 0%
+INTERNAL TIME pred: 2022.7403132915497 - 95%
+INTERNAL TIME total: 2119.43616938591 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.12044358253479 - 0%
+INTERNAL TIME cooc: 88.71032333374023 - 4%
+INTERNAL TIME weight: 0.3297543525695801 - 0%
+INTERNAL TIME pred: 2039.3617033958435 - 95%
+INTERNAL TIME total: 2133.522224664688 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.404662847518921 - 0%
+INTERNAL TIME cooc: 89.9855546951294 - 4%
+INTERNAL TIME weight: 0.2673075199127197 - 0%
+INTERNAL TIME pred: 2044.0589060783386 - 95%
+INTERNAL TIME total: 2138.7164311408997 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.050889730453491 - 0%
+INTERNAL TIME cooc: 84.41452956199646 - 3%
+INTERNAL TIME weight: 0.27670741081237793 - 0%
+INTERNAL TIME pred: 2226.3609404563904 - 96%
+INTERNAL TIME total: 2316.1030671596527 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 3.5923194885253906 - 0%
+INTERNAL TIME cooc: 79.41380739212036 - 3%
+INTERNAL TIME weight: 0.15686559677124023 - 0%
+INTERNAL TIME pred: 2318.5732922554016 - 96%
+INTERNAL TIME total: 2401.7362847328186 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.441126823425293 - 0%
+INTERNAL TIME cooc: 80.5489661693573 - 3%
+INTERNAL TIME weight: 0.2152411937713623 - 0%
+INTERNAL TIME pred: 2359.4636425971985 - 96%
+INTERNAL TIME total: 2444.6689767837524 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 4.22404146194458 - 0%
+INTERNAL TIME cooc: 68.98096776008606 - 2%
+INTERNAL TIME weight: 0.1399390697479248 - 0%
+INTERNAL TIME pred: 2440.6299436092377 - 97%
+INTERNAL TIME total: 2513.9748919010162 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 5.063425302505493 - 0%
+INTERNAL TIME cooc: 0.002586841583251953 - 0%
+INTERNAL TIME weight: 0.30567169189453125 - 0%
+INTERNAL TIME pred: 2020.372601032257 - 99%
+INTERNAL TIME total: 2025.7442848682404 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 5.6739115715026855 - 0%
+INTERNAL TIME cooc: 0.002589702606201172 - 0%
+INTERNAL TIME weight: 0.31446337699890137 - 0%
+INTERNAL TIME pred: 2048.3093225955963 - 99%
+INTERNAL TIME total: 2054.300287246704 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.588285446166992 - 0%
+INTERNAL TIME cooc: 0.04272651672363281 - 0%
+INTERNAL TIME weight: 0.1564807891845703 - 0%
+INTERNAL TIME pred: 2105.9042644500732 - 99%
+INTERNAL TIME total: 2110.6917572021484 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.969055891036987 - 0%
+INTERNAL TIME cooc: 0.003316164016723633 - 0%
+INTERNAL TIME weight: 0.20558476448059082 - 0%
+INTERNAL TIME pred: 2314.183792114258 - 99%
+INTERNAL TIME total: 2319.361748933792 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.805110931396484 - 0%
+INTERNAL TIME cooc: 0.0031189918518066406 - 0%
+INTERNAL TIME weight: 0.0920724868774414 - 0%
+INTERNAL TIME pred: 2368.7651064395905 - 99%
+INTERNAL TIME total: 2373.665408849716 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.535174131393433 - 0%
+INTERNAL TIME cooc: 0.002610445022583008 - 0%
+INTERNAL TIME weight: 0.1747753620147705 - 0%
+INTERNAL TIME pred: 2477.892043352127 - 99%
+INTERNAL TIME total: 2482.604603290558 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+INTERNAL TIME copy: 4.042450904846191 - 0%
+INTERNAL TIME cooc: 0.0026493072509765625 - 0%
+INTERNAL TIME weight: 0.23153138160705566 - 0%
+INTERNAL TIME pred: 2503.7475879192352 - 99%
+INTERNAL TIME total: 2508.0242195129395 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 0
+
+METALAZY - pred paralel: 2662.087469100952 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2703.6377239227295 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2594.0113689899445 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2632.5490448474884 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2554.9356689453125 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - pred paralel: 2601.360177755356 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+METALAZY - KNN fit: 0.005100250244140625
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6768458811923751 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 390.7926480770111
+GENERAL - Total grid time: 5009.617034912109
+GENERAL - Best score was 0.8371905855955856 with 
+ MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+GENERAL - Best param was {'n_neighbors': 200, 'number_of_cooccurrences': 10, 'weight_function': 'None'}
+
+METALAZY - KNN fit: 0.0053577423095703125
+tunner weaker:  [{'C': array([3.125e-02, 1.250e-01, 5.000e-01, 2.000e+00, 8.000e+00, 3.200e+01,
+       1.280e+02, 5.120e+02, 2.048e+03, 8.192e+03, 1.000e+00])}]
+Best score was 0.6669195343323219 with 
+ SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+best param:  {'C': 0.03125}
+METALAZY - Choose weaker fit: 395.9480142593384
+Total fit time: 395.95339608192444
+METALAZY - KNN neighbours: 1.5542871952056885
+INTERNAL TIME copy: 0.5833349227905273 - 0%
+INTERNAL TIME cooc: 10.55996823310852 - 4%
+INTERNAL TIME weight: 0.02532052993774414 - 0%
+INTERNAL TIME pred: 236.8808090686798 - 95%
+INTERNAL TIME total: 248.0494327545166 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5726752281188965 - 0%
+INTERNAL TIME cooc: 10.448805332183838 - 4%
+INTERNAL TIME weight: 0.02518630027770996 - 0%
+INTERNAL TIME pred: 238.71181416511536 - 95%
+INTERNAL TIME total: 249.7584810256958 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5855357646942139 - 0%
+INTERNAL TIME cooc: 10.721723794937134 - 4%
+INTERNAL TIME weight: 0.02516627311706543 - 0%
+INTERNAL TIME pred: 240.66858315467834 - 95%
+INTERNAL TIME total: 252.00100898742676 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5526168346405029 - 0%
+INTERNAL TIME cooc: 10.08983588218689 - 3%
+INTERNAL TIME weight: 0.023840904235839844 - 0%
+INTERNAL TIME pred: 279.6518306732178 - 96%
+INTERNAL TIME total: 290.318124294281 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5995781421661377 - 0%
+INTERNAL TIME cooc: 10.705394983291626 - 3%
+INTERNAL TIME weight: 0.024700164794921875 - 0%
+INTERNAL TIME pred: 286.070853471756 - 96%
+INTERNAL TIME total: 297.40052676200867 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5552394390106201 - 0%
+INTERNAL TIME cooc: 10.122881650924683 - 3%
+INTERNAL TIME weight: 0.023703813552856445 - 0%
+INTERNAL TIME pred: 306.9013702869415 - 96%
+INTERNAL TIME total: 317.6031951904297 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5419514179229736 - 0%
+INTERNAL TIME cooc: 9.767744541168213 - 2%
+INTERNAL TIME weight: 0.022497892379760742 - 0%
+INTERNAL TIME pred: 338.92104625701904 - 97%
+INTERNAL TIME total: 349.25324010849 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 357.2409429550171 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+Total pred time: 358.7962472438812
+METALAZY - KNN neighbours: 1.5015223026275635
+INTERNAL TIME copy: 0.582965612411499 - 0%
+INTERNAL TIME cooc: 10.76547622680664 - 4%
+INTERNAL TIME weight: 0.025452852249145508 - 0%
+INTERNAL TIME pred: 241.95081901550293 - 95%
+INTERNAL TIME total: 253.32471370697021 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5849521160125732 - 0%
+INTERNAL TIME cooc: 10.702115774154663 - 4%
+INTERNAL TIME weight: 0.025659561157226562 - 0%
+INTERNAL TIME pred: 243.62944293022156 - 95%
+INTERNAL TIME total: 254.94217038154602 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5888574123382568 - 0%
+INTERNAL TIME cooc: 10.852182865142822 - 4%
+INTERNAL TIME weight: 0.025388002395629883 - 0%
+INTERNAL TIME pred: 244.6140239238739 - 95%
+INTERNAL TIME total: 256.0804522037506 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5803427696228027 - 0%
+INTERNAL TIME cooc: 10.588826656341553 - 3%
+INTERNAL TIME weight: 0.024926424026489258 - 0%
+INTERNAL TIME pred: 280.094003200531 - 96%
+INTERNAL TIME total: 291.28809905052185 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5642449855804443 - 0%
+INTERNAL TIME cooc: 10.336636781692505 - 3%
+INTERNAL TIME weight: 0.0240478515625 - 0%
+INTERNAL TIME pred: 283.8693630695343 - 96%
+INTERNAL TIME total: 294.79429268836975 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5740981101989746 - 0%
+INTERNAL TIME cooc: 10.515400886535645 - 3%
+INTERNAL TIME weight: 0.02443718910217285 - 0%
+INTERNAL TIME pred: 319.4413058757782 - 96%
+INTERNAL TIME total: 330.555242061615 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5497632026672363 - 0%
+INTERNAL TIME cooc: 9.942769050598145 - 2%
+INTERNAL TIME weight: 0.022925376892089844 - 0%
+INTERNAL TIME pred: 341.43609833717346 - 97%
+INTERNAL TIME total: 351.95155596733093 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+INTERNAL TIME copy: 0.5516605377197266 - 0%
+INTERNAL TIME cooc: 10.007843732833862 - 2%
+INTERNAL TIME weight: 0.022829532623291016 - 0%
+INTERNAL TIME pred: 350.8679211139679 - 97%
+INTERNAL TIME total: 361.4502549171448 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False) - cooc 10
+
+METALAZY - pred paralel: 362.6451551914215 - SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,
+                   number_of_cooccurrences=10, oversample=False,
+                   random_state=42, select_features=False,
+                   specific_classifier=None, weight_function='None')
+SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,
+    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',
+    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,
+    verbose=False)
+Macro: 0.8577468057748762
+Micro: 0.8604465709728868
+      macro     micro  ...                                           best_clf fold
+0  0.858396  0.861722  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    0
+1  0.868533  0.871720  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    1
+2  0.865958  0.867905  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    2
+3  0.857629  0.860595  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    3
+4  0.857747  0.860447  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    4
+
+[5 rows x 5 columns]
+          fit        pred
+0  411.740175  385.073242
+1  392.266582  375.081023
+2  392.821573  357.460029
+3  388.928288  359.419214
+4  395.953396  358.796247
+[{'macro': 0.8583956406420326, 'micro': 0.8617218543046358, 'config': "MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,\n                   number_of_cooccurrences=10, oversample=False,\n                   random_state=42, select_features=False,\n                   specific_classifier=None, weight_function='None')", 'best_clf': "SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,\n    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',\n    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,\n    verbose=False)", 'fold': '0'}, {'macro': 0.8685326192408995, 'micro': 0.8717201166180758, 'config': "MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,\n                   number_of_cooccurrences=10, oversample=False,\n                   random_state=42, select_features=False,\n                   specific_classifier=None, weight_function='None')", 'best_clf': "SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,\n    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',\n    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,\n    verbose=False)", 'fold': '1'}, {'macro': 0.8659583474901357, 'micro': 0.8679045092838197, 'config': "MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,\n                   number_of_cooccurrences=10, oversample=False,\n                   random_state=42, select_features=False,\n                   specific_classifier=None, weight_function='None')", 'best_clf': "SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,\n    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',\n    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,\n    verbose=False)", 'fold': '2'}, {'macro': 0.8576294508194369, 'micro': 0.8605947955390335, 'config': "MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,\n                   number_of_cooccurrences=10, oversample=False,\n                   random_state=42, select_features=False,\n                   specific_classifier=None, weight_function='None')", 'best_clf': "SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,\n    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',\n    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,\n    verbose=False)", 'fold': '3'}, {'macro': 0.8577468057748762, 'micro': 0.8604465709728868, 'config': "MetaLazyClassifier(grid_size=5000, metric='cosine', n_jobs=8, n_neighbors=200,\n                   number_of_cooccurrences=10, oversample=False,\n                   random_state=42, select_features=False,\n                   specific_classifier=None, weight_function='None')", 'best_clf': "SVC(C=0.03125, cache_size=25000, class_weight=None, coef0=0.0,\n    decision_function_shape=None, degree=3, gamma='auto', kernel='linear',\n    max_iter=-1, probability=True, random_state=42, shrinking=True, tol=0.001,\n    verbose=False)", 'fold': '4'}]
+Total time: 31720.23588514328
+      macro     micro  ...                                           best_clf fold
+0  0.858396  0.861722  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    0
+1  0.868533  0.871720  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    1
+2  0.865958  0.867905  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    2
+3  0.857629  0.860595  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    3
+4  0.857747  0.860447  ...  SVC(C=0.03125, cache_size=25000, class_weight=...    4
+
+[5 rows x 5 columns]
+          fit        pred
+0  411.740175  385.073242
+1  392.266582  375.081023
+2  392.821573  357.460029
+3  388.928288  359.419214
+4  395.953396  358.796247
+Macro F1: 0.8616525727934762 (0.00464592010946776)
+Micro F1: 0.8644775693436904 (0.004541304967407136)

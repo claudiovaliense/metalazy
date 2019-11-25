@@ -89,8 +89,8 @@ def main():
     #args.p = "/home/claudiovaliense/dataset/stanford_tweets/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "../../dataset/metalazy/split0"
-    args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
-    #args.p = "/home/claudiovaliense/dataset/acm/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+   # args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+    args.p = "/home/claudiovaliense/dataset/acm/representations/5-folds/TFIDF_removed_stopwords_mindf1"
 
     args.o = "results/"
 
