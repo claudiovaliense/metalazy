@@ -35,7 +35,7 @@ dir_test = [
 y_test_folds = []
 y_pred_folds = []
 best_param_folds=[]
-tunned_param_lbd = {'kernel': kernel, 'verbose': False, 'probability': False,
+tunned_param_lbd = { 'kernel': 'rbf', 'verbose': False, 'probability': False,
                     'degree': 3, 'shrinking': True,
                     'decision_function_shape': None, 
                     'tol': 0.001, 'cache_size': 25000, 'coef0': 0.0, 'gamma': 'auto',
@@ -46,20 +46,30 @@ C = numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1)
 #							{'kernel': ['rbf'], 'gamma': [2.5, 2, 1.5, 1, 1e-1, 1e-2, 1e-3, 1e-4],
 #			       			     'C': [1, 10, 100, 1000, 1500,5000, 10000]}]
 
-tuned_parameters = [{'kernel': ['linear'], 'C': C}, 
-                   {'kernel': ['rbf'], 'gamma': [2.5, 2, 1.5, 1, 1e-1, 1e-2, 1e-3, 1e-4, 'auto'], 'C': C}]
+#tuned_parameters = [#{'kernel': ['linear'], 'C': C}, 
+#                   {'kernel': ['rbf', 'linear'], 'gamma': [2.5, 2, 1.5, 1, 1e-1, 1e-2, 1e-3, 1e-4, 'auto'], 'C': C}]
+
+C_range = C
+gamma_range = numpy.logspace(-9, 3, 13)
+param_grid = dict(gamma=['auto'], C=C_range)
+
+#tuned_parameters =[{'kernel': ['rbf'], 'C': C, 'gamma':['auto']},
+ #                  {'kernel':['linear'], 'C': C},
+  #                 {'kernel': ['rbf'], 'C': C, 'gamma': gamma_range }]
 
 
 #C = [0.0001, 0.001, 0.01, 0.1, 1, 2, 3, 5, 10, 20, 100, 1000, 10000,100000]
 tuned_parameters_svm = [{'C': C}]
     
 for index_file in range(5):
-    model_svm = svm.SVC()
+    model_svm = svm.SVC()    
     model_svm.__init__(**tunned_param_lbd)    
     x_train, y_train, x_test, y_test = load_svmlight_files([open(dir_train[index_file], 'rb'), open(dir_test[index_file], 'rb')])
+    
+
 
     # best param svm grid 
-    grid_svm = GridSearchCV(model_svm, tuned_parameters_svm,  cv=3, scoring='f1_macro', n_jobs=1)        
+    grid_svm = GridSearchCV(model_svm, param_grid=param_grid,  cv=3, scoring='f1_micro', n_jobs=1)        
     grid_svm.fit(x_train, y_train)   
     print(grid_svm.get_params() )
     best_param_svm = grid_svm.best_params_  
