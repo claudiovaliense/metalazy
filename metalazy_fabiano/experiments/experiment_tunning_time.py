@@ -53,7 +53,7 @@ def predict_prob(clf, X_test):
 def choose_tunning_parameters(specific, weight, coccurrence):
     #tuned_parameters = [{'n_neighbors': [100,200,350]}]
     #tuned_parameters = [{'n_neighbors': [350]}]
-    tuned_parameters = [{'n_neighbors': [50]}] #sample fabiano
+    tuned_parameters = [{'n_neighbors': [200]}] # 50 sample fabiano
     #tuned_parameters = [{'n_neighbors': [100]}]  # stanford dataset
 
     classifiers = ['rf']
