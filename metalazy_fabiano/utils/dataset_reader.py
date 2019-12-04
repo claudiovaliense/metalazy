@@ -17,6 +17,7 @@ class DatasetReader:
 
         self.train_folds = train # claudio, paralelizar instancia test
         self.test_folds = test # claudio, paralelizar instancia test
+                
 
         ''''claudio, paralelizar instancia test
         print('Loading folds')

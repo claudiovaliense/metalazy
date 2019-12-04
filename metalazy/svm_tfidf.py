@@ -2,15 +2,17 @@ from sklearn import svm  # Classifier SVN
 from sklearn.datasets import load_svmlight_file, load_svmlight_files
 from sklearn import metrics
 from sklearn.metrics import precision_recall_fscore_support as score
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score, make_scorer
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import cross_val_score
 import numpy
+numpy.random.seed(seed=42)
 import timeit  # Measure time
 from hyperopt import hp
 import sys # Import other directory
 sys.path.append("../../doutorado") 
 import claudio_funcoes as cv  # Functions utils author
+from sklearn.model_selection import KFold
 
 """Example execution: python3.6 stanford_tweets linear"""
 
@@ -46,36 +48,47 @@ C = numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1)
 #							{'kernel': ['rbf'], 'gamma': [2.5, 2, 1.5, 1, 1e-1, 1e-2, 1e-3, 1e-4],
 #			       			     'C': [1, 10, 100, 1000, 1500,5000, 10000]}]
 
+
+
+
 #tuned_parameters = [#{'kernel': ['linear'], 'C': C}, 
 #                   {'kernel': ['rbf', 'linear'], 'gamma': [2.5, 2, 1.5, 1, 1e-1, 1e-2, 1e-3, 1e-4, 'auto'], 'C': C}]
 
 C_range = C
 gamma_range = numpy.logspace(-9, 3, 13)
-param_grid = dict(gamma=['auto'], C=C_range)
+param_grid = dict(gamma=['auto', '0.1'], C=C_range)
 
-#tuned_parameters =[{'kernel': ['rbf'], 'C': C, 'gamma':['auto']},
- #                  {'kernel':['linear'], 'C': C},
-  #                 {'kernel': ['rbf'], 'C': C, 'gamma': gamma_range }]
+tuned_parameters =[#{'kernel': ['rbf'], 'C': C, 'gamma':['auto']},
+                   #{'kernel':['linear'], 'C': C},
+                   {'kernel': ['rbf', 'linear'], 'C': [0.1,1,3.15,10,100], 'gamma':[0.1,1,10,20, 'auto']}]
 
 
 #C = [0.0001, 0.001, 0.01, 0.1, 1, 2, 3, 5, 10, 20, 100, 1000, 10000,100000]
 tuned_parameters_svm = [{'C': C}]
+
+f1 = make_scorer(f1_score , average='micro', pos_label="yes")
+metricas = ['explained_variance', 'neg_mean_absolute_error', 'neg_mean_squared_error',  'neg_median_absolute_error', 'r2', 'f1_micro']
+
+
     
 for index_file in range(5):
+    print('FOLD---------------------------------')
     model_svm = svm.SVC()    
     model_svm.__init__(**tunned_param_lbd)    
     x_train, y_train, x_test, y_test = load_svmlight_files([open(dir_train[index_file], 'rb'), open(dir_test[index_file], 'rb')])
     
-
-
     # best param svm grid 
-    grid_svm = GridSearchCV(model_svm, param_grid=param_grid,  cv=3, scoring='f1_micro', n_jobs=1)        
+    grid_svm = GridSearchCV(model_svm, param_grid=tuned_parameters,  cv=3, scoring=metricas, n_jobs=1, refit='f1_micro')        
     grid_svm.fit(x_train, y_train)   
-    print(grid_svm.get_params() )
-    best_param_svm = grid_svm.best_params_  
-    best_param_folds.append(best_param_svm)              
-    y_pred = grid_svm.predict(x_test)
-    #---------    
+    print('best_score_: ', grid_svm.best_score_)        
+    best_param_folds.append(grid_svm.best_params_)              
+    y_pred = grid_svm.predict(x_test)            
+    #---------  
+    
+
+    print('meu teste: ', f1_score(y_test, y_pred, average='micro') )
+    
+    
     
     y_test_folds.append(y_test)    
     y_pred_folds.append(y_pred)                
@@ -110,5 +123,21 @@ kernels = ["linear"]
     model_svm.fit(x_train, y_train)
     y_pred = model_svm.predict(x_test)
 '''
+
+'''kf = KFold(n_splits=2, random_state=42)
+    #y_test = kf.split(y_test)    
+    for train_index, test_index in kf.split(y_test):
+        print(train_index, test_index)
+        print(len(y_test[train_index]), len(y_test[test_index]))
+        print('meu teste: ', f1_score(y_test[train_index], y_pred[test_index], average='micro') )  
+'''
+
+'''print("Grid scores on development set:")
+    print()
+    means = grid_svm.cv_results_['mean_test_score']
+    stds = grid_svm.cv_results_['std_test_score']
+    for mean, std, params in zip(means, stds, grid_svm.cv_results_['params']):
+        print("%0.3f (+/-%0.03f) for %r" % (mean, std * 2, params))'''
+    #print(grid_svm.cv_results_)
 #----------
 

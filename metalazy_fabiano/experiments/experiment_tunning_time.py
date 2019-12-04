@@ -3,8 +3,8 @@ sys.path.append("../../")
 import claudio_funcoes as cv
 
 
-from metalazy.utils.dataset_reader import DatasetReader
-from metalazy.classifiers.metalazy import MetaLazyClassifier
+from metalazy_fabiano.utils.dataset_reader import DatasetReader
+from metalazy_fabiano.classifiers.metalazy import MetaLazyClassifier
 from sklearn.metrics import classification_report
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import GridSearchCV
@@ -56,8 +56,8 @@ def choose_tunning_parameters(specific, weight, coccurrence):
     tuned_parameters = [{'n_neighbors': [50]}] #sample fabiano
     #tuned_parameters = [{'n_neighbors': [100]}]  # stanford dataset
 
-
-    classifiers = ['logistic', 'nb', 'extrarf', 'svm']
+    classifiers = ['rf']
+    #classifiers = ['logistic', 'nb', 'extrarf', 'svm']
     #classifiers = ['extrarf']
     #classifiers = ['svm']
     if coccurrence == 1:
@@ -117,7 +117,8 @@ def main():
     times = []
 
     start = time.time()
-    while dataset_reader.has_next():
+    if 1 ==1 :
+    #while dataset_reader.has_next():
         time_dic = {}
         print('FOLD {}'.format(fold))
 
@@ -169,7 +170,7 @@ def main():
 
         # Fabiano save y_prob
         y_pred_prob = predict_prob(grid.best_estimator_, X_test)
-        file_yprob = "../../dataset/" +str(args.test) +"test0_metalazy_y_prob"
+        file_yprob = str(args.test) +"_test0_metalazy_y_prob"
         with open(file_yprob, 'w', newline='') as csv_write:
             rows_out = csv.writer(csv_write)
             for y_doc in y_pred_prob:                             

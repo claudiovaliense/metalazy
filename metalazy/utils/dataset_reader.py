@@ -13,7 +13,7 @@ class DatasetReader:
         self.current_fold = 0
         self.default_fold_partition = True
         self.folds_path = path
-        self.split = []
+        self.split = []        
 
         #self.train_folds = train # claudio, paralelizar instancia test
         #self.test_folds = test # claudio, paralelizar instancia test

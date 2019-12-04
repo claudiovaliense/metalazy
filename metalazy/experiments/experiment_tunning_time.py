@@ -86,11 +86,11 @@ def main():
 
     args = parser.parse_args()
     
-    #args.p = "/home/claudiovaliense/dataset/stanford_tweets/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+    args.p = "/home/claudiovaliense/dataset/stanford_tweets/representations/10-folds/TFIDF_removed_stopwords_mindf1_norm-l2"
     #args.p = "/home/claudiovaliense/dataset/reut/representations/5-folds/TFIDF_removed_stopwords_mindf1"
     #args.p = "../../dataset/metalazy/split0"
    # args.p = "/home/claudiovaliense/dataset/20ng/representations/5-folds/TFIDF_removed_stopwords_mindf1"
-    args.p = "/home/claudiovaliense/dataset/acm/representations/5-folds/TFIDF_removed_stopwords_mindf1"
+    #args.p = "/home/claudiovaliense/dataset/acm/representations/5-folds/TFIDF_removed_stopwords_mindf1"
 
     args.o = "results/"
 
@@ -150,7 +150,7 @@ def main():
         # first we find the best configuration in general
         print('GRID SEARCH FOR FOLD {}'.format(fold))
         start_grid = time.time()
-        grid = GridSearchCV(clf, tuned_parameters, cv=3, scoring='f1_macro', n_jobs=-1)
+        grid = GridSearchCV(clf, tuned_parameters, cv=5, scoring='f1_micro', n_jobs=-1)
         grid.fit(X_train, y_train)
         end = time.time()
         print('GENERAL - Total grid time: {}'.format((end - start_grid)))
@@ -218,4 +218,5 @@ if __name__ == "__main__":
     main()
     print('Macro F1: ' + str(cv.average_csv_column('results/result_tunning_time.csv', 0)) +" (" +str(cv.standard_deviation_column('results/result_tunning_time.csv', 0) )+')')
     print('Micro F1: ' + str(cv.average_csv_column('results/result_tunning_time.csv', 1)) +" (" +str(cv.standard_deviation_column('results/result_tunning_time.csv', 1) )+')')  
-    
+    format_latex = "metalazy\\_classifier\\_SVM & " +str('%.2f'%(cv.average_csv_column('results/result_tunning_time.csv', 0)*100)) +" (" +str('%.2f'%(cv.standard_deviation_column('results/result_tunning_time.csv', 0)*100)) +") & " +str('%.2f'%(cv.average_csv_column('results/result_tunning_time.csv', 1)*100)) +" (" +str('%.2f'%(cv.standard_deviation_column('results/result_tunning_time.csv', 1)*100)) +") \\\\"
+    print(format_latex)

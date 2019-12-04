@@ -45,8 +45,9 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
 
 
     # The grid params for each weaker classifier
+    #{'kernel': ['rbf'], 'C': numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1) , 'gamma': [0.1,1,10,3.15]}
     weaker_grid_params = {        
-        'svm': [{'C': numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1)}]
+        'svm': [{'kernel': ['linear'], 'C': numpy.append(2.0 ** numpy.arange(-5, 15, 2), 1)}]
         ,'rf': [{'n_estimators': [200]}],
     #}
 
@@ -144,7 +145,7 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
             size = max_value
         return np.array(random.sample(range(max_value), size))
 
-    def avaliate_weaker(self, clf_name, X, y, score='f1_macro'):
+    def avaliate_weaker(self, clf_name, X, y, score='f1_micro'):
         '''
         Function to be called by each process (parallel).
         It finds the best parameter for this specific classifier
@@ -168,7 +169,7 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
         grid_jobs=-1 #claudio
         start_grid = time.time()
         print('tunner weaker: ', tuned_parameters)
-        grid = GridSearchCV(weaker, tuned_parameters, cv=3, scoring=score, n_jobs=grid_jobs)
+        grid = GridSearchCV(weaker, tuned_parameters, cv=5, scoring=score, n_jobs=grid_jobs)
         grid.fit(X, y)
         end = time.time()
         # print('{} Total grid time: {}'.format(clf_name, (end - start_grid)))
@@ -177,7 +178,7 @@ class MetaLazyClassifier(BaseEstimator, ClassifierMixin):
 
         return grid.best_score_, grid.best_estimator_
 
-    def find_best_weaker_classifier(self, X_train, y_train, score='f1_macro'):
+    def find_best_weaker_classifier(self, X_train, y_train, score='f1_micro'):
         # limit the dataset to make this phase faster
         # for each classifier
         # make the best param search
