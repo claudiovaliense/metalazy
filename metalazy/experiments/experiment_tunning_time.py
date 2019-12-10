@@ -51,20 +51,20 @@ def predict_prob(clf, X_test):
     return y_pred_prob
 
 def choose_tunning_parameters(specific, weight, coccurrence):
-    tuned_parameters = [{'n_neighbors': [200]}]
+    tuned_parameters = [{'n_neighbors': [100,200]}]
     #tuned_parameters = [{'n_neighbors': [350]}]
     #tuned_parameters = [{'n_neighbors': [50]}] #sample fabiano
     #tuned_parameters = [{'n_neighbors': [100]}]  # stanford dataset
 
 
-    classifiers = ['logistic', 'nb', 'extrarf', 'svm']
+    classifiers = ['logistic', 'nb', 'extrarf']
     #classifiers = ['extrarf']
     #classifiers = ['svm']
     if coccurrence == 1:
         tuned_parameters[0].update({'number_of_cooccurrences': [0,10]})
     if weight == 1:
-        #tuned_parameters[0].update({'weight_function': ['cosine', 'inverse']})
-        tuned_parameters[0].update({'weight_function': ['None']})
+        tuned_parameters[0].update({'weight_function': [None, 'cosine', 'inverse']})
+        #tuned_parameters[0].update({'weight_function': ['None']})#svm claudio
     # se descomentar nao testa o gridsearch no classificador fraco
     #if specific == 1:
      #   tuned_parameters[0].update({'specific_classifier': classifiers})
@@ -150,7 +150,7 @@ def main():
         # first we find the best configuration in general
         print('GRID SEARCH FOR FOLD {}'.format(fold))
         start_grid = time.time()
-        grid = GridSearchCV(clf, tuned_parameters, cv=5, scoring='f1_micro', n_jobs=-1)
+        grid = GridSearchCV(clf, tuned_parameters, cv=5, scoring='f1_micro', n_jobs=-1)#claudio -1
         grid.fit(X_train, y_train)
         end = time.time()
         print('GENERAL - Total grid time: {}'.format((end - start_grid)))
@@ -168,13 +168,13 @@ def main():
         y_pred = predict(grid.best_estimator_, X_test, time_dic)
 
         # Fabiano save y_prob
-        y_pred_prob = predict_prob(grid.best_estimator_, X_test)
+        '''y_pred_prob = predict_prob(grid.best_estimator_, X_test)
         file_yprob = "../../dataset/" +str(args.test) +"test0_metalazy_y_prob"
         with open(file_yprob, 'w', newline='') as csv_write:
             rows_out = csv.writer(csv_write)
             for y_doc in y_pred_prob:                             
                 rows_out.writerow([y_doc[1]])
-
+        '''
 
         print(str(grid.best_estimator_))
         print(str(grid.best_estimator_.weaker))
